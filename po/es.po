@@ -841,7 +841,7 @@ msgstr "ruta para el comando git-upload-archivo remoto "
 
 #: archive.c:468
 msgid "Unexpected option --remote"
-msgstr "opcion inesperada --remote"
+msgstr "opción inesperada --remote"
 
 #: archive.c:470
 msgid "Option --exec can only be used together with --remote"
@@ -1580,7 +1580,7 @@ msgstr "Realizando una deteccion de cambios de nombre inexacta"
 #: diff.c:74
 #, c-format
 msgid "option '%s' requires a value"
-msgstr "opcion '%s' requiere un valor"
+msgstr "opción '%s' requiere un valor"
 
 #: diff.c:152
 #, c-format
@@ -1633,13 +1633,13 @@ msgid ""
 "Failed to parse --dirstat/-X option parameter:\n"
 "%s"
 msgstr ""
-"Fallo al analizar parametro de opcion --dirstat/-X:\n"
+"Fallo al analizar parametro de opción --dirstat/-X:\n"
 "%s"
 
 #: diff.c:4459
 #, c-format
 msgid "Failed to parse --submodule option parameter: '%s'"
-msgstr "Fallo al analizar parametro de opcion --submodule: '%s'"
+msgstr "Fallo al analizar parametro de opción --submodule: '%s'"
 
 #: diff.c:5505
 msgid "inexact rename detection was skipped due to too many files."
@@ -3195,7 +3195,7 @@ msgstr "tu archivo indice no esta fusionado."
 #: sequencer.c:975
 #, c-format
 msgid "commit %s is a merge but no -m option was given."
-msgstr "el commit %s es una fusion pero no se entrego la opcion -m."
+msgstr "el commit %s es una fusion pero no se entrego la opción -m."
 
 #: sequencer.c:983
 #, c-format
@@ -4786,7 +4786,7 @@ msgstr "fallo al desvincular '%s'"
 
 #: builtin/add.c:24
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git add [<opcion>] [--] <especificacion-de-ruta>..."
+msgstr "git add [<opción>] [--] <especificacion-de-ruta>..."
 
 #: builtin/add.c:82
 #, c-format
@@ -5215,7 +5215,7 @@ msgstr "ejecutar de manera interactiva"
 
 #: builtin/am.c:2221
 msgid "historical option -- no-op"
-msgstr "opcion historica -- no-op"
+msgstr "opción historica -- no-op"
 
 #: builtin/am.c:2223
 msgid "allow fall back on 3way merging if needed"
@@ -11594,7 +11594,7 @@ msgid ""
 "To choose either option permanently, see push.default in 'git help config'."
 msgstr ""
 "\n"
-"Para elegir si la opcion es permanente, mira push.default en 'git help "
+"Para elegir si la opción es permanente, mira push.default en 'git help "
 "config'."
 
 #: builtin/push.c:147
@@ -16269,7 +16269,7 @@ msgstr ""
 "para producir los parches.  Por favor elimina la ambiguedad...\n"
 "\n"
 "    * Diciendo \"./%s\" si se quiere decir un archivo; o\n"
-"    * Agregando la opcion --format-patch si se quiere decir un rango.\n"
+"    * Agregando la opción --format-patch si se quiere decir un rango.\n"
 
 #: git-send-email.perl:616
 #, perl-format
