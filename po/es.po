@@ -105,12 +105,12 @@ msgstr ""
 #: apply.c:58
 #, c-format
 msgid "unrecognized whitespace option '%s'"
-msgstr "opcion de espacios en blanco no reconocida '%s'"
+msgstr "opción de espacios en blanco no reconocida '%s'"
 
 #: apply.c:74
 #, c-format
 msgid "unrecognized whitespace ignore option '%s'"
-msgstr "opcion de ignorar espacios en blanco no reconocida '%s'"
+msgstr "opción de ignorar espacios en blanco no reconocida '%s'"
 
 #: apply.c:125
 msgid "--reject and --3way cannot be used together."
@@ -146,53 +146,53 @@ msgstr "regexec retorno %d para la entrada: %s"
 #, c-format
 msgid "unable to find filename in patch at line %d"
 msgstr ""
-"no se puede encontrar el nombre del archivo en el parche en la linea %d"
+"no se puede encontrar el nombre del archivo en el parche en la línea %d"
 
 #: apply.c:966
 #, c-format
 msgid "git apply: bad git-diff - expected /dev/null, got %s on line %d"
 msgstr ""
-"git apply: mal git-diff - se esperaba /dev/null, se encontro %s en la linea "
+"git apply: mal git-diff - se esperaba /dev/null, se encontró %s en la línea "
 "%d"
 
 #: apply.c:972
 #, c-format
 msgid "git apply: bad git-diff - inconsistent new filename on line %d"
 msgstr ""
-"git apply: mal git-diff - nuevo nombre de archivo inconsistente en la linea "
+"git apply: mal git-diff - nuevo nombre de archivo inconsistente en la línea "
 "%d"
 
 #: apply.c:973
 #, c-format
 msgid "git apply: bad git-diff - inconsistent old filename on line %d"
 msgstr ""
-"git apply: mal git-diff - viejo nombre de archivo inconsistente en la linea "
+"git apply: mal git-diff - viejo nombre de archivo inconsistente en la línea "
 "%d"
 
 #: apply.c:978
 #, c-format
 msgid "git apply: bad git-diff - expected /dev/null on line %d"
-msgstr "git apply: mal git-diff - se esperaba /dev/null en la linea %d"
+msgstr "git apply: mal git-diff - se esperaba /dev/null en la línea %d"
 
 #: apply.c:1007
 #, c-format
 msgid "invalid mode on line %d: %s"
-msgstr "modo invalido en la linea %d: %s"
+msgstr "modo inválido en la línea %d: %s"
 
 #: apply.c:1325
 #, c-format
 msgid "inconsistent header lines %d and %d"
-msgstr "header inconsistente en las lineas %d y %d"
+msgstr "header inconsistente en las líneas %d y %d"
 
 #: apply.c:1497
 #, c-format
 msgid "recount: unexpected line: %.*s"
-msgstr "recount: linea inesperada: %.*s"
+msgstr "recount: línea inesperada: %.*s"
 
 #: apply.c:1566
 #, c-format
 msgid "patch fragment without header at line %d: %.*s"
-msgstr "fragmento de parche sin header en la linea %d: %.*s"
+msgstr "fragmento de parche sin header en la línea %d: %.*s"
 
 #: apply.c:1586
 #, c-format
@@ -203,17 +203,17 @@ msgid_plural ""
 "git diff header lacks filename information when removing %d leading pathname "
 "components (line %d)"
 msgstr[0] ""
-"al header de git diff carece de informacion del nombre del archivo %d cuando "
-"lo remueve de la ruta principalcomponente (linea %d)"
+"al header de git diff carece de información del nombre del archivo %d cuando "
+"lo remueve de la ruta principalcomponente (línea %d)"
 msgstr[1] ""
-"los headers de git diff carecen de informacion de los nombres de los "
-"archivos %d cuando los remueven de la ruta principalcomponentes (linea %d)"
+"los headers de git diff carecen de información de los nombres de los "
+"archivos %d cuando los remueven de la ruta principalcomponentes (línea %d)"
 
 #: apply.c:1599
 #, c-format
 msgid "git diff header lacks filename information (line %d)"
 msgstr ""
-"el header de git diff carece de informacion del nombre del archivo (linea %d)"
+"el header de git diff carece de información del nombre del archivo (línea %d)"
 
 #: apply.c:1787
 msgid "new file depends on old contents"
@@ -226,7 +226,7 @@ msgstr "el archivo eliminado todavia tiene contenido"
 #: apply.c:1823
 #, c-format
 msgid "corrupt patch at line %d"
-msgstr "parche corrupto en la linea %d"
+msgstr "parche corrupto en la línea %d"
 
 #: apply.c:1860
 #, c-format
@@ -246,17 +246,17 @@ msgstr "** peligro: el archivo %s esta vacio pero no es borrado"
 #: apply.c:2012
 #, c-format
 msgid "corrupt binary patch at line %d: %.*s"
-msgstr "parche binario corrupto en la linea %d: %.*s"
+msgstr "parche binario corrupto en la línea %d: %.*s"
 
 #: apply.c:2049
 #, c-format
 msgid "unrecognized binary patch at line %d"
-msgstr "parche binario no reconocido en la linea %d"
+msgstr "parche binario no reconocido en la línea %d"
 
 #: apply.c:2209
 #, c-format
 msgid "patch with only garbage at line %d"
-msgstr "parche que solo contiene basura en la linea %d"
+msgstr "parche que solo contiene basura en la línea %d"
 
 #: apply.c:2295
 #, c-format
@@ -271,14 +271,14 @@ msgstr "no es posible abrir o leer %s"
 #: apply.c:2958
 #, c-format
 msgid "invalid start of line: '%c'"
-msgstr "comienzo invalido de linea: '%c'"
+msgstr "comienzo invalido de línea: '%c'"
 
 #: apply.c:3077
 #, c-format
 msgid "Hunk #%d succeeded at %d (offset %d line)."
 msgid_plural "Hunk #%d succeeded at %d (offset %d lines)."
-msgstr[0] "Hunk #%d tuvo exito en %d (%d linea compensada)."
-msgstr[1] "Hunk #%d tuvo exito en %d (%d lineas compensadas)."
+msgstr[0] "Hunk #%d tuvo exito en %d (%d línea compensada)."
+msgstr[1] "Hunk #%d tuvo exito en %d (%d líneas compensadas)."
 
 #: apply.c:3089
 #, c-format
@@ -463,7 +463,7 @@ msgstr "Revisando el parche %s..."
 #: apply.c:4102
 #, c-format
 msgid "sha1 information is lacking or useless for submodule %s"
-msgstr "falta informacion del sha1 o es inutil para el submodulo %s"
+msgstr "falta información del sha1 o es inutil para el submodulo %s"
 
 #: apply.c:4109
 #, c-format
@@ -473,7 +473,7 @@ msgstr "modo cambiado para %s, el cual no se encuentra en el HEAD actual"
 #: apply.c:4112
 #, c-format
 msgid "sha1 information is lacking or useless (%s)."
-msgstr "falta informacion sha1 o es inutil (%s)."
+msgstr "falta información sha1 o es inutil (%s)."
 
 #: apply.c:4117 builtin/checkout.c:235 builtin/reset.c:148
 #, c-format
@@ -596,17 +596,17 @@ msgstr[1] "%d errores de espacios en blanco aplastados"
 #, c-format
 msgid "%d line adds whitespace errors."
 msgid_plural "%d lines add whitespace errors."
-msgstr[0] "%d linea agrega errores de espacios en blanco."
-msgstr[1] "%d lineas agregan erroes de espacios en blanco."
+msgstr[0] "%d línea agrega errores de espacios en blanco."
+msgstr[1] "%d líneas agregan erroes de espacios en blanco."
 
 #: apply.c:4900
 #, c-format
 msgid "%d line applied after fixing whitespace errors."
 msgid_plural "%d lines applied after fixing whitespace errors."
 msgstr[0] ""
-"%d linea aplicada despues de arreglar los errores de espacios en blanco."
+"%d línea aplicada despues de arreglar los errores de espacios en blanco."
 msgstr[1] ""
-"%d lineas aplicadas despues de arreglar los errores de espacios en blanco."
+"%d líneas aplicadas despues de arreglar los errores de espacios en blanco."
 
 #: apply.c:4916 builtin/add.c:515 builtin/mv.c:298 builtin/rm.c:390
 msgid "Unable to write new index file"
@@ -647,7 +647,7 @@ msgstr "en lugar de aplicar elparche, mostrar diffstat para la entrada"
 
 #: apply.c:4963
 msgid "show number of added and deleted lines in decimal notation"
-msgstr "mostrar el numero de lineas agregadas y elminadas en notacion decimal"
+msgstr "mostrar el numero de líneas agregadas y elminadas en notacion decimal"
 
 #: apply.c:4965
 msgid "instead of applying the patch, output a summary for the input"
@@ -663,7 +663,7 @@ msgstr "asegurar que el parche es aplicable al indice actual"
 
 #: apply.c:4971
 msgid "apply a patch without touching the working tree"
-msgstr "aplicar un parche sin tocar el arbol de trabajo"
+msgstr "aplicar un parche sin tocar el árbol de trabajo"
 
 #: apply.c:4973
 msgid "accept a patch that touches outside the working area"
@@ -680,7 +680,7 @@ msgstr "intentar merge de tres-vias si el parche no aplica"
 #: apply.c:4979
 msgid "build a temporary index based on embedded index information"
 msgstr ""
-"construir un indice temporal basado en la informacion del indice incrustado"
+"construir un indice temporal basado en la información del indice incrustado"
 
 #: apply.c:4982 builtin/checkout-index.c:170 builtin/ls-files.c:513
 msgid "paths are separated with NUL character"
@@ -688,7 +688,7 @@ msgstr "rutas estan separadas con un caracter NULL "
 
 #: apply.c:4984
 msgid "ensure at least <n> lines of context match"
-msgstr "asegure que por lo menos <n> lineas del contexto concuerden"
+msgstr "asegure que por lo menos <n> líneas del contexto concuerden"
 
 #: apply.c:4985 builtin/am.c:2244 builtin/interpret-trailers.c:95
 #: builtin/interpret-trailers.c:97 builtin/interpret-trailers.c:99
@@ -698,7 +698,7 @@ msgstr "accion"
 #: apply.c:4986
 msgid "detect new or modified lines that have whitespace errors"
 msgstr ""
-"detectar lineas nuevas o modificadas que contienen errores de espacios en "
+"detectar líneas nuevas o modificadas que contienen errores de espacios en "
 "blanco"
 
 #: apply.c:4989 apply.c:4992
@@ -712,7 +712,7 @@ msgstr "aplicar el parche en reversa"
 
 #: apply.c:4997
 msgid "don't expect at least one line of context"
-msgstr "no espera al menos una linea del contexto"
+msgstr "no espera al menos una línea del contexto"
 
 #: apply.c:4999
 msgid "leave the rejected hunks in corresponding *.rej files"
@@ -731,12 +731,12 @@ msgstr "ser verboso"
 #: apply.c:5004
 msgid "tolerate incorrectly detected missing new-line at the end of file"
 msgstr ""
-"tolerar nuevas lineas faltantes detectadas incorrectamente al final del "
+"tolerar nuevas líneas faltantes detectadas incorrectamente al final del "
 "archivo"
 
 #: apply.c:5007
 msgid "do not trust the line counts in the hunk headers"
-msgstr "no confiar en el conteo de lineas en los headers del hunk"
+msgstr "no confiar en el conteo de líneas en los headers del hunk"
 
 #: apply.c:5009 builtin/am.c:2253
 msgid "root"
@@ -748,7 +748,7 @@ msgstr "anteponer <root> a todos los nombres de archivos"
 
 #: archive.c:13
 msgid "git archive [<options>] <tree-ish> [<path>...]"
-msgstr "git archive [<opciones>] <parte-del-arbol> [<ruta>...]"
+msgstr "git archive [<opciones>] <parte-del-árbol> [<ruta>...]"
 
 #: archive.c:14
 msgid "git archive --list"
@@ -759,7 +759,7 @@ msgid ""
 "git archive --remote <repo> [--exec <cmd>] [<options>] <tree-ish> [<path>...]"
 msgstr ""
 "git archive --remote <repo> [--exec <comando> ] [<opciones>] <parte-del-"
-"arbol> [<ruta>...]"
+"árbol> [<ruta>...]"
 
 #: archive.c:16
 msgid "git archive --remote <repo> [--exec <cmd>] --list"
@@ -1105,7 +1105,7 @@ msgstr "No es posible escribir la configuracion de la rama upstream"
 #: branch.c:156
 #, c-format
 msgid "Not tracking: ambiguous information for ref %s"
-msgstr "No rastreando: informacion ambigua para la referencia %s"
+msgstr "No rastreando: información ambigua para la referencia %s"
 
 #: branch.c:185
 #, c-format
@@ -1125,7 +1125,7 @@ msgstr "No se puede forzar la actualizacion de la rama actual."
 #, c-format
 msgid "Cannot setup tracking information; starting point '%s' is not a branch."
 msgstr ""
-"No se puede configurar el rastreo de informacion; el punto de partida '%s' "
+"No se puede configurar el rastreo de información; el punto de partida '%s' "
 "no es una rama"
 
 #: branch.c:219
@@ -1177,7 +1177,7 @@ msgstr "'%s' ya ha sido marcado en '%s'"
 #: branch.c:366
 #, c-format
 msgid "HEAD of working tree %s is not updated"
-msgstr "la HEAD del arbol de trabajo %s no esta actualizada"
+msgstr "la HEAD del árbol de trabajo %s no esta actualizada"
 
 #: bundle.c:34
 #, c-format
@@ -1292,32 +1292,32 @@ msgstr ""
 #: config.c:721
 #, c-format
 msgid "bad config line %d in blob %s"
-msgstr "mala linea de config %d en el blob %s"
+msgstr "mala línea de config %d en el blob %s"
 
 #: config.c:725
 #, c-format
 msgid "bad config line %d in file %s"
-msgstr "mala linea de config %d en el archivo %s"
+msgstr "mala línea de config %d en el archivo %s"
 
 #: config.c:729
 #, c-format
 msgid "bad config line %d in standard input"
-msgstr "mala linea de config %d en la entrada standard"
+msgstr "mala línea de config %d en la entrada standard"
 
 #: config.c:733
 #, c-format
 msgid "bad config line %d in submodule-blob %s"
-msgstr "mala linea de config %d en el submodulo-blob %s"
+msgstr "mala línea de config %d en el submodulo-blob %s"
 
 #: config.c:737
 #, c-format
 msgid "bad config line %d in command line %s"
-msgstr "mala linea de config %d en la linea de comando %s"
+msgstr "mala línea de config %d en la línea de comando %s"
 
 #: config.c:741
 #, c-format
 msgid "bad config line %d in %s"
-msgstr "mala linea de config %d en %s"
+msgstr "mala línea de config %d en %s"
 
 #: config.c:869
 msgid "out of range"
@@ -1357,7 +1357,7 @@ msgstr ""
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in command line %s: %s"
 msgstr ""
-"mal valor de config numerica '%s' para '%s' en la linea de comando %s: %s"
+"mal valor de config numerica '%s' para '%s' en la línea de comando %s: %s"
 
 #: config.c:895
 #, c-format
@@ -1386,7 +1386,7 @@ msgstr "mala compresion pack en el nivel %d"
 
 #: config.c:1568
 msgid "unable to parse command-line config"
-msgstr "no es posible analizar la configuracion de la linea de comando"
+msgstr "no es posible analizar la configuracion de la línea de comando"
 
 #: config.c:1900
 msgid "unknown error occurred while reading the configuration files"
@@ -1412,12 +1412,12 @@ msgstr "valor splitIndex.maxPercentChange '%d' debe estar entre 0 y 100"
 #: config.c:2167
 #, c-format
 msgid "unable to parse '%s' from command-line config"
-msgstr "no es posible analizar '%s' de la configuracion de la linea de comando"
+msgstr "no es posible analizar '%s' de la configuracion de la línea de comando"
 
 #: config.c:2169
 #, c-format
 msgid "bad config variable '%s' in file '%s' at line %d"
-msgstr "mala variable de config '%s' en el archivo '%s' en la linea %d"
+msgstr "mala variable de config '%s' en el archivo '%s' en la línea %d"
 
 #: config.c:2228
 #, c-format
@@ -1478,7 +1478,7 @@ msgid ""
 "The file will have its original line endings in your working directory."
 msgstr ""
 "CRLF sera remplazado por LF en %s.\n"
-"El archivo tendra sus finals de linea originales en tu directorio de trabajo."
+"El archivo tendra sus finals de línea originales en tu directorio de trabajo."
 
 #: convert.c:209
 #, c-format
@@ -1492,7 +1492,7 @@ msgid ""
 "The file will have its original line endings in your working directory."
 msgstr ""
 "LF sera reemplazado por CRLF en %s.\n"
-"El archivo tendra sus finales de linea originales en tu directorio de "
+"El archivo tendra sus finales de línea originales en tu directorio de "
 "trabajo."
 
 #: convert.c:219
@@ -1661,7 +1661,7 @@ msgstr ""
 
 #: dir.c:1983
 msgid "failed to get kernel name and information"
-msgstr "fallo al conseguir la informacion y nombre del kernel"
+msgstr "fallo al conseguir la información y nombre del kernel"
 
 #: dir.c:2102
 msgid "Untracked cache is disabled on this system or location."
@@ -1711,7 +1711,7 @@ msgstr "--stateless-rpc requiere multi_ack_detailed"
 #: fetch-pack.c:422
 #, c-format
 msgid "invalid shallow line: %s"
-msgstr "linea poco profunda invalida: %s"
+msgstr "línea poco profunda invalida: %s"
 
 #: fetch-pack.c:428
 #, c-format
@@ -2089,7 +2089,7 @@ msgstr "addinfo_cache fallo para la ruta '%s'"
 
 #: merge-recursive.c:329
 msgid "error building trees"
-msgstr "error construyendo arboles"
+msgstr "error construyendo árboles"
 
 #: merge-recursive.c:752
 #, c-format
@@ -2151,7 +2151,7 @@ msgid ""
 "in tree."
 msgstr ""
 "CONFLICTO (%s/borrar): %s borrado en %s y %s en %s. Falta version %s de %s "
-"en el arbol"
+"en el árbol"
 
 #: merge-recursive.c:1122
 #, c-format
@@ -2160,7 +2160,7 @@ msgid ""
 "left in tree."
 msgstr ""
 "CONFLICTO (%s/borrar): %s borrado en %s y %s para %s en %s. Version %s de %s "
-"permanece en el arbol"
+"permanece en el árbol"
 
 #: merge-recursive.c:1129
 #, c-format
@@ -2178,7 +2178,7 @@ msgid ""
 "left in tree at %s."
 msgstr ""
 "CONFLICTO (%s/borrar): %s borrado en %s y %s para %s en %s. Version %s de %s "
-"permanece en el arbol en %s."
+"permanece en el árbol en %s."
 
 #: merge-recursive.c:1168
 msgid "rename"
@@ -2357,7 +2357,7 @@ msgstr "No has terminado tus notas de fusion (%s existe)."
 #: notes-utils.c:42
 msgid "Cannot commit uninitialized/unreferenced notes tree"
 msgstr ""
-"No se puede realizar commit, notas del arbol no inicializadas o no "
+"No se puede realizar commit, notas del árbol no inicializadas o no "
 "referenciadas."
 
 #: notes-utils.c:101
@@ -3096,7 +3096,7 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
-"se ha aplicado un stage a los cambios en el arbol de trabajo\n"
+"se ha aplicado un stage a los cambios en el árbol de trabajo\n"
 "si estos cambios estan destinados a ser aplastados en el commit previo, "
 "ejecuta:\n"
 "\n"
@@ -3205,7 +3205,7 @@ msgstr "el commit %s no tiene un padre %d"
 #: sequencer.c:987
 #, c-format
 msgid "mainline was specified but commit %s is not a merge."
-msgstr "linea principal especificada pero el commit %s no es una fusion."
+msgstr "línea principal especificada pero el commit %s no es una fusion."
 
 #: sequencer.c:993
 #, c-format
@@ -3382,7 +3382,7 @@ msgstr ""
 
 #: sequencer.c:1885
 msgid "and made changes to the index and/or the working tree\n"
-msgstr "y se hicieron cambios al indice y/o arbol de trabajo\n"
+msgstr "y se hicieron cambios al indice y/o árbol de trabajo\n"
 
 #: sequencer.c:1891
 #, c-format
@@ -3395,7 +3395,7 @@ msgid ""
 "\n"
 msgstr ""
 "ejecucion exitosa: %s\n"
-"pero todavia quedan cambios para el indice o arbol de trabajo.\n"
+"pero todavia quedan cambios para el indice o árbol de trabajo.\n"
 "Realiza un commit o stash con tus cambios, y luego ejecuta\n"
 "\n"
 "  git rebase --continue\n"
@@ -3480,7 +3480,7 @@ msgid ""
 "first and then run 'git rebase --continue' again."
 msgstr ""
 "\n"
-"Tienes cambios fuera de un commit en tu arbol de trabajo. Por favor, realiza "
+"Tienes cambios fuera de un commit en tu árbol de trabajo. Por favor, realiza "
 "un commit con estos\n"
 "primero y luego ejecuta 'git rebase --continue' de nuevo."
 
@@ -3596,7 +3596,7 @@ msgid ""
 "%s: no such path in the working tree.\n"
 "Use 'git <command> -- <path>...' to specify paths that do not exist locally."
 msgstr ""
-"%s: no existe la ruta en el arbol de trabajo.\n"
+"%s: no existe la ruta en el árbol de trabajo.\n"
 "Use 'git <comando> -- <ruta>...' para especificar rutas que no existen "
 "localmente."
 
@@ -3960,7 +3960,7 @@ msgstr "No se pudo leer la referencia %s"
 
 #: tree-walk.c:31
 msgid "too-short tree object"
-msgstr "objeto de arbol muy corto"
+msgstr "objeto de árbol muy corto"
 
 #: tree-walk.c:37
 msgid "malformed mode in tree entry"
@@ -4161,7 +4161,7 @@ msgid ""
 "The following untracked working tree files would be overwritten by %s:\n"
 "%%s"
 msgstr ""
-"Los siguientes archivos no rastreados en el arbol de trabajo seran removidos "
+"Los siguientes archivos no rastreados en el árbol de trabajo seran removidos "
 "por %s:\n"
 "%%s"
 
@@ -4441,7 +4441,7 @@ msgid ""
 "Do not modify or remove the line above.\n"
 "Everything below it will be ignored."
 msgstr ""
-"No modifique o borre la linea de encima.\n"
+"No modifique o borre la línea de encima.\n"
 "Todo lo que este por abajo será removido."
 
 #: wt-status.c:1048
@@ -4746,7 +4746,7 @@ msgstr ""
 #: wt-status.c:1668
 #, c-format
 msgid "nothing to commit, working tree clean\n"
-msgstr "nada para hacer commit, el arbol de trabajo esta limpio\n"
+msgstr "nada para hacer commit, el árbol de trabajo esta limpio\n"
 
 #: wt-status.c:1780
 msgid "No commits yet on "
@@ -4878,7 +4878,7 @@ msgstr "agregar los cambios de todas las carpetas con y sin seguimiento"
 
 #: builtin/add.c:283
 msgid "ignore paths removed in the working tree (same as --no-all)"
-msgstr "ignorar rutas removidas en el arbol de trabajo (lo mismo que --no-all)"
+msgstr "ignorar rutas removidas en el árbol de trabajo (lo mismo que --no-all)"
 
 #: builtin/add.c:285
 msgid "don't add, only refresh the index"
@@ -4933,7 +4933,7 @@ msgstr ""
 "\n"
 "\tgit rm --cached %s\n"
 "\n"
-"Vea \"git help submodule\" para mas informacion."
+"Vea \"git help submodule\" para mas información."
 
 #: builtin/add.c:333
 #, c-format
@@ -4991,7 +4991,7 @@ msgstr "'%s' fue borrado por el hook de applypatch-msg"
 #: builtin/am.c:539
 #, c-format
 msgid "Malformed input line: '%s'."
-msgstr "linea mal formada: '%s'."
+msgstr "línea mal formada: '%s'."
 
 #: builtin/am.c:576
 #, c-format
@@ -5017,7 +5017,7 @@ msgstr "timestamp invalido"
 
 #: builtin/am.c:904 builtin/am.c:916
 msgid "invalid Date line"
-msgstr "linea Date invalida"
+msgstr "línea Date invalida"
 
 #: builtin/am.c:911
 msgid "invalid timezone offset"
@@ -5922,7 +5922,7 @@ msgstr ""
 #: builtin/branch.c:785
 #, c-format
 msgid "Branch '%s' has no upstream information"
-msgstr "Rama '%s' no tiene informacion de upstream"
+msgstr "Rama '%s' no tiene información de upstream"
 
 #: builtin/branch.c:797
 msgid "it does not make sense to create 'HEAD' manually"
@@ -6341,7 +6341,7 @@ msgstr "referencia invalida: %s"
 #: builtin/checkout.c:1056
 #, c-format
 msgid "reference is not a tree: %s"
-msgstr "la referencia no es n arbol: %s"
+msgstr "la referencia no es n árbol: %s"
 
 #: builtin/checkout.c:1095
 msgid "paths cannot be used with switching branches"
@@ -6872,7 +6872,7 @@ msgstr ""
 
 #: builtin/clone.c:751
 msgid "unable to checkout working tree"
-msgstr "no es posible realizar checkout en el arbol de trabajo"
+msgstr "no es posible realizar checkout en el árbol de trabajo"
 
 #: builtin/clone.c:796
 msgid "unable to write parameters to config file"
@@ -6932,7 +6932,7 @@ msgstr "no se pudo crear directorios principales de '%s'"
 #: builtin/clone.c:971
 #, c-format
 msgid "could not create work tree dir '%s'"
-msgstr "no se pudo crear un arbol de trabajo '%s'"
+msgstr "no se pudo crear un árbol de trabajo '%s'"
 
 #: builtin/clone.c:983
 #, c-format
@@ -7140,7 +7140,7 @@ msgstr "no es posible actualizar el indice temporal"
 
 #: builtin/commit.c:380
 msgid "Failed to update main cache tree"
-msgstr "Fallo al actualizar el cache principal del arbol"
+msgstr "Fallo al actualizar el cache principal del árbol"
 
 #: builtin/commit.c:405 builtin/commit.c:429 builtin/commit.c:478
 msgid "unable to write new_index file"
@@ -7170,7 +7170,7 @@ msgstr "falta header de autor al commit '%s'"
 #: builtin/commit.c:589
 #, c-format
 msgid "commit '%s' has malformed author line"
-msgstr "el commit '%s' tiene una linea de autor mal formada"
+msgstr "el commit '%s' tiene una línea de autor mal formada"
 
 #: builtin/commit.c:608
 msgid "malformed --author parameter"
@@ -7367,11 +7367,11 @@ msgstr "mostrar status de manera concisa"
 
 #: builtin/commit.c:1351 builtin/commit.c:1628
 msgid "show branch information"
-msgstr "mostrar informacion de la rama"
+msgstr "mostrar información de la rama"
 
 #: builtin/commit.c:1353
 msgid "show stash information"
-msgstr "mostrar informacion del stash"
+msgstr "mostrar información del stash"
 
 #: builtin/commit.c:1355
 msgid "version"
@@ -9998,12 +9998,12 @@ msgstr "si cualquier <archivo> no está en el índice, tratarlo como un error"
 
 #: builtin/ls-files.c:562
 msgid "tree-ish"
-msgstr "arbol-ismo"
+msgstr "árbol-ismo"
 
 #: builtin/ls-files.c:563
 msgid "pretend that paths removed since <tree-ish> are still present"
 msgstr ""
-"fingir que las rutas han sido borradas ya que todavía hay <arbol-ismos> "
+"fingir que las rutas han sido borradas ya que todavía hay <árbol-ismos> "
 "presentes"
 
 #: builtin/ls-files.c:565
@@ -10058,7 +10058,7 @@ msgstr "mostrar ref subyacente en adición al objeto apuntado por él"
 
 #: builtin/ls-tree.c:29
 msgid "git ls-tree [<options>] <tree-ish> [<path>...]"
-msgstr "git ls-tree [<opciones>] <arbol-ismo> [<ruta>...]"
+msgstr "git ls-tree [<opciones>] <árbol-ismo> [<ruta>...]"
 
 #: builtin/ls-tree.c:127
 msgid "only show trees"
@@ -11755,7 +11755,7 @@ msgid ""
 "    git push <name>\n"
 msgstr ""
 "No se ha configurado un destino para el push.\n"
-"Puedes o especificar una URL desde la linea de comandos o configurar "
+"Puedes o especificar una URL desde la línea de comandos o configurar "
 "unrepositorio remoto usando\n"
 "\n"
 "    git remote add <nombre> <url>\n"
@@ -11881,8 +11881,8 @@ msgid ""
 msgstr ""
 "git read-tree [(-m [--trivial] [--aggressive] | --reset | --"
 "prefix=<prefijo>) [-u [--exclude-per-directory=<gitignore>] | -i]] [--no-"
-"sparse-checkout] [--index-output=<archivo>] (--empty | <arbol-ismo1> [<arbol-"
-"ismo2> [<arbol-ismo3>]])"
+"sparse-checkout] [--index-output=<archivo>] (--empty | <árbol-ismo1> [<árbol-"
+"ismo2> [<árbol-ismo3>]])"
 
 #: builtin/read-tree.c:121
 msgid "write resulting index to <file>"
@@ -12774,11 +12774,11 @@ msgstr ""
 
 #: builtin/reset.c:30
 msgid "git reset [-q] [<tree-ish>] [--] <paths>..."
-msgstr "git reset [-q] [<arbol-ismo>] [--] <rutas>..."
+msgstr "git reset [-q] [<árbol-ismo>] [--] <rutas>..."
 
 #: builtin/reset.c:31
 msgid "git reset --patch [<tree-ish>] [--] [<paths>...]"
-msgstr "git reset --patch [<arbol-ismo>] [--] [<rutas>...]"
+msgstr "git reset --patch [<árbol-ismo>] [--] [<rutas>...]"
 
 #: builtin/reset.c:37
 msgid "mixed"
@@ -14360,7 +14360,7 @@ msgstr "Lista, crea, o borra ramas"
 
 #: common-cmds.h:20
 msgid "Switch branches or restore working tree files"
-msgstr "Cambia ramas o restaura los archivos de tu arbol de trabajo"
+msgstr "Cambia ramas o restaura los archivos de tu árbol de trabajo"
 
 #: common-cmds.h:21
 msgid "Clone a repository into a new directory"
@@ -14372,7 +14372,7 @@ msgstr "Graba los cambios en tu repositorio"
 
 #: common-cmds.h:23
 msgid "Show changes between commits, commit and working tree, etc"
-msgstr "Muestra los cambios entre commits, commit y arbol de trabajo, etc"
+msgstr "Muestra los cambios entre commits, commit y árbol de trabajo, etc"
 
 #: common-cmds.h:24
 msgid "Download objects and refs from another repository"
@@ -14380,7 +14380,7 @@ msgstr "Descarga objetos y referencias de otro repositorio"
 
 #: common-cmds.h:25
 msgid "Print lines matching a pattern"
-msgstr "Imprime las lineas que concuerdan con el patron"
+msgstr "Imprime las líneas que concuerdan con el patron"
 
 #: common-cmds.h:26
 msgid "Create an empty Git repository or reinitialize an existing one"
@@ -14416,7 +14416,7 @@ msgstr "Reinicia el HEAD actual a un estado especifico"
 
 #: common-cmds.h:34
 msgid "Remove files from the working tree and from the index"
-msgstr "Borra archivos del arblo de trabajo y del indice"
+msgstr "Borra archivos del árbol de trabajo y del indice"
 
 #: common-cmds.h:35
 msgid "Show various types of objects"
@@ -14424,7 +14424,7 @@ msgstr "Muestra varios tipos de objetos"
 
 #: common-cmds.h:36
 msgid "Show the working tree status"
-msgstr "Muestra el estado del arblo de trabajo"
+msgstr "Muestra el estado del árbol de trabajo"
 
 #: common-cmds.h:37
 msgid "Create, list, delete or verify a tag object signed with GPG"
@@ -15518,7 +15518,7 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
-"Tiene cambios en el area de stage de su arbol de trabajo.\n"
+"Tiene cambios en el area de stage de su árbol de trabajo.\n"
 "Si estos cambios estan destinados a \n"
 "ser aplastados en el commit previo, ejecute:\n"
 "\n"
@@ -15624,7 +15624,7 @@ msgstr ""
 #: git-sh-setup.sh:199 git-sh-setup.sh:206
 #, sh-format
 msgid "fatal: $program_name cannot be used without a working tree."
-msgstr "fatal: $program_name no puede ser usado sin un arbol de trabajo."
+msgstr "fatal: $program_name no puede ser usado sin un árbol de trabajo."
 
 #: git-sh-setup.sh:220
 msgid "Cannot rebase: You have unstaged changes."
@@ -15812,8 +15812,8 @@ msgid ""
 "Lines starting with %s will be removed.\n"
 msgstr ""
 "---\n"
-"Para remover '%s' lineas, haga de ellas lineas  ' '  (contexto).\n"
-"Para remover '%s' lineas, borrelas.\n"
+"Para remover '%s' líneas, haga de ellas líneas  ' '  (contexto).\n"
+"Para remover '%s' líneas, borrelas.\n"
 "Lineas comenzando con  %s seran removidas.\n"
 
 #. TRANSLATORS: 'it' refers to the patch mentioned in the previous messages.
@@ -15824,7 +15824,7 @@ msgid ""
 "aborted and the hunk is left unchanged.\n"
 msgstr ""
 "Si esto no aplica de manera limpia, se le da la oportunidad de \n"
-"editar nuevamente. Si todas las lineas del hunk son removidas, entonces \n"
+"editar nuevamente. Si todas las líneas del hunk son removidas, entonces \n"
 "la edicion es abortada y el hunk queda sin cambios.\n"
 
 #: git-add--interactive.perl:1042
@@ -15910,8 +15910,8 @@ msgid ""
 "a - discard this hunk and all later hunks in the file\n"
 "d - do not discard this hunk or any of the later hunks in the file"
 msgstr ""
-"y - descartar este hunk del arbol de trabajo\n"
-"n - no descartar este hunk del arbol de trabajo\n"
+"y - descartar este hunk del árbol de trabajo\n"
+"n - no descartar este hunk del árbol de trabajo\n"
 "q - quit; no descartar este hunk o ninguno de los que restantes\n"
 "a - descartar este hunk y todos los posteriores en este archivo\n"
 "d - no descartar este hunk o ninguno de los posteriores en el archivo"
@@ -15924,8 +15924,8 @@ msgid ""
 "a - discard this hunk and all later hunks in the file\n"
 "d - do not discard this hunk or any of the later hunks in the file"
 msgstr ""
-"y - descartar este hunk del indice y el arbol de trabajo\n"
-"n - no descartar este hunk del indice ni el arbol de trabajo\n"
+"y - descartar este hunk del indice y el árbol de trabajo\n"
+"n - no descartar este hunk del indice ni el árbol de trabajo\n"
 "q - quit; no descartar este hunk o ninguno de los que quedan\n"
 "a - descartar este hunk y todos los posteriores en este archivo\n"
 "d - no descartar este hunk o ninguno posterior en el archivo"
@@ -15938,8 +15938,8 @@ msgid ""
 "a - apply this hunk and all later hunks in the file\n"
 "d - do not apply this hunk or any of the later hunks in the file"
 msgstr ""
-"y - aplicar este hunk al indice y al arbol de trabajo\n"
-"n - no aplicar este hunk al indice y al arbol de trabajo\n"
+"y - aplicar este hunk al indice y al árbol de trabajo\n"
+"n - no aplicar este hunk al indice y al árbol de trabajo\n"
 "q - quit;  no aplicar este hunk o ninguno de los restantes\n"
 "a - aplicar este hunk y todos los posteriores en el archivo\n"
 "d - no aplicar este hunk o ninguno de los siguientes en este archivo"
@@ -15972,7 +15972,7 @@ msgstr "Los hunks seleccionados no aplican al indice!\n"
 
 #: git-add--interactive.perl:1220
 msgid "Apply them to the worktree anyway? "
-msgstr "Aplicarlos al arbol de trabajo de todas maneras?"
+msgstr "Aplicarlos al árbol de trabajo de todas maneras?"
 
 #: git-add--interactive.perl:1223
 msgid "Nothing was applied.\n"
@@ -16058,51 +16058,51 @@ msgstr "Aplicar este hunk al indice [y,n,q,a,d,/%s,?]? "
 #: git-add--interactive.perl:1325
 #, perl-format
 msgid "Discard mode change from worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Descartar cambio de modo del arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Descartar cambio de modo del árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1326
 #, perl-format
 msgid "Discard deletion from worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Descartar borrado del arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Descartar borrado del árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1327
 #, perl-format
 msgid "Discard this hunk from worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Descartar este hunk del arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Descartar este hunk del árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1330
 #, perl-format
 msgid "Discard mode change from index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Descartar cambio de modo del indice y el arbol de trabajo [y,n,q,a,d,/%s,?]? "
+"Descartar cambio de modo del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1331
 #, perl-format
 msgid "Discard deletion from index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Descartar borrado del indice y el arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Descartar borrado del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1332
 #, perl-format
 msgid "Discard this hunk from index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Descartar este hunk del indice y el arbol de trabajo [y,n,q,a,d,/%s,?]? "
+"Descartar este hunk del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1335
 #, perl-format
 msgid "Apply mode change to index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Aplicar cambio de modo para el indice y el arbol de trabajo [y,n,q,a,d,/"
+"Aplicar cambio de modo para el indice y el árbol de trabajo [y,n,q,a,d,/"
 "%s,?]? "
 
 #: git-add--interactive.perl:1336
 #, perl-format
 msgid "Apply deletion to index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar borrado al indice y al arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar borrado al indice y al árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1337
 #, perl-format
 msgid "Apply this hunk to index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar este hunk al indice y arbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar este hunk al indice y árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1440
 msgid "go to which hunk (<ret> to see more)? "
@@ -16169,7 +16169,7 @@ msgid ""
 "changes\n"
 msgstr ""
 "status        - muestra las rutas con cambioss\n"
-"update        - agrega el estado del arbol de trabajo al set de cambios en "
+"update        - agrega el estado del árbol de trabajo al set de cambios en "
 "el area de stage\n"
 "revert        - revierte los cambios en el area de stage de regreso a la "
 "version HEAD\n"
@@ -16254,7 +16254,7 @@ msgstr "peligro: redireccion `/file` or `|pipe` no soportada : %s\n"
 #: git-send-email.perl:513
 #, perl-format
 msgid "warning: sendmail line is not recognized: %s\n"
-msgstr "peligro: linea sendmail no reconocida: %s\n"
+msgstr "peligro: línea sendmail no reconocida: %s\n"
 
 #: git-send-email.perl:595
 #, perl-format
@@ -16298,7 +16298,7 @@ msgstr ""
 #: git-send-email.perl:664
 #, perl-format
 msgid "No subject line in %s?"
-msgstr "No hay linea de subject en %s?"
+msgstr "No hay línea de subject en %s?"
 
 #: git-send-email.perl:674
 #, perl-format
@@ -16420,7 +16420,7 @@ msgstr ""
 "Este comportamiento is controlado por el valor de configuracion sendemail."
 "confirm.\n"
 "\n"
-"Para mas informacion, corre 'git sen-email --help'.\n"
+"Para mas información, corre 'git sen-email --help'.\n"
 "Para mantener el comportamiento actual, pero evitar este mensaje,\n"
 "corre 'git config --global sendemail.confirm auto'.\n"
 "\n"
@@ -16443,7 +16443,7 @@ msgstr "El servidor SMTP no esta definido adecuadamente."
 #: git-send-email.perl:1426
 #, perl-format
 msgid "Server does not support STARTTLS! %s"
-msgstr "Servidor no soporta STARTLS! %s"
+msgstr "Servidor no soporta STARTTLS! %s"
 
 #: git-send-email.perl:1431 git-send-email.perl:1435
 #, perl-format
@@ -16495,22 +16495,22 @@ msgstr "no se puede abrir el archivo %s"
 #: git-send-email.perl:1543 git-send-email.perl:1563
 #, perl-format
 msgid "(mbox) Adding cc: %s from line '%s'\n"
-msgstr "(mbox) Agregando cc: %s de linea '%s'\n"
+msgstr "(mbox) Agregando cc: %s de línea '%s'\n"
 
 #: git-send-email.perl:1549
 #, perl-format
 msgid "(mbox) Adding to: %s from line '%s'\n"
-msgstr "(mbox) Agregando para: %s de la linea '%s'\n"
+msgstr "(mbox) Agregando para: %s de la línea '%s'\n"
 
 #: git-send-email.perl:1597
 #, perl-format
 msgid "(non-mbox) Adding cc: %s from line '%s'\n"
-msgstr "(non-mbox) Agregando cc: %s de la linea '%s'\n"
+msgstr "(non-mbox) Agregando cc: %s de la línea '%s'\n"
 
 #: git-send-email.perl:1622
 #, perl-format
 msgid "(body) Adding cc: %s from line '%s'\n"
-msgstr "(body) Agregando cc: %s de la linea '%s'\n"
+msgstr "(body) Agregando cc: %s de la línea '%s'\n"
 
 #: git-send-email.perl:1728
 #, perl-format
@@ -16543,7 +16543,7 @@ msgstr "no es posible abrir %s: %s\n"
 #: git-send-email.perl:1815
 #, perl-format
 msgid "%s: patch contains a line longer than 998 characters"
-msgstr "%s: el parche contiene una linea con mas de 998 caracteres"
+msgstr "%s: el parche contiene una línea con mas de 998 caracteres"
 
 #: git-send-email.perl:1831
 #, perl-format
