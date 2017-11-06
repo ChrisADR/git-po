@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2017-10-17 09:44+0800\n"
-"PO-Revision-Date: 2017-10-16 21:15-0500\n"
+"PO-Revision-Date: 2017-11-05 23:58-0500\n"
 "Last-Translator: christopher.diaz.riv@gmail.com\n"
 "Language-Team: CodeLabora <codelabora@gmail.com>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: advice.c:58
 #, c-format
@@ -6399,11 +6399,11 @@ msgstr "nueva rama no emparentada"
 
 #: builtin/checkout.c:1163
 msgid "checkout our version for unmerged files"
-msgstr "hacer checkout a  nuestra version para archivos sin fusionar"
+msgstr "hacer checkout a  nuestra versión para archivos sin fusionar"
 
 #: builtin/checkout.c:1165
 msgid "checkout their version for unmerged files"
-msgstr "hacer checkout a su version para los archivos sin fusionar"
+msgstr "hacer checkout a su versión para los archivos sin fusionar"
 
 #: builtin/checkout.c:1167
 msgid "force checkout (throw away local modifications)"
@@ -6411,7 +6411,7 @@ msgstr "forzar el checkout (descartar modificaciones locales)"
 
 #: builtin/checkout.c:1168
 msgid "perform a 3-way merge with the new branch"
-msgstr "realizar una fusion de tres vias con la rama nueva"
+msgstr "realizar una fusión de tres vías con la rama nueva"
 
 #: builtin/checkout.c:1169 builtin/merge.c:238
 msgid "update ignored files (default)"
@@ -6457,7 +6457,7 @@ msgstr "Falta nombre de rama; prueba -b"
 
 #: builtin/checkout.c:1270
 msgid "invalid path specification"
-msgstr "Especificacion de ruta invalida"
+msgstr "Especificación de ruta invalida"
 
 #: builtin/checkout.c:1277
 #, c-format
@@ -6516,10 +6516,10 @@ msgid ""
 "foo        - select item based on unique prefix\n"
 "           - (empty) select nothing\n"
 msgstr ""
-"Ayuda rapida:\n"
+"Ayuda rápida:\n"
 "1          - selecciona un objeto por numero\n"
-"foo        - selecciona un objeto basado en un prefijo unico\n"
-"           - (vacio) no elegir nada\n"
+"foo        - selecciona un objeto basado en un prefijo único\n"
+"           - (vacío) no elegir nada\n"
 
 #: builtin/clean.c:305 git-add--interactive.perl:581
 #, c-format
@@ -6533,14 +6533,14 @@ msgid ""
 "*          - choose all items\n"
 "           - (empty) finish selecting\n"
 msgstr ""
-"Ayuda rapida:\n"
-"1          - selecciona un objeto unico\n"
-"3-5        - selecciona un rango de objtos\n"
-"2-3,6-9    - selecciona multiples rangos\n"
-"foo        - selecciona un objeto basado en un prefijo unico\n"
-"-...       - deseleccionar objetos especificados\n"
+"Ayuda rápida:\n"
+"1          - selecciona un objeto único\n"
+"3-5        - selecciona un rango de objetos\n"
+"2-3,6-9    - selecciona múltiples rangos\n"
+"foo        - selecciona un objeto basado en un prefijo único\n"
+"-...       - de-seleccionar objetos especificados\n"
 "*          - escoger todos los objetos\n"
-"           - (vacio) terminar seleccion\n"
+"           - (vacío) terminar selección\n"
 
 #: builtin/clean.c:521 git-add--interactive.perl:547
 #: git-add--interactive.perl:552
@@ -6571,7 +6571,7 @@ msgstr "Borrar %s [y/N]? "
 #: builtin/clean.c:787 git-add--interactive.perl:1616
 #, c-format
 msgid "Bye.\n"
-msgstr "Bye.\n"
+msgstr "Adiós.\n"
 
 #: builtin/clean.c:795
 msgid ""
@@ -6584,12 +6584,12 @@ msgid ""
 "?                   - help for prompt selection"
 msgstr ""
 "clean               - comenzar la limpieza\n"
-"filtrar por patron   - excluye objetos del borrado \n"
-"elegir por numeros   - selecciona objetos a ser borrados por numero\n"
+"filtrar por patrón   - excluye objetos del borrado \n"
+"elegir por números   - selecciona objetos a ser borrados por numero\n"
 "preguntar cada uno     - confirmar cada borrado (como \"rm -i\")\n"
 "quit                - parar limpieza\n"
 "help                - esta ventana\n"
-"?                   - ayuda para seleccion de opciones"
+"?                   - ayuda para selección de opciones"
 
 #: builtin/clean.c:822 git-add--interactive.perl:1692
 msgid "*** Commands ***"
@@ -6602,8 +6602,8 @@ msgstr "Ahora que"
 #: builtin/clean.c:831
 msgid "Would remove the following item:"
 msgid_plural "Would remove the following items:"
-msgstr[0] "Se removera el siguiente objeto"
-msgstr[1] "Se removeran los siguientes objetos:"
+msgstr[0] "Se removerá el siguiente objeto"
+msgstr[1] "Se removerán los siguientes objetos:"
 
 #: builtin/clean.c:847
 msgid "No more files to clean, exiting."
@@ -6709,7 +6709,7 @@ msgstr "directorio-template"
 
 #: builtin/clone.c:105 builtin/init-db.c:477
 msgid "directory from which templates will be used"
-msgstr "directorio del cual los templates seran usados"
+msgstr "directorio del cual los templates serán usados"
 
 #: builtin/clone.c:107 builtin/clone.c:109 builtin/submodule--helper.c:635
 #: builtin/submodule--helper.c:1002
@@ -6718,7 +6718,7 @@ msgstr "repositorio de referencia"
 
 #: builtin/clone.c:111
 msgid "use --reference only while cloning"
-msgstr "usa--reference sólo al clonar"
+msgstr "usa--reference  solamente si estas clonado"
 
 #: builtin/clone.c:112 builtin/column.c:27 builtin/merge-file.c:44
 msgid "name"
@@ -6876,7 +6876,7 @@ msgstr "no es posible realizar checkout en el árbol de trabajo"
 
 #: builtin/clone.c:796
 msgid "unable to write parameters to config file"
-msgstr "no es posible escribir parametors al arhivo config"
+msgstr "no es posible escribir parámetros al archivo config"
 
 #: builtin/clone.c:859
 msgid "cannot repack to clean up"
@@ -7020,11 +7020,11 @@ msgstr "--command debe ser el primer argumento"
 
 #: builtin/commit.c:39
 msgid "git commit [<options>] [--] <pathspec>..."
-msgstr "git commit [<opciones>] [--] <especificacion-de-ruta>..."
+msgstr "git commit [<opciones>] [--] <especificación-de-ruta>..."
 
 #: builtin/commit.c:44
 msgid "git status [<options>] [--] <pathspec>..."
-msgstr "git status [<opciones>] [--] <especificacion-de-ruta>..."
+msgstr "git status [<opciones>] [--] <especificación-de-ruta>..."
 
 #: builtin/commit.c:49
 msgid ""
@@ -7040,12 +7040,12 @@ msgid ""
 "\n"
 "    git commit --amend --reset-author\n"
 msgstr ""
-"Tu nombre y correo fueron configurados automaticamente basados\n"
+"Tu nombre y correo fueron configurados automáticamente basados\n"
 "en tu usuario y nombre de host. Por favor verifica que son correctos.\n"
-"Tu puedes suprimir este mensaje configurandolos de forma explicita. Ejecuta "
+"Tu puedes suprimir este mensaje configurándolos de forma explicita. Ejecuta "
 "el \n"
 "siguiente comando y sigue las instrucciones de tu editor\n"
-" para modificar tu archivo de configuracion:\n"
+" para modificar tu archivo de configuración:\n"
 "\n"
 "    git config --global --edit\n"
 "\n"
@@ -7066,9 +7066,9 @@ msgid ""
 "\n"
 "    git commit --amend --reset-author\n"
 msgstr ""
-"Tu nombre y correo fueron configurados automaticamente basados\n"
+"Tu nombre y correo fueron configurados automáticamente basados\n"
 "en tu usuario y nombre de host. Por favor verifica que son correctos.\n"
-"Tu puedes suprimir este mensaje configurandolos de forma explicita: \n"
+"Tu puedes suprimir este mensaje configurándolos de forma explicita: \n"
 "\n"
 "    git config --global user.name \"Tu nombre\"\n"
 "    git config --global user.email you@example.com\n"
@@ -7095,8 +7095,8 @@ msgid ""
 "    git commit --allow-empty\n"
 "\n"
 msgstr ""
-"El cherry-pick anterior ahora esta vacio, posiblemente por un conflicto de "
-"resolucion.\n"
+"El cherry-pick anterior ahora esta vacío, posiblemente por un conflicto de "
+"resolución.\n"
 "Si desea realizar un commit de todas maneras, use:\n"
 "\n"
 "    git commit --allow-empty\n"
@@ -7128,15 +7128,15 @@ msgstr "fallo al desempaquetar objeto del árbol HEAD"
 
 #: builtin/commit.c:359
 msgid "unable to create temporary index"
-msgstr "no es posible crear un indice temporal"
+msgstr "no es posible crear un índice temporal"
 
 #: builtin/commit.c:365
 msgid "interactive add failed"
-msgstr "adicion interactiva fallida"
+msgstr "adición interactiva fallida"
 
 #: builtin/commit.c:378
 msgid "unable to update temporary index"
-msgstr "no es posible actualizar el indice temporal"
+msgstr "no es posible actualizar el índice temporal"
 
 #: builtin/commit.c:380
 msgid "Failed to update main cache tree"
@@ -7148,7 +7148,7 @@ msgstr "no es posible escribir archiv new_index"
 
 #: builtin/commit.c:461
 msgid "cannot do a partial commit during a merge."
-msgstr "no se puede realizar un commit parcial durante una fusion."
+msgstr "no se puede realizar un commit parcial durante una fusión."
 
 #: builtin/commit.c:463
 msgid "cannot do a partial commit during a cherry-pick."
@@ -7156,11 +7156,11 @@ msgstr "no se puede realizar un commit parcial durante un cherry-pick."
 
 #: builtin/commit.c:471
 msgid "cannot read the index"
-msgstr "no se puede leer el indice."
+msgstr "no se puede leer el índice."
 
 #: builtin/commit.c:490
 msgid "unable to write temporary index file"
-msgstr "no es posible escribir el indice temporal "
+msgstr "no es posible escribir el índice temporal "
 
 #: builtin/commit.c:587
 #, c-format
@@ -7174,14 +7174,14 @@ msgstr "el commit '%s' tiene una línea de autor mal formada"
 
 #: builtin/commit.c:608
 msgid "malformed --author parameter"
-msgstr "parametro --author mal formado"
+msgstr "malformado - parámetro de autor"
 
 #: builtin/commit.c:660
 msgid ""
 "unable to select a comment character that is not used\n"
 "in the current commit message"
 msgstr ""
-"no es posible seleccionar un caracter de comentario que no es usado\n"
+"no es posible seleccionar un carácter de comentario que no es usado\n"
 "en el mensaje de commit actual"
 
 #: builtin/commit.c:697 builtin/commit.c:730 builtin/commit.c:1100
@@ -7213,7 +7213,7 @@ msgstr "no se pudo leer MERGE_MSG"
 
 #: builtin/commit.c:801
 msgid "could not write commit template"
-msgstr "no se pudo escribit el template del commit"
+msgstr "no se pudo escribir el template del commit"
 
 #: builtin/commit.c:819
 #, c-format
@@ -7225,7 +7225,7 @@ msgid ""
 "and try again.\n"
 msgstr ""
 "\n"
-"Parece que estas haciendo un commit con una fusion dentro.\n"
+"Parece que estas haciendo un commit con una fusión dentro.\n"
 "Si esto no es correcto, por favor remueve el archivo\n"
 "\t%s\n"
 "y vuelve a intentar.\n"
@@ -7513,7 +7513,7 @@ msgstr "agregar Signed-off-by: (firmado por)"
 
 #: builtin/commit.c:1610
 msgid "use specified template file"
-msgstr "usar archivo template especificado"
+msgstr "usar archivo de template especificado"
 
 #: builtin/commit.c:1611
 msgid "force edit of commit"
@@ -7630,7 +7630,7 @@ msgstr "git config [<opciones>]"
 
 #: builtin/config.c:57
 msgid "Config file location"
-msgstr "ubicacion del archivo config"
+msgstr "ubicación del archivo config"
 
 #: builtin/config.c:58
 msgid "use global config file"
@@ -7695,7 +7695,7 @@ msgstr "borrar todas las concurrencias: nombre [valor-regex]"
 
 #: builtin/config.c:72
 msgid "rename section: old-name new-name"
-msgstr "renombrar seccion: nombre-viejo nombre-nuevo"
+msgstr "renombrar sección: nombre-viejo nombre-nuevo"
 
 #: builtin/config.c:73
 msgid "remove a section: name"
@@ -7755,7 +7755,7 @@ msgstr "respetar directivas include en la busqueda"
 
 #: builtin/config.c:87
 msgid "show origin of config (file, standard input, blob, command line)"
-msgstr "mostrar el origen de configuracion (archivo, stdin, blob, comando)"
+msgstr "mostrar el origen de configuración (archivo, stdin, blob, comando)"
 
 #: builtin/config.c:327
 msgid "unable to parse default color value"
@@ -7855,12 +7855,12 @@ msgstr "no hay tag que concuerde exactamente con '%s'"
 #: builtin/describe.c:319
 #, c-format
 msgid "searching to describe %s\n"
-msgstr "buscanado para describir %s\n"
+msgstr "buscando para describir %s\n"
 
 #: builtin/describe.c:366
 #, c-format
 msgid "finished search at %s\n"
-msgstr "busqueda finalizada a las %s\n"
+msgstr "búsqueda finalizada a las %s\n"
 
 #: builtin/describe.c:393
 #, c-format
@@ -7960,7 +7960,7 @@ msgstr "No se encontraron nombres, no se puede describir nada."
 
 #: builtin/describe.c:563
 msgid "--dirty is incompatible with commit-ishes"
-msgstr "--dirty es imcompatible con commit-ismos"
+msgstr "--dirty es incompatible con commit-ismos"
 
 #: builtin/describe.c:565
 msgid "--broken is incompatible with commit-ishes"
@@ -8059,7 +8059,7 @@ msgstr "no mostrar antes de lanzar una herramienta de diff"
 
 #: builtin/difftool.c:706
 msgid "use symlinks in dir-diff mode"
-msgstr "usar symlinks en modo dir-diff"
+msgstr "usar enlaces simbólicos en modo dir-diff"
 
 #: builtin/difftool.c:707
 msgid "<tool>"
@@ -8092,7 +8092,7 @@ msgstr "especificar un comando personalizado para ver diffs"
 
 #: builtin/difftool.c:740
 msgid "no <tool> given for --tool=<tool>"
-msgstr "no se ha entragado <herramienta> para --tool=<herramienta>"
+msgstr "no se ha proporcionado <herramienta> para --tool=<herramienta>"
 
 #: builtin/difftool.c:747
 msgid "no <cmd> given for --extcmd=<cmd>"
@@ -8399,7 +8399,7 @@ msgstr "Tiene que especificar un nombre de tag."
 
 #: builtin/fetch.c:1344
 msgid "Negative depth in --deepen is not supported"
-msgstr "Profundidad negativa en --deepen no es soportada"
+msgstr "Profundidad negativa en --deepen no soportada"
 
 #: builtin/fetch.c:1346
 msgid "--deepen and --depth are mutually exclusive"
@@ -8599,7 +8599,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"El último gc reportó lo siguiente. Por favor corriga la causa\n"
+"El último gc reportó lo siguiente. Por favor corrige la causa\n"
 "y remueva %s.\n"
 "Limpieza automática no se realizará hasta que el archivo sea removido.\n"
 "\n"
@@ -8710,7 +8710,7 @@ msgstr "buscar en archivos rastreados y no rastreados"
 
 #: builtin/grep.c:787
 msgid "ignore files specified via '.gitignore'"
-msgstr "ingnorar archivos especificados via '.gitignore'"
+msgstr "ignorar archivos especificados via '.gitignore'"
 
 #: builtin/grep.c:789
 msgid "recursively search in each submodule"
@@ -8802,7 +8802,7 @@ msgstr "resaltar concordancias"
 
 #: builtin/grep.c:839
 msgid "print empty line between matches from different files"
-msgstr "emprimir una línea vacía entre concordancias de diferentes archivos"
+msgstr "imprimir una línea vacía entre coincidencias de diferentes archivos"
 
 #: builtin/grep.c:841
 msgid "show filename only once above matches from same file"
@@ -9000,12 +9000,12 @@ msgstr "Fallo al iniciar emacsclient."
 
 #: builtin/help.c:107
 msgid "Failed to parse emacsclient version."
-msgstr "Fallo al analizar la version de emacsclient."
+msgstr "Fallo al analizar la versión de emacsclient."
 
 #: builtin/help.c:115
 #, c-format
 msgid "emacsclient version '%d' too old (< 22)."
-msgstr "la version '%d' de emacsclient es muy antigua (<22)."
+msgstr "la versión '%d' de emacsclient es muy antigua (<22)."
 
 #: builtin/help.c:133 builtin/help.c:155 builtin/help.c:165 builtin/help.c:173
 #, c-format
@@ -9041,11 +9041,11 @@ msgstr "ningun visualizador de manual proceso la peticion"
 
 #: builtin/help.c:365
 msgid "no info viewer handled the request"
-msgstr "ningun visualizador de info manejo la peticion"
+msgstr "ningún vizor de info manejo la peticion"
 
 #: builtin/help.c:407
 msgid "Defining attributes per path"
-msgstr "Defininiendo atributos por ruta"
+msgstr "Definiendo atributos por ruta"
 
 #: builtin/help.c:408
 msgid "Everyday Git With 20 Commands Or So"
@@ -9069,15 +9069,15 @@ msgstr "Especificando revisiones y rangos para Git"
 
 #: builtin/help.c:413
 msgid "A tutorial introduction to Git (for version 1.5.1 or newer)"
-msgstr "Un tutorial de introduccion para Git ( para versiones 1.5.1 o mayores)"
+msgstr "Un tutorial de introducción para Git ( para versiones 1.5.1 o mayores)"
 
 #: builtin/help.c:414
 msgid "An overview of recommended workflows with Git"
-msgstr "Un repaso de flujos de trabajo recomendadoes con Git"
+msgstr "Una visión general de flujos de trabajo recomendados con Git"
 
 #: builtin/help.c:426
 msgid "The common Git guides are:\n"
-msgstr "Las guias communes de Git son:\n"
+msgstr "Las guías comunes de Git son:\n"
 
 #: builtin/help.c:444
 #, c-format
@@ -9130,7 +9130,7 @@ msgstr "se usaron más bytes de los disponibles"
 
 #: builtin/index-pack.c:301
 msgid "pack too large for current definition of off_t"
-msgstr "paquete muy grande para la difinición actual de off_t"
+msgstr "paquete muy grande para la definición actual de off_t"
 
 #: builtin/index-pack.c:304 builtin/unpack-objects.c:93
 msgid "pack exceeds maximum allowed size"
@@ -9197,7 +9197,7 @@ msgstr "inconsistencia seria en inflate"
 #: builtin/index-pack.c:817 builtin/index-pack.c:826
 #, c-format
 msgid "SHA1 COLLISION FOUND WITH %s !"
-msgstr "COLLISIÓN SHA1 ENCONTRADA CON %s !"
+msgstr "COLISIÓN DE TIPO SHA1 ENCONTRADA CON %s !"
 
 #: builtin/index-pack.c:752 builtin/pack-objects.c:168
 #: builtin/pack-objects.c:262
@@ -9833,7 +9833,8 @@ msgstr "commit-base"
 
 #: builtin/log.c:1495
 msgid "add prerequisite tree info to the patch series"
-msgstr "agregar pre requisito información de árbol a la serie de parches"
+msgstr ""
+"agregar información de árbol de requisitos previos a la serie de parches"
 
 #: builtin/log.c:1497
 msgid "add a signature from a file"
@@ -9850,7 +9851,7 @@ msgstr "mostrar medidor de progreso mientras se generan los parches"
 #: builtin/log.c:1575
 #, c-format
 msgid "invalid ident line: %s"
-msgstr "línea de ident inválida: %s"
+msgstr "línea de identificación inválida: %s"
 
 #: builtin/log.c:1590
 msgid "-n and -k are mutually exclusive."
@@ -10261,7 +10262,7 @@ msgstr "Opción desconocida para merge-recursive: -X%s"
 #: builtin/merge.c:695
 #, c-format
 msgid "unable to write %s"
-msgstr "no es posible escribit %s"
+msgstr "no es posible escribir %s"
 
 #: builtin/merge.c:747
 #, c-format
@@ -10318,7 +10319,7 @@ msgstr "No hay remoto para la rama actual."
 
 #: builtin/merge.c:914
 msgid "No default upstream defined for the current branch."
-msgstr "No hay upstream default definido para la rama actual."
+msgstr "Por defecto, no hay un upstream  definido para la rama actual."
 
 #: builtin/merge.c:919
 #, c-format
@@ -10419,7 +10420,7 @@ msgstr "Commit %s no tiene una firma GPG."
 #: builtin/merge.c:1304
 #, c-format
 msgid "Commit %s has a good GPG signature by %s\n"
-msgstr "Commit %s titene una buena firma GPG por %s\n"
+msgstr "El Commit %s tiene una buena firma GPG por %s\n"
 
 #: builtin/merge.c:1366
 msgid "refusing to merge unrelated histories"
@@ -11104,7 +11105,7 @@ msgstr "no se pueden mezclar --commit, --abort ó -s/--strategy"
 
 #: builtin/notes.c:802
 msgid "must specify a notes ref to merge"
-msgstr "debe espeficiar una ref de notas a fusionar"
+msgstr "debe especificar una ref de notas a fusionar"
 
 #: builtin/notes.c:826
 #, c-format
@@ -11401,7 +11402,7 @@ msgstr "Valor inválido para %s: %s"
 #: builtin/pull.c:76
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
 msgstr ""
-"git pull [<opciones>] [<repositorio> [<especificacion-de-referencia>...]]"
+"git pull [<opciones>] [<repositorio> [<especificación-de-referencia>...]]"
 
 #: builtin/pull.c:124
 msgid "control for recursive fetching of submodules"
@@ -11429,7 +11430,7 @@ msgstr "Opciones relacionadas a fetch"
 
 #: builtin/pull.c:198
 msgid "number of submodules pulled in parallel"
-msgstr "número de submódules que realizan pull en paralelo"
+msgstr "número de submódulos que realizan pull en paralelo"
 
 #: builtin/pull.c:287
 #, c-format
@@ -11568,7 +11569,7 @@ msgstr "No se puede fusionar múltiples ramas en un head vacío."
 
 #: builtin/pull.c:905
 msgid "Cannot rebase onto multiple branches."
-msgstr "No se puede rebasar en multiples ramas."
+msgstr "No se puede rebasar en múltiples ramas."
 
 #: builtin/pull.c:912
 msgid "cannot rebase with locally recorded submodule modifications"
@@ -11578,7 +11579,7 @@ msgstr ""
 #: builtin/push.c:17
 msgid "git push [<options>] [<repository> [<refspec>...]]"
 msgstr ""
-"git push [<opciones>] [<repositorio> [<especificaciones-de-refrencia>...]]"
+"git push [<opciones>] [<repositorio> [<especificaciones-de-referencia>...]]"
 
 #: builtin/push.c:90
 msgid "tag shorthand without <tag>"
@@ -11681,7 +11682,7 @@ msgid ""
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
 "Actualizaciones fueron rechazadas porque la punta de tu rama actual esta\n"
-"detras de su contraparte remota. Integra los cambios remotos (es decir\n"
+"detrás de su contraparte remota. Integra los cambios remotos (es decir\n"
 "'git pull ...') antes de hacer push de nuevo.\n"
 "Mira 'Note about fast-forwards' en 'git push --help' para mas detalles."
 
@@ -11707,9 +11708,9 @@ msgid ""
 "See the 'Note about fast-forwards' in 'git push --help' for details."
 msgstr ""
 "Actualizaciones fueron rechazadas porque el remoto contiene trabajo que\n"
-"no existe localmente. Esto es causado usuallmente por otro repositorio \n"
+"no existe localmente. Esto es causado usualmente por otro repositorio \n"
 "realizando push a la misma ref. Quizás quiera integrar primero los cambios\n"
-"remotos (ejem. 'git pull ...') antes de volver a hacer push.\n"
+"remotos (ej. 'git pull ...') antes de volver a hacer push.\n"
 "Vea 'Notes about fast-forwards0 en 'git push --help' para detalles."
 
 #: builtin/push.c:272
@@ -11730,7 +11731,7 @@ msgstr ""
 #: builtin/push.c:335
 #, c-format
 msgid "Pushing to %s\n"
-msgstr "Hacienod push a %s\n"
+msgstr "Haciendo push a %s\n"
 
 #: builtin/push.c:339
 #, c-format
@@ -11755,8 +11756,8 @@ msgid ""
 "    git push <name>\n"
 msgstr ""
 "No se ha configurado un destino para el push.\n"
-"Puedes o especificar una URL desde la línea de comandos o configurar "
-"unrepositorio remoto usando\n"
+"Puedes o especificar una URL desde la línea de comandos o configurar un "
+"repositorio remoto usando\n"
 "\n"
 "    git remote add <nombre> <url>\n"
 "\n"
@@ -12008,7 +12009,7 @@ msgid ""
 "To squelch this message and still keep the default behaviour, set\n"
 "'receive.denyCurrentBranch' configuration variable to 'refuse'."
 msgstr ""
-"Por default, actualizar la rama actual en un repositorio no vacío\n"
+"Por defecto, actualizar la rama actual en un repositorio no vacío\n"
 "está denegado, porque eso haría el índice y el árbol de trabajo "
 "inconsistentes\n"
 "con lo que ya se ha hecho push, y requeriría 'git reset --hard' para "
@@ -12036,8 +12037,8 @@ msgid ""
 "\n"
 "To squelch this message, you can set it to 'refuse'."
 msgstr ""
-"Por default, borrar la rama actual está denegado, porque el siguiente\n"
-"'git clone' no serultará en ningún archivo revisado, causando confusión.\n"
+"Por defecto, borrar la rama actual está prohibido, porque el siguiente\n"
+"'git clone' no resultara en ningún archivo revisado, causando confusión.\n"
 "\n"
 "Se puede configurar la variable 'receive.denyDeleteCurrent' a 'warn' o "
 "'ignore'\n"
@@ -13078,7 +13079,7 @@ msgstr "permitir remover de forma recursiva"
 
 #: builtin/rm.c:248
 msgid "exit with a zero status even if nothing matched"
-msgstr "salir con stado cero incluso si nada concuerda"
+msgstr "salir con estado cero incluso si nada coincide"
 
 #: builtin/rm.c:307
 #, c-format
@@ -13197,7 +13198,7 @@ msgstr "mostrar <n> commits más tras encontrar el ancestro común"
 
 #: builtin/show-branch.c:634
 msgid "synonym to more=-1"
-msgstr "sinonimo de más=-1"
+msgstr "sinónimo de más=-1"
 
 #: builtin/show-branch.c:635
 msgid "suppress naming strings"
@@ -13341,11 +13342,11 @@ msgstr "git stripspace [-c | --comment-lines]"
 #: builtin/stripspace.c:36
 msgid "skip and remove all lines starting with comment character"
 msgstr ""
-"saltar y borrar todas las líneas que comienzan con un caracter de comentario"
+"saltar y borrar todas las líneas que comienzan con un carácter de comentario"
 
 #: builtin/stripspace.c:39
 msgid "prepend comment character and space to each line"
-msgstr "anteponer caracter de comentario y espacio a cada línea"
+msgstr "anteponer carácter de comentario y espacio a cada línea"
 
 #: builtin/submodule--helper.c:24 builtin/submodule--helper.c:1094
 #, c-format
@@ -13770,7 +13771,7 @@ msgstr "opción --contains solo es permitido en modo lista"
 
 #: builtin/tag.c:479
 msgid "--no-contains option is only allowed in list mode"
-msgstr "opción --no-contains solo es permitida en moso lista"
+msgstr "opción --no-contains solo es permitida en modo lista"
 
 #: builtin/tag.c:481
 msgid "--points-at option is only allowed in list mode"
@@ -13874,7 +13875,9 @@ msgstr "git update-index [<opciones>] [--] [<archivo>...]"
 
 #: builtin/update-index.c:926
 msgid "continue refresh even when index needs update"
-msgstr "continuar refresh incluso cuando el índice necesita actualizar"
+msgstr ""
+"continuar refresh (Actualización) incluso cuando el índice necesita "
+"actualización"
 
 #: builtin/update-index.c:929
 msgid "refresh: ignore submodules"
@@ -13940,7 +13943,7 @@ msgstr ""
 
 #: builtin/update-index.c:975
 msgid "with --stdin: input lines are terminated by null bytes"
-msgstr "con --stdin: línas de entrada son terminadas con bytes null"
+msgstr "con --stdin: las lineas de entrada son terminadas con bytes nulos"
 
 #: builtin/update-index.c:977
 msgid "read list of paths to be updated from standard input"
@@ -14067,7 +14070,7 @@ msgstr "git update-server-info [--force]"
 
 #: builtin/update-server-info.c:15
 msgid "update the info files from scratch"
-msgstr "actualiza el archivo info desde cero"
+msgstr "actualiza los archivos info desde cero"
 
 #: builtin/verify-commit.c:18
 msgid "git verify-commit [-v | --verbose] <commit>..."
@@ -14243,7 +14246,7 @@ msgstr "<prefijo>/"
 
 #: builtin/write-tree.c:28
 msgid "write tree object for a subdirectory <prefix>"
-msgstr "escribit objeto árbol para un subdirectorio <prefijo>"
+msgstr "escribir objeto de  árbol para un subdirectorio <prefijo>"
 
 #: builtin/write-tree.c:31
 msgid "only useful for debugging"
@@ -14328,15 +14331,15 @@ msgstr "redirigiendo a %s"
 
 #: common-cmds.h:9
 msgid "start a working area (see also: git help tutorial)"
-msgstr "comienza un area de trabajo (mira tambien: git help tutorial)"
+msgstr "comienza un área de trabajo (ver también: git help tutorial)"
 
 #: common-cmds.h:10
 msgid "work on the current change (see also: git help everyday)"
-msgstr "trabaja en los cambios actuales (mira tambien: git help everyday)"
+msgstr "trabaja en los cambios actuales (ver también: git help everyday)"
 
 #: common-cmds.h:11
 msgid "examine the history and state (see also: git help revisions)"
-msgstr "examina el historial y el estado (mira tambien: git help revisions)"
+msgstr "examina el historial y el estado (ver también: git help revisions)"
 
 #: common-cmds.h:12
 msgid "grow, mark and tweak your common history"
@@ -14344,7 +14347,7 @@ msgstr "crece, marca y ajusta tu historial comun"
 
 #: common-cmds.h:13
 msgid "collaborate (see also: git help workflows)"
-msgstr "colabora (mira tambien: git help workflows)"
+msgstr "colabora (mira también: git help workflows)"
 
 #: common-cmds.h:17
 msgid "Add file contents to the index"
@@ -14352,7 +14355,7 @@ msgstr "Agrega contenido de carpetas al indice"
 
 #: common-cmds.h:18
 msgid "Use binary search to find the commit that introduced a bug"
-msgstr "usa busqueqda binaria para encontrar el commit que introdujo el bug"
+msgstr "use la búsqueda binaria para encontrar el commit que introdujo el bug"
 
 #: common-cmds.h:19
 msgid "List, create, or delete branches"
@@ -14384,11 +14387,11 @@ msgstr "Imprime las líneas que concuerdan con el patron"
 
 #: common-cmds.h:26
 msgid "Create an empty Git repository or reinitialize an existing one"
-msgstr "Crea un repositorio de Git vacio o reinicia el que ya existe"
+msgstr "Crea un repositorio de Git vacío o reinicia el que ya existe"
 
 #: common-cmds.h:27
 msgid "Show commit logs"
-msgstr "Muestra los logs de commits"
+msgstr "Muestra los logs de los commits"
 
 #: common-cmds.h:28
 msgid "Join two or more development histories together"
@@ -14396,7 +14399,7 @@ msgstr "Junta dos o mas historiales de desarrollo juntos"
 
 #: common-cmds.h:29
 msgid "Move or rename a file, a directory, or a symlink"
-msgstr "Mueve o cambia el nombre a archivos, directorios o vinculos simbolicos"
+msgstr "Mueve o cambia el nombre a archivos, directorios o enlaces simbolicos"
 
 #: common-cmds.h:30
 msgid "Fetch from and integrate with another repository or a local branch"
@@ -14573,7 +14576,7 @@ msgstr ""
 
 #: git-bisect.sh:458
 msgid "No logfile given"
-msgstr "No se entrogó logfile"
+msgstr "Ningún logfile proporcionado"
 
 #: git-bisect.sh:459
 #, sh-format
@@ -14617,7 +14620,7 @@ msgstr "bisect exitoso"
 
 #: git-bisect.sh:565
 msgid "please use two different terms"
-msgstr "por favor use dos terminos diferentes"
+msgstr "por favor use dos términos diferentes"
 
 #: git-bisect.sh:575
 #, sh-format
@@ -15518,13 +15521,13 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
-"Tiene cambios en el area de stage de su árbol de trabajo.\n"
-"Si estos cambios estan destinados a \n"
+"Tiene cambios en el área de stage de su árbol de trabajo.\n"
+"Si estos cambios están destinados a \n"
 "ser aplastados en el commit previo, ejecute:\n"
 "\n"
 "  git commit --amend $gpg_sign_opt_quoted\n"
 "\n"
-"Si estos estan destinados a ir en un nuevo commit, ejecute:\n"
+"Si estos están destinados a ir en un nuevo commit, ejecute:\n"
 "\n"
 "  git commit $gpg_sign_opt_quoted\n"
 "\n"
@@ -15547,7 +15550,7 @@ msgstr ""
 
 #: git-rebase--interactive.sh:816 git-rebase--interactive.sh:820
 msgid "Could not commit staged changes."
-msgstr "No se pudo realizar el commit con los cambios en el area de stage"
+msgstr "No se pudo realizar el commit con los cambios en el área de stage"
 
 #: git-rebase--interactive.sh:848
 msgid ""
@@ -15559,7 +15562,7 @@ msgid ""
 msgstr ""
 "\n"
 "Esta editando el archivo TODO de un rebase interactivo.\n"
-"Para continuar el rebase despues de editar, ejecute:\n"
+"Para continuar el rebase después de editar, ejecute:\n"
 "    git rebase --continue\n"
 "\n"
 
@@ -15608,7 +15611,7 @@ msgstr ""
 
 #: git-rebase--interactive.sh:1005
 msgid "Note that empty commits are commented out"
-msgstr "Nota que los commits vacios estan comentados"
+msgstr "Tenga en cuenta que los commits vacíos están comentados"
 
 #: git-sh-setup.sh:89 git-sh-setup.sh:94
 #, sh-format
@@ -15629,35 +15632,35 @@ msgstr "fatal: $program_name no puede ser usado sin un árbol de trabajo."
 #: git-sh-setup.sh:220
 msgid "Cannot rebase: You have unstaged changes."
 msgstr ""
-"No se puede aplicar rebase: Tienes cambios que no estan en el area de stage."
+"No se puede aplicar rebase: Tienes cambios que no están en el área de stage."
 
 #: git-sh-setup.sh:223
 msgid "Cannot rewrite branches: You have unstaged changes."
 msgstr ""
-"No se puede reescribir las ramas: Tienes cambios que no estan en el area de "
+"No se puede reescribir las ramas: Tienes cambios que no están en el área de "
 "stage"
 
 #: git-sh-setup.sh:226
 msgid "Cannot pull with rebase: You have unstaged changes."
 msgstr ""
-"No se puede aplicar pull con rebase: Tienes cambios que no estan en el area "
+"No se puede aplicar pull con rebase: Tienes cambios que no están en el área "
 "de stage."
 
 #: git-sh-setup.sh:229
 #, sh-format
 msgid "Cannot $action: You have unstaged changes."
-msgstr "No se puede $action: Tienes cambios que no estan en el area de stage"
+msgstr "No se puede $action: Tienes cambios que no están en el área de stage"
 
 #: git-sh-setup.sh:242
 msgid "Cannot rebase: Your index contains uncommitted changes."
 msgstr ""
-"No se puede hacer rebase: Tu indice contiene cambios que no estan en un "
+"No se puede hacer rebase: Tu índice contiene cambios que no están en un "
 "commit."
 
 #: git-sh-setup.sh:245
 msgid "Cannot pull with rebase: Your index contains uncommitted changes."
 msgstr ""
-"No se puede hacer pull con rebase: Tu indice contiene cambios que no estan "
+"No se puede hacer pull con rebase: Tu índice contiene cambios que no están "
 "en un commit."
 
 #: git-sh-setup.sh:248
@@ -15667,7 +15670,7 @@ msgstr "No se puede $action: El índice contiene cambios sin confirmar."
 
 #: git-sh-setup.sh:252
 msgid "Additionally, your index contains uncommitted changes."
-msgstr "Adicionalmente, tu indice contiene cambios que no estan en un commit."
+msgstr "Adicionalmente, tu índice contiene cambios que no están en un commit."
 
 #: git-sh-setup.sh:372
 msgid "You need to run this command from the toplevel of the working tree."
@@ -15760,7 +15763,7 @@ msgid ""
 "marked for staging."
 msgstr ""
 "Si el parche aplica limpiamente, el hunk editado sera marcado\n"
-"inmediatamente para el area de stage."
+"inmediatamente para el área de stage."
 
 #: git-add--interactive.perl:988
 msgid ""
@@ -15776,7 +15779,7 @@ msgid ""
 "marked for unstaging."
 msgstr ""
 "Si el parche aplica limpiamente, el hunk editado sera marcado\n"
-"inmediatamente para sacar del area de stage."
+"inmediatamente para sacar del área de stage."
 
 #: git-add--interactive.perl:994 git-add--interactive.perl:1003
 msgid ""
@@ -15797,11 +15800,11 @@ msgstr ""
 #: git-add--interactive.perl:1013
 #, perl-format
 msgid "failed to open hunk edit file for writing: %s"
-msgstr "fallo al abrir el archivo de edicion del hunk para escritura: %s"
+msgstr "fallo al abrir el archivo de adición del hunk para escritura: %s"
 
 #: git-add--interactive.perl:1014
 msgid "Manual hunk edit mode -- see bottom for a quick guide.\n"
-msgstr "Modo de edicion manual de hunk -- vea abajo para una guia rapida.\n"
+msgstr "Modo de edición manual de hunk -- vea abajo para una guía rápida.\n"
 
 #: git-add--interactive.perl:1020
 #, perl-format
@@ -15813,8 +15816,8 @@ msgid ""
 msgstr ""
 "---\n"
 "Para remover '%s' líneas, haga de ellas líneas  ' '  (contexto).\n"
-"Para remover '%s' líneas, borrelas.\n"
-"Lineas comenzando con  %s seran removidas.\n"
+"Para remover '%s' líneas, bórrelas.\n"
+"Lineas comenzando con  %s serán removidas.\n"
 
 #. TRANSLATORS: 'it' refers to the patch mentioned in the previous messages.
 #: git-add--interactive.perl:1028
@@ -15825,12 +15828,12 @@ msgid ""
 msgstr ""
 "Si esto no aplica de manera limpia, se le da la oportunidad de \n"
 "editar nuevamente. Si todas las líneas del hunk son removidas, entonces \n"
-"la edicion es abortada y el hunk queda sin cambios.\n"
+"la edición es abortada y el hunk queda sin cambios.\n"
 
 #: git-add--interactive.perl:1042
 #, perl-format
 msgid "failed to open hunk edit file for reading: %s"
-msgstr "fallo al abrir el archivo de edicion del hunk para lectura: %s"
+msgstr "fallo al abrir el archivo de edición del hunk para lectura: %s"
 
 #. TRANSLATORS: do not translate [y/n]
 #. The program will only accept that input
@@ -15881,7 +15884,7 @@ msgid ""
 "a - unstage this hunk and all later hunks in the file\n"
 "d - do not unstage this hunk or any of the later hunks in the file"
 msgstr ""
-"y - sacar deste hunk del area de stage\n"
+"y - sacar desde hunk del área de stage\n"
 "n - no sacar este hunk del area de stage\n"
 "q - quit; no sacar del area de stage este hunk o ninguno de los restantes\n"
 "a - sacar del area de stage este hunk y todos los posteriores en el archivo\n"
@@ -15924,8 +15927,8 @@ msgid ""
 "a - discard this hunk and all later hunks in the file\n"
 "d - do not discard this hunk or any of the later hunks in the file"
 msgstr ""
-"y - descartar este hunk del indice y el árbol de trabajo\n"
-"n - no descartar este hunk del indice ni el árbol de trabajo\n"
+"y - descartar este hunk del índice y el árbol de trabajo\n"
+"n - no descartar este hunk del índice ni el árbol de trabajo\n"
 "q - quit; no descartar este hunk o ninguno de los que quedan\n"
 "a - descartar este hunk y todos los posteriores en este archivo\n"
 "d - no descartar este hunk o ninguno posterior en el archivo"
@@ -15959,16 +15962,16 @@ msgstr ""
 "g - selecciona un hunk a donde ir\n"
 "/ - buscar un hunk que concuerde el  regex\n"
 "j - dejar este hunk por definir, ver siguiente hunk por definir\n"
-"J - dejar este hunk por definird, ver siguiente hunk\n"
+"J - dejar este hunk por definir, ver siguiente hunk\n"
 "k - dejar este hunk por definir, ver hunk previo por definir\n"
 "K - dejar este hunk por definir, ver hunk previo\n"
-"s - dividir el  hunk actual en hunks mas pequenos\n"
+"s - dividir el  hunk actual en hunks mas pequeños\n"
 "e - editar manualmente el hunk actual\n"
 "? - imprimir ayuda\n"
 
 #: git-add--interactive.perl:1219
 msgid "The selected hunks do not apply to the index!\n"
-msgstr "Los hunks seleccionados no aplican al indice!\n"
+msgstr "Los hunks seleccionados no aplican al índice!\n"
 
 #: git-add--interactive.perl:1220
 msgid "Apply them to the worktree anyway? "
@@ -15993,7 +15996,7 @@ msgstr "Sin cambios.\n"
 
 #: git-add--interactive.perl:1253
 msgid "Patch update"
-msgstr "Actualizacion de parche"
+msgstr "Actualización del parche"
 
 #: git-add--interactive.perl:1305
 #, perl-format
@@ -16043,17 +16046,17 @@ msgstr "Sacar este hunk del stage [y,n,q,a,d,/%s,?]? "
 #: git-add--interactive.perl:1320
 #, perl-format
 msgid "Apply mode change to index [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicarcambio de modo al indice [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar cambio de modo al índice [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1321
 #, perl-format
 msgid "Apply deletion to index [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar borrado al indice [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar borrado al índice [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1322
 #, perl-format
 msgid "Apply this hunk to index [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar este hunk al indice [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar este hunk al índice [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1325
 #, perl-format
@@ -16074,35 +16077,35 @@ msgstr "Descartar este hunk del árbol de trabajo [y,n,q,a,d,/%s,?]? "
 #, perl-format
 msgid "Discard mode change from index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Descartar cambio de modo del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
+"Descartar cambio de modo del índice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1331
 #, perl-format
 msgid "Discard deletion from index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Descartar borrado del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Descartar borrado del índice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1332
 #, perl-format
 msgid "Discard this hunk from index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Descartar este hunk del indice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
+"Descartar este hunk del índice y el árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1335
 #, perl-format
 msgid "Apply mode change to index and worktree [y,n,q,a,d,/%s,?]? "
 msgstr ""
-"Aplicar cambio de modo para el indice y el árbol de trabajo [y,n,q,a,d,/"
+"Aplicar cambio de modo para el índice y el árbol de trabajo [y,n,q,a,d,/"
 "%s,?]? "
 
 #: git-add--interactive.perl:1336
 #, perl-format
 msgid "Apply deletion to index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar borrado al indice y al árbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar borrado al índice y al árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1337
 #, perl-format
 msgid "Apply this hunk to index and worktree [y,n,q,a,d,/%s,?]? "
-msgstr "Aplicar este hunk al indice y árbol de trabajo [y,n,q,a,d,/%s,?]? "
+msgstr "Aplicar este hunk al índice y árbol de trabajo [y,n,q,a,d,/%s,?]? "
 
 #: git-add--interactive.perl:1440
 msgid "go to which hunk (<ret> to see more)? "
@@ -16131,11 +16134,11 @@ msgstr "buscar para regexp?"
 #: git-add--interactive.perl:1495
 #, perl-format
 msgid "Malformed search regexp %s: %s\n"
-msgstr "regexp para la busqueda mal formado %s: %s\n"
+msgstr "regexp para la búsqueda mal formado %s: %s\n"
 
 #: git-add--interactive.perl:1505
 msgid "No hunk matches the given pattern\n"
-msgstr "No hay hunks que concuerden con el patron entregado.\n"
+msgstr "No hay hunks que concuerden con el patrón entregado.\n"
 
 #: git-add--interactive.perl:1517 git-add--interactive.perl:1539
 msgid "No previous hunk\n"
@@ -16154,7 +16157,7 @@ msgstr[1] "Cortar en  %d hunks.\n"
 
 #: git-add--interactive.perl:1605
 msgid "Review diff"
-msgstr "Revision de  diff"
+msgstr "Revisión de  diff"
 
 #. TRANSLATORS: please do not translate the command names
 #. 'status', 'update', 'revert', etc.
@@ -16168,11 +16171,11 @@ msgid ""
 "add untracked - add contents of untracked files to the staged set of "
 "changes\n"
 msgstr ""
-"status        - muestra las rutas con cambioss\n"
+"status        - muestra las rutas con cambios\n"
 "update        - agrega el estado del árbol de trabajo al set de cambios en "
-"el area de stage\n"
-"revert        - revierte los cambios en el area de stage de regreso a la "
-"version HEAD\n"
+"el área de stage\n"
+"revert        - revierte los cambios en el área de stage de regreso a la "
+"versión HEAD\n"
 "patch         - selecciona los hunks y actualiza de forma selectiva\n"
 "diff          - mirar la diff entre HEAD y el indice\n"
 "add untracked - agrega contenidos de archivos no rastreados al grupo de "
@@ -16211,7 +16214,7 @@ msgstr "el editor se cerro inapropiadamente, abortando todo"
 msgid ""
 "'%s' contains an intermediate version of the email you were composing.\n"
 msgstr ""
-"'%s' contiene una version intermedia del correo que se estaba generando.\n"
+"'%s' contiene una versión intermedia del correo que se estaba generando.\n"
 
 #: git-send-email.perl:295
 #, perl-format
@@ -16234,7 +16237,7 @@ msgstr "campo --suppress-cc desconocido: '%s'\n"
 #: git-send-email.perl:476
 #, perl-format
 msgid "Unknown --confirm setting: '%s'\n"
-msgstr "Configuracion --confirm desconocida: '%s'\n"
+msgstr "Configuración --confirm desconocida: '%s'\n"
 
 #: git-send-email.perl:504
 #, perl-format
@@ -16249,12 +16252,12 @@ msgstr "peligro: `:include:` no soportado: %s\n"
 #: git-send-email.perl:508
 #, perl-format
 msgid "warning: `/file` or `|pipe` redirection not supported: %s\n"
-msgstr "peligro: redireccion `/file` or `|pipe` no soportada : %s\n"
+msgstr "Advertencia: redirección `/file` o `|pipe` no soportada : %s\n"
 
 #: git-send-email.perl:513
 #, perl-format
 msgid "warning: sendmail line is not recognized: %s\n"
-msgstr "peligro: línea sendmail no reconocida: %s\n"
+msgstr "Advertencia: línea sendmail no reconocida: %s\n"
 
 #: git-send-email.perl:595
 #, perl-format
@@ -16265,8 +16268,8 @@ msgid ""
 "    * Saying \"./%s\" if you mean a file; or\n"
 "    * Giving --format-patch option if you mean a range.\n"
 msgstr ""
-"Archivo '%s' existe pero podria ser el rango de commits \n"
-"para producir los parches.  Por favor elimina la ambiguedad...\n"
+"Archivo '%s' existe pero podría ser el rango de commits \n"
+"para producir los parches.  Por favor elimina la ambigüedad...\n"
 "\n"
 "    * Diciendo \"./%s\" si se quiere decir un archivo; o\n"
 "    * Agregando la opción --format-patch si se quiere decir un rango.\n"
@@ -16303,7 +16306,7 @@ msgstr "No hay línea de subject en %s?"
 #: git-send-email.perl:674
 #, perl-format
 msgid "Failed to open for writing %s: %s"
-msgstr "Fallo al abir para escritura %s: %s"
+msgstr "Fallo al abrir para escritura %s: %s"
 
 #: git-send-email.perl:684
 msgid ""
@@ -16332,11 +16335,11 @@ msgstr "Fallo al abrir %s: %s"
 #: git-send-email.perl:745
 msgid "To/Cc/Bcc fields are not interpreted yet, they have been ignored\n"
 msgstr ""
-"Campos Para/Cc/Bcc no han sido interpretados todavia, han sido ignorados\n"
+"Campos Para/Cc/Bcc no han sido interpretados todavía, han sido ignorados\n"
 
 #: git-send-email.perl:754
 msgid "Summary email is empty, skipping it\n"
-msgstr "Archivo de resumen esta vacio, saltando al siguiente\n"
+msgstr "Archivo de resumen esta vacío, saltando al siguiente\n"
 
 #. TRANSLATORS: please keep [y/N] as is.
 #: git-send-email.perl:786
@@ -16354,7 +16357,7 @@ msgstr ""
 
 #: git-send-email.perl:820
 msgid "Which 8bit encoding should I declare [UTF-8]? "
-msgstr "Que codificacion de 8bit deberia declarar [UTF-8]?"
+msgstr "Que codificación de 8bit debería declarar [UTF-8]?"
 
 #: git-send-email.perl:828
 #, perl-format
@@ -16387,14 +16390,14 @@ msgstr ""
 #: git-send-email.perl:927 git-send-email.perl:935
 #, perl-format
 msgid "error: unable to extract a valid address from: %s\n"
-msgstr "error: no es posible extraer una direccion valida de %s\n"
+msgstr "error: no es posible extraer una dirección valida de %s\n"
 
 #. TRANSLATORS: Make sure to include [q] [d] [e] in your
 #. translation. The program will only accept English input
 #. at this point.
 #: git-send-email.perl:939
 msgid "What to do with this address? ([q]uit|[d]rop|[e]dit): "
-msgstr "Que hacer con esta direccion? ([q]salir|[d]botar|[e]ditar):"
+msgstr "Que hacer con esta dirección? ([q]salir|[d]botar|[e]ditar):"
 
 #: git-send-email.perl:1260
 #, perl-format
@@ -16417,7 +16420,7 @@ msgstr ""
 "La lista Cc ha sido expandida por direcciones adicionales\n"
 "encontradas en el mensaje de commit parchado.. Por defecto\n"
 "send-email se muestra antes de mandar cualquier cada vez que esto sucede.\n"
-"Este comportamiento is controlado por el valor de configuracion sendemail."
+"Este comportamiento is controlado por el valor de configuración sendemail."
 "confirm.\n"
 "\n"
 "Para mas información, corre 'git sen-email --help'.\n"
@@ -16533,7 +16536,7 @@ msgstr "no se puede mandar mensaje como 7bit"
 
 #: git-send-email.perl:1774
 msgid "invalid transfer encoding"
-msgstr "codificacion de transferencia invalida"
+msgstr "codificación de transferencia invalida"
 
 #: git-send-email.perl:1812 git-send-email.perl:1863 git-send-email.perl:1873
 #, perl-format
