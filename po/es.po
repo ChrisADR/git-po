@@ -448,7 +448,7 @@ msgstr "nuevo modo (%o) de %s no concuerda con el viejo modo (%o) de %s"
 #: apply.c:3992
 #, c-format
 msgid "affected file '%s' is beyond a symbolic link"
-msgstr "archivo afectado '%s' esta tras un enlace simbólico"
+msgstr "archivo afectado '%s' está tras un enlace simbólico"
 
 #: apply.c:3996
 #, c-format
@@ -635,7 +635,7 @@ msgstr "num"
 
 #: apply.c:4954
 msgid "remove <num> leading slashes from traditional diff paths"
-msgstr "remover <num> slashes iniciales de las rutas diff tradicionales"
+msgstr "eliminas <num> slashes iniciales de las rutas diff tradicionales"
 
 #: apply.c:4957
 msgid "ignore additions made by the patch"
@@ -647,7 +647,7 @@ msgstr "en lugar de aplicar el parche, mostrar diffstat para la entrada"
 
 #: apply.c:4963
 msgid "show number of added and deleted lines in decimal notation"
-msgstr "mostrar el numero de líneas agregadas y eliminadas en notación decimal"
+msgstr "mostrar el número de líneas agregadas y eliminadas en notación decimal"
 
 #: apply.c:4965
 msgid "instead of applying the patch, output a summary for the input"
@@ -736,7 +736,7 @@ msgstr ""
 
 #: apply.c:5007
 msgid "do not trust the line counts in the hunk headers"
-msgstr "no confiar en el conteo de líneas en los headers del hunk"
+msgstr "no confies en el conteo de líneas en los headers del hunk"
 
 #: apply.c:5009 builtin/am.c:2253
 msgid "root"
@@ -864,7 +864,7 @@ msgstr "Argumento no soportado para formato '%s': -%d"
 #: attr.c:218
 #, c-format
 msgid "%.*s is not a valid attribute name"
-msgstr "%.*s no es un nombre de atributo valido"
+msgstr "%.*s no es un nombre de atributo válido"
 
 #: attr.c:415
 msgid ""
@@ -887,7 +887,7 @@ msgstr "No podemos bisecar mas!\n"
 #: bisect.c:708
 #, c-format
 msgid "Not a valid commit name %s"
-msgstr "No es un nombre de commit valido %s"
+msgstr "No es un nombre de commit válido %s"
 
 #: bisect.c:732
 #, c-format
@@ -1110,7 +1110,7 @@ msgstr "No rastreando: información ambigua para la referencia %s"
 #: branch.c:185
 #, c-format
 msgid "'%s' is not a valid branch name."
-msgstr "'%s' no es un nombre valido de rama."
+msgstr "'%s' no es un nombre válido de rama."
 
 #: branch.c:190
 #, c-format
@@ -1157,7 +1157,7 @@ msgstr ""
 #: branch.c:264
 #, c-format
 msgid "Not a valid object name: '%s'."
-msgstr "Nombre de objeto no valido: '%s'."
+msgstr "Nombre de objeto no válido: '%s'."
 
 #: branch.c:284
 #, c-format
@@ -1167,7 +1167,7 @@ msgstr "Nombre de objeto ambiguo: '%s'."
 #: branch.c:289
 #, c-format
 msgid "Not a valid branch point: '%s'."
-msgstr "Punto de rama no valido: '%s'."
+msgstr "Punto de rama no válido: '%s'."
 
 #: branch.c:343
 #, c-format
@@ -1377,7 +1377,7 @@ msgstr "mala compresión zlib en nivel %d"
 #: config.c:1213
 #, c-format
 msgid "invalid mode for object creation: %s"
-msgstr "modo invalido de creación de objetos: %s"
+msgstr "modo inválido de creación de objetos: %s"
 
 #: config.c:1372
 #, c-format
@@ -1396,7 +1396,7 @@ msgstr ""
 #: config.c:2087
 #, c-format
 msgid "Invalid %s: '%s'"
-msgstr "Invalido %s: '%s'"
+msgstr "Inválido %s: '%s'"
 
 #: config.c:2130
 #, c-format
@@ -1885,7 +1885,7 @@ msgstr "fallo al escribir la firma separada para '%s'"
 #: graph.c:97
 #, c-format
 msgid "ignore invalid color '%.*s' in log.graphColors"
-msgstr "ignora color invalido '%.*s' en log.graphColors"
+msgstr "ignora color inválido '%.*s' en log.graphColors"
 
 #: grep.c:1970
 #, c-format
@@ -2042,7 +2042,7 @@ msgstr "el nombre consiste solo de caracteres no permitidos: %s"
 #: ident.c:416 builtin/commit.c:616
 #, c-format
 msgid "invalid date format: %s"
-msgstr "formato de fecha invalido: %s"
+msgstr "formato de fecha inválido: %s"
 
 #: lockfile.c:151
 #, c-format
@@ -2452,7 +2452,7 @@ msgstr "especificación attr no puede estar vacia"
 #: pathspec.c:193
 #, c-format
 msgid "invalid attribute name %s"
-msgstr "nombre de atributo %s invalido"
+msgstr "nombre de atributo %s inválido"
 
 #: pathspec.c:258
 msgid "global 'glob' and 'noglob' pathspec settings are incompatible"
@@ -2474,7 +2474,7 @@ msgstr "parámetro no válido para el prefijo 'magic pathspec'"
 #: pathspec.c:326
 #, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
-msgstr "magic pathspec invalido '%.*s' en '%s'"
+msgstr "magic pathspec inválido '%.*s' en '%s'"
 
 #: pathspec.c:331
 #, c-format
@@ -3293,7 +3293,7 @@ msgstr "llave invalida: %s"
 #: sequencer.c:1451
 #, c-format
 msgid "invalid value for %s: %s"
-msgstr "valor invalido para %s: %s"
+msgstr "valor inválido para %s: %s"
 
 #: sequencer.c:1517
 #, c-format
@@ -3466,7 +3466,7 @@ msgstr "no se puede arreglar un commit no existente"
 #: sequencer.c:2236
 #, c-format
 msgid "invalid file: '%s'"
-msgstr "archivo invalido: '%s'"
+msgstr "archivo inválido: '%s'"
 
 #: sequencer.c:2238
 #, c-format
@@ -3770,7 +3770,7 @@ msgstr "entrada de submódulo '%s' (%s) es un %s, no un commit"
 
 #: submodule.c:1021 builtin/branch.c:641 builtin/submodule--helper.c:1149
 msgid "Failed to resolve HEAD as a valid ref."
-msgstr "Fallo al resolver HEAD como un ref valido."
+msgstr "Fallo al resolver HEAD como un ref válido."
 
 #: submodule.c:1304
 #, c-format
@@ -4222,7 +4222,7 @@ msgstr "Revisando archivos"
 
 #: urlmatch.c:163
 msgid "invalid URL scheme name or missing '://' suffix"
-msgstr "nombre de URL invalido o falta sufijo '://'"
+msgstr "nombre de URL inválido o falta sufijo '://'"
 
 #: urlmatch.c:187 urlmatch.c:346 urlmatch.c:405
 #, c-format
@@ -4243,11 +4243,11 @@ msgstr "carácter inválido en el nombre del host"
 
 #: urlmatch.c:292 urlmatch.c:303
 msgid "invalid port number"
-msgstr "numero de puerto invalido"
+msgstr "numero de puerto inválido"
 
 #: urlmatch.c:371
 msgid "invalid '..' path segment"
-msgstr "segmento de ruta '..' invalido"
+msgstr "segmento de ruta '..' inválido"
 
 #: worktree.c:245
 #, c-format
@@ -5013,7 +5013,7 @@ msgstr "Solo un parche StGIT puede ser aplicado de una vez "
 
 #: builtin/am.c:899
 msgid "invalid timestamp"
-msgstr "timestamp invalido"
+msgstr "timestamp inválido"
 
 #: builtin/am.c:904 builtin/am.c:916
 msgid "invalid Date line"
@@ -5199,7 +5199,7 @@ msgstr ""
 #: builtin/am.c:2179
 #, c-format
 msgid "Invalid value for --patch-format: %s"
-msgstr "valor invalido para --patch-format: %s"
+msgstr "valor inválido para --patch-format: %s"
 
 #: builtin/am.c:2212
 msgid "git am [<options>] [(<mbox> | <Maildir>)...]"
@@ -5666,7 +5666,7 @@ msgstr "no se puede renombrar la rama actual mientras no se está en ninguna."
 #: builtin/branch.c:483
 #, c-format
 msgid "Invalid branch name: '%s'"
-msgstr "Nombre de rama invalido: '%s'"
+msgstr "Nombre de rama inválido: '%s'"
 
 #: builtin/branch.c:504
 msgid "Branch rename failed"
@@ -7356,7 +7356,7 @@ msgstr "No hay rutas con --include/--only no tiene sentido."
 #: builtin/commit.c:1226 builtin/tag.c:535
 #, c-format
 msgid "Invalid cleanup mode %s"
-msgstr "Modo cleanup invalido %s"
+msgstr "Modo cleanup inválido %s"
 
 #: builtin/commit.c:1231
 msgid "Paths with -a does not make sense."
@@ -12302,7 +12302,7 @@ msgstr " ???"
 #: builtin/remote.c:959
 #, c-format
 msgid "invalid branch.%s.merge; cannot rebase onto > 1 branch"
-msgstr "invalido branch.%s.merge; no se puede rebasar en > 1 rama"
+msgstr "inválido branch.%s.merge; no se puede rebasar en > 1 rama"
 
 #: builtin/remote.c:967
 #, c-format
@@ -13570,7 +13570,7 @@ msgstr "%s no soporta --super-prefix"
 #: builtin/submodule--helper.c:1284
 #, c-format
 msgid "'%s' is not a valid submodule--helper subcommand"
-msgstr "'%s' no es un comando submodule--helper valido"
+msgstr "'%s' no es un comando submodule--helper válido"
 
 #: builtin/symbolic-ref.c:8
 msgid "git symbolic-ref [<options>] <name> [<ref>]"
@@ -16118,7 +16118,7 @@ msgstr "A que hunk ir?"
 #: git-add--interactive.perl:1451
 #, perl-format
 msgid "Invalid number: '%s'\n"
-msgstr "Numero invalido: '%s'\n"
+msgstr "Número inválido: '%s'\n"
 
 #: git-add--interactive.perl:1456
 #, perl-format
@@ -16195,7 +16195,7 @@ msgstr "modo --patch desconocido: %s"
 #: git-add--interactive.perl:1668 git-add--interactive.perl:1674
 #, perl-format
 msgid "invalid argument %s, expecting --"
-msgstr "argumento invalido %s, se esperaba --"
+msgstr "argumento inválido %s, se esperaba --"
 
 #: git-send-email.perl:126
 msgid "local zone differs from GMT by a non-minute interval\n"
@@ -16207,7 +16207,7 @@ msgstr "el offset del tiempo local es mayor o igual a 24 horas\n"
 
 #: git-send-email.perl:207 git-send-email.perl:213
 msgid "the editor exited uncleanly, aborting everything"
-msgstr "el editor se cerro inapropiadamente, abortando todo"
+msgstr "el editor se cerró inapropiadamente, abortando todo"
 
 #: git-send-email.perl:290
 #, perl-format
@@ -16557,7 +16557,7 @@ msgstr "Saltando %s con el sufijo de backup '%s'.\n"
 #: git-send-email.perl:1835
 #, perl-format
 msgid "Do you really want to send %s? [y|N]: "
-msgstr "Realmente deseas mandar %s?[y|N]"
+msgstr "¿Realmente deseas mandar %s?[y|N]"
 
 #~ msgid "%%(trailers) does not take arguments"
 #~ msgstr "%%(trailers) no toma argumentos"
