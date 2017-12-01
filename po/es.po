@@ -1330,39 +1330,39 @@ msgstr "unidad inválida"
 #: config.c:875
 #, c-format
 msgid "bad numeric config value '%s' for '%s': %s"
-msgstr "valor númerico de configuración incorrecto '%s' para '%s': %s"
+msgstr "valor numérico de configuración incorrecto '%s' para '%s': %s"
 
 #: config.c:880
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in blob %s: %s"
-msgstr "valor númerico de configuración incorrecto '%s' para '%s' en el blob %s: %s"
+msgstr "valor numérico de configuración incorrecto '%s' para '%s' en el blob %s: %s"
 
 #: config.c:883
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in file %s: %s"
-msgstr "valor númerico de configuración incorrecto '%s' para '%s' en el archivo %s: %s"
+msgstr "valor numérico de configuración incorrecto '%s' para '%s' en el archivo %s: %s"
 
 #: config.c:886
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in standard input: %s"
-msgstr "valor númerico de configuración incorrecto '%s' para '%s' en la entrada standard: %s"
+msgstr "valor numérico de configuración incorrecto '%s' para '%s' en la entrada standard: %s"
 
 #: config.c:889
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in submodule-blob %s: %s"
 msgstr ""
-"valor númerico de configuración incorrecto '%s' para '%s' en el submodulo-blob %s: %s"
+"valor numérico de configuración incorrecto '%s' para '%s' en el submodulo-blob %s: %s"
 
 #: config.c:892
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in command line %s: %s"
 msgstr ""
-"valor númerico de configuración incorrecto '%s' para '%s' en la línea de comando %s: %s"
+"valor numérico de configuración incorrecto '%s' para '%s' en la línea de comando %s: %s"
 
 #: config.c:895
 #, c-format
 msgid "bad numeric config value '%s' for '%s' in %s: %s"
-msgstr "valor númerico de configuración incorrecto '%s' para '%s' en %s: %s"
+msgstr "valor numérico de configuración incorrecto '%s' para '%s' en %s: %s"
 
 #: config.c:990
 #, c-format
