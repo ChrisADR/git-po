@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
-"POT-Creation-Date: 2019-02-15 10:09+0800\n"
-"PO-Revision-Date: 2019-02-16 15:19-0500\n"
+"POT-Creation-Date: 2018-12-02 10:55+0800\n"
+"PO-Revision-Date: 2019-03-22 21:18-0600\n"
 "Last-Translator: christopher.diaz.riv@gmail.com\n"
 "Language-Team: CodeLabora <codelabora@gmail.com>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: advice.c:101
 #, c-format
@@ -30,7 +30,7 @@ msgstr ""
 
 #: advice.c:156
 msgid "Committing is not possible because you have unmerged files."
-msgstr "No es posible realizar un commit porque tienes archivos sin fusionar."
+msgstr "No es posible cometer porque tienes archivos sin fusionar."
 
 #: advice.c:158
 msgid "Merging is not possible because you have unmerged files."
@@ -55,7 +55,7 @@ msgid ""
 "as appropriate to mark resolution and make a commit."
 msgstr ""
 "Corrígelos en el árbol de trabajo y entonces usa 'git add/rm <archivo>',\n"
-"como sea apropiado, para marcar la resolución y realizar un commit."
+"como sea apropiado, para marcar la resolución y cometer."
 
 #: advice.c:180
 msgid "Exiting because of an unresolved conflict."
@@ -67,7 +67,7 @@ msgstr "No has concluido tu fusión (MERGE_HEAD existe)."
 
 #: advice.c:187
 msgid "Please, commit your changes before merging."
-msgstr "Por favor, realiza un commit antes de fusionar."
+msgstr "Por favor, comete tus cambios antes de fusionar."
 
 #: advice.c:188
 msgid "Exiting because of unfinished merge."
@@ -91,11 +91,11 @@ msgstr ""
 "Nota: actualizando el árbol de trabajo '%s'.\n"
 "\n"
 "Te encuentras en estado 'detached HEAD'. Puedes revisar por aquí, hacer\n"
-"cambios experimentales y confirmarlos, y puedes descartar cualquier\n"
-"commit que hayas hecho en este estado sin impactar a tu rama realizando\n"
+"cambios experimentales y cometerlos, y puedes descartar cualquier\n"
+"cometido que hayas hecho en este estado sin impactar a tu rama realizando\n"
 "otro checkout.\n"
 "\n"
-"Si quieres crear una nueva rama para mantener los commits que has creado,\n"
+"Si quieres crear una nueva rama para mantener los cometidos que has creado,\n"
 "puedes hacerlo (ahora o después) usando -b con el comando checkout. "
 "Ejemplo:\n"
 "\n"
@@ -976,7 +976,7 @@ msgstr "¡No podemos biseccionar más!\n"
 #: bisect.c:733
 #, c-format
 msgid "Not a valid commit name %s"
-msgstr "No es un nombre de commit valido %s"
+msgstr "No es un nombre de cometido valido %s"
 
 #: bisect.c:758
 #, c-format
@@ -1003,7 +1003,7 @@ msgid ""
 "This means the first '%s' commit is between %s and [%s].\n"
 msgstr ""
 "La base de fisión %s es %s.\n"
-"Esto quiere decir que el primer '%s' commit está entre %s y [%s].\n"
+"Esto quiere decir que el primer cometido '%s' está entre %s y [%s].\n"
 
 #: bisect.c:776
 #, c-format
@@ -1024,7 +1024,8 @@ msgid ""
 "We continue anyway."
 msgstr ""
 "la base de fusión entre %s y [%s] tiene que ser saltada.\n"
-"Así que no podemos estar seguros que el primer %s commit está entre%s y %s.\n"
+"Así que no podemos estar seguros que el primer cometido %s está entre %s y "
+"%s.\n"
 "Vamos a continuar de todas maneras."
 
 #: bisect.c:822
@@ -1062,7 +1063,7 @@ msgid ""
 "No testable commit found.\n"
 "Maybe you started with bad path parameters?\n"
 msgstr ""
-"No se encontró commit que se pueda probar.\n"
+"No se encontró cometido que se pueda probar.\n"
 "¿Quizás iniciaste con parámetros de rutas incorrectos?\n"
 
 #: bisect.c:1013
@@ -1088,12 +1089,12 @@ msgstr "--contents y --reverse no se mezclan bien."
 
 #: blame.c:1806
 msgid "cannot use --contents with final commit object name"
-msgstr "no se puede usar --contents con el nombre de objeto commit final"
+msgstr "no se puede usar --contents con el nombre de objeto de cometido final"
 
 #: blame.c:1827
 msgid "--reverse and --first-parent together require specified latest commit"
 msgstr ""
-"--reverse y --first-parent juntos requieren especificar el último commit"
+"--reverse y --first-parent juntos requieren especificar el último cometido"
 
 #: blame.c:1836 bundle.c:164 ref-filter.c:2071 remote.c:1948 sequencer.c:1993
 #: sequencer.c:4064 builtin/commit.c:1004 builtin/log.c:378 builtin/log.c:936
@@ -1287,7 +1288,7 @@ msgstr "no se pudo abrir '%s'"
 
 #: bundle.c:143
 msgid "Repository lacks these prerequisite commits:"
-msgstr "Al repositorio le falta estos commits prerrequisito:"
+msgstr "Al repositorio le faltan estos cometidos prerrequisitos:"
 
 #: bundle.c:194
 #, c-format
@@ -1361,7 +1362,7 @@ msgstr "no se puede analizar %s"
 #: commit.c:52
 #, c-format
 msgid "%s %s is not a commit!"
-msgstr "%s %s no es un commit!"
+msgstr "¡%s %s no es un cometido!"
 
 #: commit.c:193
 msgid ""
@@ -1409,7 +1410,7 @@ msgid ""
 "You may want to amend it after fixing the message, or set the config\n"
 "variable i18n.commitencoding to the encoding your project uses.\n"
 msgstr ""
-"Peligro: el mensaje del commit no se ajusta a UTF-8.\n"
+"Peligro: el mensaje del cometido no se ajusta a UTF-8.\n"
 "Tal vez quiera enmendarlo después de arreglar el mensaje, o arreglar la\n"
 "variable de configuración i18n.commitencoding para la codificación que usa "
 "su proyecto.\n"
@@ -1451,7 +1452,7 @@ msgstr "id de chunk %08x parece tener múltiples tiempos"
 #: commit-graph.c:334
 #, c-format
 msgid "could not find commit %s"
-msgstr "no se pudo encontrar commit %s"
+msgstr "no se pudo encontrar cometido %s"
 
 #: commit-graph.c:671 builtin/pack-objects.c:2646
 #, c-format
@@ -1460,26 +1461,26 @@ msgstr "incapaz de obtener el tipo de objeto: %s"
 
 #: commit-graph.c:704
 msgid "Loading known commits in commit graph"
-msgstr "Cargando commits conocidos en commit graph"
+msgstr "Cargando cometidos conocidos en graph de cometidos"
 
 #: commit-graph.c:720
 msgid "Expanding reachable commits in commit graph"
-msgstr "Expandiendo commits alcanzables en commit graph"
+msgstr "Expandiendo cometidos alcanzables en graph de cometidos"
 
 #: commit-graph.c:732
 msgid "Clearing commit marks in commit graph"
-msgstr "Limpiando marcas de commits en commit graph"
+msgstr "Limpiando marcas de cometidos en graph de cometidos"
 
 #: commit-graph.c:752
 msgid "Computing commit graph generation numbers"
-msgstr "Calculando números de generación de commit graph"
+msgstr "Calculando números de generación de graph de cometidos"
 
 #: commit-graph.c:869
 #, c-format
 msgid "Finding commits for commit graph in %d pack"
 msgid_plural "Finding commits for commit graph in %d packs"
-msgstr[0] "Encontrando commits para commit graph en %d pack"
-msgstr[1] "Encontrando commits para commit graph en %d packs"
+msgstr[0] "Encontrando cometidos para graph de cometidos en %d pack"
+msgstr[1] "Encontrando cometidos para graph de cometidos en %d packs"
 
 #: commit-graph.c:882
 #, c-format
@@ -1509,7 +1510,7 @@ msgstr "Contando commits distintos en commit graph"
 #: commit-graph.c:956
 #, c-format
 msgid "the commit graph format cannot write %d commits"
-msgstr "el formato de gráficos de commit no pudede escribir %d commits"
+msgstr "el formato de graph de cometidos no puede escribir %d cometidos"
 
 #: commit-graph.c:965
 msgid "Finding extra edges in commit graph"
@@ -1517,7 +1518,7 @@ msgstr "Encontrando esquinas extra en commit graph"
 
 #: commit-graph.c:989
 msgid "too many commits to write graph"
-msgstr "demasiados commits para escribir el gráfico"
+msgstr "demasiados cometidos para escribir el graph"
 
 #: commit-graph.c:996 midx.c:769
 #, c-format
@@ -1539,7 +1540,7 @@ msgstr ""
 
 #: commit-graph.c:1153
 msgid "Verifying commits in commit graph"
-msgstr "Verificando commits en commit graph"
+msgstr "Verificando cometidos en graph de cometidos"
 
 #: compat/obstack.c:406 compat/obstack.c:408
 msgid "memory exhausted"
@@ -2499,7 +2500,7 @@ msgstr "se obtuvo %s %d %s"
 #: fetch-pack.c:432
 #, c-format
 msgid "invalid commit %s"
-msgstr "commit inválido %s"
+msgstr "cometido inválido %s"
 
 #: fetch-pack.c:463
 msgid "giving up"
@@ -2605,7 +2606,7 @@ msgstr "El servidor no soporta --deepen"
 
 #: fetch-pack.c:984
 msgid "no common commits"
-msgstr "no hay commits comunes"
+msgstr "no hay cometidos en común"
 
 #: fetch-pack.c:996 fetch-pack.c:1419
 msgid "git fetch-pack: fetch failed."
@@ -2978,7 +2979,7 @@ msgstr "no es posible escribir el archivo índice"
 
 #: merge-recursive.c:332
 msgid "(bad commit)\n"
-msgstr "(commit erróneo)\n"
+msgstr "(cometido erróneo)\n"
 
 #: merge-recursive.c:355
 #, c-format
@@ -3046,17 +3047,17 @@ msgstr "Falló al fusionar el submódulo %s (no revisado)"
 #: merge-recursive.c:1218
 #, c-format
 msgid "Failed to merge submodule %s (commits not present)"
-msgstr "Falló al fusionar el submódulo %s (commits no presentes)"
+msgstr "Falló al fusionar el submódulo %s (cometidos no presentes)"
 
 #: merge-recursive.c:1225
 #, c-format
 msgid "Failed to merge submodule %s (commits don't follow merge-base)"
-msgstr "Falló el fusionar submódulo %s (commits no siguen la fusión base)"
+msgstr "Falló el fusionar submódulo %s (cometidos no siguen la fusión base)"
 
 #: merge-recursive.c:1233 merge-recursive.c:1245
 #, c-format
 msgid "Fast-forwarding submodule %s to the following commit:"
-msgstr "Haciendo fast-forward a submódulo %s para el siguiente commit:"
+msgstr "Haciendo fast-forward a submódulo %s para el siguiente cometido:"
 
 #: merge-recursive.c:1236 merge-recursive.c:1248
 #, c-format
@@ -3067,7 +3068,8 @@ msgstr "Avance rápido en submódulo %s"
 #, c-format
 msgid "Failed to merge submodule %s (merge following commits not found)"
 msgstr ""
-"Falló al fusionar submódulo %s (los siguentes commits no fueron encontrados)"
+"Falló al fusionar submódulo %s (los siguentes cometidos no fueron "
+"encontrados)"
 
 #: merge-recursive.c:1275
 #, c-format
@@ -3369,7 +3371,7 @@ msgstr[1] "se encontraron %u ancestros comunes:"
 
 #: merge-recursive.c:3588
 msgid "merge returned no commit"
-msgstr "la fusión no devolvió ningún commit"
+msgstr "la fusión no devolvió ningún cometido"
 
 #: merge-recursive.c:3654
 #, c-format
@@ -3519,8 +3521,8 @@ msgid ""
 msgstr ""
 "No has concluido tus notas previas de fusión (%s existe).\n"
 "Por favor, usa 'git notes merge --commit' o 'git notes merge --abort' para "
-"confirmar/abortar la fusión previa antes de que puedas comenzar una nueva "
-"nota de fusión."
+"cometer/abortar la fusión previa antes de que puedas comenzar una nueva nota "
+"de fusión."
 
 #: notes-merge.c:284
 #, c-format
@@ -3530,8 +3532,7 @@ msgstr "No has terminado tus notas de fusión (%s existe)."
 #: notes-utils.c:46
 msgid "Cannot commit uninitialized/unreferenced notes tree"
 msgstr ""
-"No se puede realizar commit, notas del árbol no inicializadas o no "
-"referenciadas"
+"No se puede cometer, notas del árbol no inicializadas o no referenciadas"
 
 #: notes-utils.c:105
 #, c-format
@@ -3846,7 +3847,7 @@ msgstr "no se pudo leer output de `log`"
 #: range-diff.c:74 sequencer.c:4828
 #, c-format
 msgid "could not parse commit '%s'"
-msgstr "no se pudo analizar commit '%s'"
+msgstr "no se pudo analizar cometido '%s'"
 
 #: range-diff.c:224
 msgid "failed to generate diff"
@@ -4074,21 +4075,22 @@ msgid ""
 msgstr ""
 "\n"
 "Comandos:\n"
-"p, pick <commit> = usar commit\n"
-"r, reword <commit> = usar commit, pero editar el mensaje de commit\n"
-"e, edit <commit> = usar commit, pero parar para un amend\n"
-"s, squash <commit> = usar commit, pero fusionarlo en el commit previo\n"
-"f, fixup <commit> = como \"squash\", pero descarta el mensaje del log de "
-"este commit\n"
-"x, exec <commit> = ejecuta comando ( el resto de la línea) usando un shell\n"
+"p, pick <cometido> = usar cometido\n"
+"r, reword <cometido> = usar cometido, pero editar el mensaje de cometido\n"
+"e, edit <cometido> = usar cometido, pero parar para una enmendadura\n"
+"s, squash <cometido> = usar cometido, pero fusionarlo en el cometido previo\n"
+"f, fixup <cometido> = como \"squash\", pero descarta el mensaje del log de "
+"este cometido\n"
+"x, exec <cometido> = ejecuta comando (el resto de la línea) usando un shell\n"
 "b, break = parar aquí (continuar rebase luego con 'git rebase --continue')\n"
-"d, drop <commit> = eliminar commit\n"
+"d, drop <cometido> = eliminar cometido\n"
 "l, label <label> = poner label al HEAD actual con un nombre\n"
 "t, reset <label> = reiniciar HEAD a el label\n"
-"m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]\n"
-".       crea un commit de fusión usando el mensaje original de\n"
+"m, merge [-C <cometido> | -c <cometido>] <label> [# <oneline>]\n"
+".       crea un cometido de fusión usando el mensaje original de\n"
 ".       fusión (o la línea de oneline, si no se especifica un mensaje\n"
-".       de commit). Use -c <commit> para reescribir el mensaje del commit.\n"
+".       de cometido). Use -c <cometido> para reescribir el mensaje del "
+"cometido.\n"
 "\n"
 "Estas líneas pueden ser reordenadas; son ejecutadas desde arriba hacia "
 "abajo.\n"
@@ -4099,7 +4101,8 @@ msgid ""
 "Do not remove any line. Use 'drop' explicitly to remove a commit.\n"
 msgstr ""
 "\n"
-"No eliminar ninguna línea. Usa 'drop' explícitamente para borrar un commit \n"
+"No eliminar ninguna línea. Usa 'drop' explícitamente para eliminar un "
+"cometido.\n"
 
 #: rebase-interactive.c:34 git-rebase--preserve-merges.sh:177
 msgid ""
@@ -4135,7 +4138,7 @@ msgstr ""
 
 #: rebase-interactive.c:51 git-rebase--preserve-merges.sh:900
 msgid "Note that empty commits are commented out"
-msgstr "Tenga en cuenta que los commits vacíos están comentados"
+msgstr "Tenga en cuenta que los cometidos vacíos están comentados"
 
 #: rebase-interactive.c:62 rebase-interactive.c:75 sequencer.c:2219
 #: sequencer.c:4569 sequencer.c:4625 sequencer.c:4900
@@ -4737,7 +4740,7 @@ msgstr "Tu rama está actualizada con '%s'.\n"
 #: remote.c:2001
 #, c-format
 msgid "Your branch and '%s' refer to different commits.\n"
-msgstr "Tu rama y '%s' refieren a commits diferentes.\n"
+msgstr "Tu rama y '%s' refieren a cometidos diferentes.\n"
 
 #: remote.c:2004
 #, c-format
@@ -4748,12 +4751,12 @@ msgstr "  (usa \"%s\" para detalles)\n"
 #, c-format
 msgid "Your branch is ahead of '%s' by %d commit.\n"
 msgid_plural "Your branch is ahead of '%s' by %d commits.\n"
-msgstr[0] "Tu rama está adelantada a '%s' por %d commit.\n"
-msgstr[1] "Tu rama está adelantada a '%s' por %d commits.\n"
+msgstr[0] "Tu rama está adelantada a '%s' por %d cometido.\n"
+msgstr[1] "Tu rama está adelantada a '%s' por %d cometidos.\n"
 
 #: remote.c:2014
 msgid "  (use \"git push\" to publish your local commits)\n"
-msgstr "  (usa \"git push\" para publicar tus commits locales)\n"
+msgstr "  (usa \"git push\" para publicar tus cometidos locales)\n"
 
 #: remote.c:2017
 #, c-format
@@ -4761,9 +4764,9 @@ msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
 msgid_plural ""
 "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] ""
-"Tu rama está detrás de '%s' por %d commit, y puede ser avanzada rápido.\n"
+"Tu rama está detrás de '%s' por %d cometido, y puede ser avanzada rápido.\n"
 msgstr[1] ""
-"Tu rama está detrás de '%s' por %d commits, y puede ser avanzada rápido.\n"
+"Tu rama está detrás de '%s' por %d cometidos, y puede ser avanzada rápido.\n"
 
 #: remote.c:2025
 msgid "  (use \"git pull\" to update your local branch)\n"
@@ -4779,10 +4782,10 @@ msgid_plural ""
 "and have %d and %d different commits each, respectively.\n"
 msgstr[0] ""
 "Tu rama y '%s' han divergido,\n"
-"y se tiene %d y %d commit diferentes en cada una respectivamente.\n"
+"y tienen %d y %d cometidos diferentes en cada una respectivamente.\n"
 msgstr[1] ""
 "Tu rama y '%s' han divergido,\n"
-"y tienen %d y %d commits diferentes cada una respectivamente.\n"
+"y tienen %d y %d cometidos diferentes cada una respectivamente.\n"
 
 #: remote.c:2038
 msgid "  (use \"git pull\" to merge the remote branch into yours)\n"
@@ -4914,7 +4917,7 @@ msgstr "tu rama actual parece estar rota"
 #: revision.c:2487
 #, c-format
 msgid "your current branch '%s' does not have any commits yet"
-msgstr "tu rama actual '%s' no tiene ningún commit todavía"
+msgstr "tu rama actual '%s' no tiene ningún cometido todavía"
 
 #: revision.c:2684
 msgid "--first-parent is incompatible with --bisect"
@@ -4981,7 +4984,7 @@ msgstr "el destino no soporta opciones de push"
 #: sequencer.c:184
 #, c-format
 msgid "invalid commit message cleanup mode '%s'"
-msgstr "mensaje de commit inválido, modo cleanup '%s'"
+msgstr "mensaje de cometido inválido, modo cleanup '%s'"
 
 #: sequencer.c:288
 #, c-format
@@ -5021,7 +5024,7 @@ msgid ""
 msgstr ""
 "tras resolver los conflictos, marca las rutas corregidas\n"
 "con 'git add <rutas>' o 'git rm <rutas>'\n"
-"y haz un commit del resultado con 'git commit'"
+"y comete el resultado con 'git commit'"
 
 #: sequencer.c:394 sequencer.c:2671
 #, c-format
@@ -5053,7 +5056,7 @@ msgstr "tus cambios locales serán sobreescritos por %s."
 
 #: sequencer.c:459
 msgid "commit your changes or stash them to proceed."
-msgstr "realiza un commit con tus cambios o aplica un stash para proceder."
+msgstr "comete tus cambios o haz un stash para proceder."
 
 #: sequencer.c:491
 #, c-format
@@ -5074,7 +5077,7 @@ msgstr "no es posible actualizar el árbol de la caché"
 
 #: sequencer.c:612
 msgid "could not resolve HEAD commit"
-msgstr "no se pudo resolver el commit de HEAD"
+msgstr "no se pudo resolver el cometido de HEAD"
 
 #: sequencer.c:692
 #, c-format
@@ -5143,12 +5146,12 @@ msgid ""
 "  git rebase --continue\n"
 msgstr ""
 "se ha aplicado un stage a los cambios en el árbol de trabajo\n"
-"si estos cambios están destinados a ser aplastados en el commit previo, "
+"si estos cambios están destinados a ser aplastados en el cometido previo, "
 "ejecuta:\n"
 "\n"
 "  git commit --amend %s\n"
 "\n"
-"Si estos cambios están destinados a un nuevo commit, ejecuta:\n"
+"Si estos cambios están destinados a un nuevo cometido, ejecuta:\n"
 "\n"
 "  git commit %s\n"
 "\n"
@@ -5158,7 +5161,7 @@ msgstr ""
 
 #: sequencer.c:945
 msgid "writing root commit"
-msgstr "escribiendo commit raíz"
+msgstr "escribiendo cometido raíz"
 
 #: sequencer.c:1155
 msgid "'prepare-commit-msg' hook failed"
@@ -5187,7 +5190,7 @@ msgstr ""
 "\n"
 "    git config --global --edit\n"
 "\n"
-"Tras hacer esto, puedes arreglar la identidad usada para este commit con:\n"
+"Tras hacer esto, puedes arreglar la identidad usada para este cometido con:\n"
 "\n"
 "    git commit --amend --reset-author\n"
 
@@ -5211,21 +5214,21 @@ msgstr ""
 "    git config --global user.name \"Tu nombre\"\n"
 "    git config --global user.email you@example.com\n"
 "\n"
-"Tras hacer esto, puedes arreglar tu identidad para este commit con:\n"
+"Tras hacer esto, puedes arreglar la identidad usada para este cometido con:\n"
 "\n"
 "    git commit --amend --reset-author\n"
 
 #: sequencer.c:1217
 msgid "couldn't look up newly created commit"
-msgstr "no se pudo revisar el commit recién creado"
+msgstr "no se pudo revisar el cometido recién creado"
 
 #: sequencer.c:1219
 msgid "could not parse newly created commit"
-msgstr "no se pudo analizar el commit recién creado"
+msgstr "no se pudo analizar el cometido recién creado"
 
 #: sequencer.c:1265
 msgid "unable to resolve HEAD after creating commit"
-msgstr "no se pudo resolver HEAD tras crear el commit"
+msgstr "no se pudo resolver HEAD tras crear el cometido"
 
 #: sequencer.c:1267
 msgid "detached HEAD"
@@ -5233,7 +5236,7 @@ msgstr "HEAD desacoplado"
 
 #: sequencer.c:1271
 msgid " (root-commit)"
-msgstr " (commit-raíz)"
+msgstr " (cometido raíz)"
 
 #: sequencer.c:1292
 msgid "could not parse HEAD"
@@ -5242,15 +5245,15 @@ msgstr "no se pudo analizar HEAD"
 #: sequencer.c:1294
 #, c-format
 msgid "HEAD %s is not a commit!"
-msgstr "HEAD %s no es un commit!"
+msgstr "¡HEAD %s no es un cometido!"
 
 #: sequencer.c:1298 builtin/commit.c:1546
 msgid "could not parse HEAD commit"
-msgstr "no se pudo analizar el commit de HEAD"
+msgstr "no se pudo analizar el cometido de HEAD"
 
 #: sequencer.c:1350 sequencer.c:1964
 msgid "unable to parse commit author"
-msgstr "no es posible analizar el autor del commit"
+msgstr "no es posible analizar el autor del cometido"
 
 #: sequencer.c:1360 builtin/am.c:1570 builtin/merge.c:678
 msgid "git write-tree failed to write a tree"
@@ -5259,22 +5262,22 @@ msgstr "git write-tree falló al escribir el árbol"
 #: sequencer.c:1377 sequencer.c:1433
 #, c-format
 msgid "unable to read commit message from '%s'"
-msgstr "no se puede leer el mensaje del commit de '%s'"
+msgstr "no se puede leer el mensaje del cometido de '%s'"
 
 #: sequencer.c:1399 builtin/am.c:1591 builtin/commit.c:1649 builtin/merge.c:859
 #: builtin/merge.c:884
 msgid "failed to write commit object"
-msgstr "falló al escribir el objeto commit"
+msgstr "falló al escribir el objeto de cometido"
 
 #: sequencer.c:1460
 #, c-format
 msgid "could not parse commit %s"
-msgstr "no se pudo analizar commit %s"
+msgstr "no se pudo analizar cometido %s"
 
 #: sequencer.c:1465
 #, c-format
 msgid "could not parse parent commit %s"
-msgstr "no se pudo analizar el commit padre %s"
+msgstr "no se pudo analizar el cometido padre %s"
 
 #: sequencer.c:1565 sequencer.c:1675
 #, c-format
@@ -5284,7 +5287,7 @@ msgstr "comando desconocido: %d"
 #: sequencer.c:1622 sequencer.c:1647
 #, c-format
 msgid "This is a combination of %d commits."
-msgstr "Esta es una combinación de %d commits."
+msgstr "Esta es una combinación de %d cometidos."
 
 #: sequencer.c:1632 sequencer.c:4808
 msgid "need a HEAD to fixup"
@@ -5296,7 +5299,7 @@ msgstr "no se pudo leer HEAD"
 
 #: sequencer.c:1636
 msgid "could not read HEAD's commit message"
-msgstr "no se pudo leer el mensaje de commit de HEAD"
+msgstr "no se pudo leer el mensaje de cometido de HEAD"
 
 #: sequencer.c:1642
 #, c-format
@@ -5305,22 +5308,22 @@ msgstr "no se puede escribir '%s'"
 
 #: sequencer.c:1649 git-rebase--preserve-merges.sh:441
 msgid "This is the 1st commit message:"
-msgstr "Este es el mensaje del 1er commit:"
+msgstr "Este es el mensaje del 1er cometido:"
 
 #: sequencer.c:1657
 #, c-format
 msgid "could not read commit message of %s"
-msgstr "no se puede leer el mensaje del commit de %s"
+msgstr "no se puede leer el mensaje del cometido de %s"
 
 #: sequencer.c:1664
 #, c-format
 msgid "This is the commit message #%d:"
-msgstr "Este es el mensaje del commit #%d:"
+msgstr "Este es el mensaje del cometido #%d:"
 
 #: sequencer.c:1670
 #, c-format
 msgid "The commit message #%d will be skipped:"
-msgstr "El mensaje del commit #%d será saltado:"
+msgstr "El mensaje del cometido #%d será saltado:"
 
 #: sequencer.c:1758
 msgid "your index file is unmerged."
@@ -5328,29 +5331,29 @@ msgstr "tu archivo índice no está fusionado."
 
 #: sequencer.c:1765
 msgid "cannot fixup root commit"
-msgstr "no se puede arreglar el commit raíz"
+msgstr "no se puede arreglar el cometido raíz"
 
 #: sequencer.c:1784
 #, c-format
 msgid "commit %s is a merge but no -m option was given."
-msgstr "el commit %s es una fusión pero no se proporcionó la opción -m."
+msgstr "el cometido %s es una fusión pero no se proporcionó la opción -m."
 
 #: sequencer.c:1792 sequencer.c:1800
 #, c-format
 msgid "commit %s does not have parent %d"
-msgstr "el commit %s no tiene un padre %d"
+msgstr "el cometido %s no tiene un padre %d"
 
 #: sequencer.c:1806
 #, c-format
 msgid "cannot get commit message for %s"
-msgstr "no se puede obtener el mensaje de commit para %s"
+msgstr "no se puede obtener el mensaje de cometido para %s"
 
 #. TRANSLATORS: The first %s will be a "todo" command like
 #. "revert" or "pick", the second %s a SHA1.
 #: sequencer.c:1825
 #, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr "%s: no se puede analizar el commit padre %s"
+msgstr "%s: no se puede analizar el cometido padre %s"
 
 #: sequencer.c:1890
 #, c-format
@@ -5395,7 +5398,7 @@ msgstr "línea inválida %d: %.*s"
 #: sequencer.c:2171
 #, c-format
 msgid "cannot '%s' without a previous commit"
-msgstr "no se puede  '%s' sin un commit previo"
+msgstr "no se puede '%s' sin un cometido previo"
 
 #: sequencer.c:2243
 msgid "please fix this using 'git rebase --edit-todo'."
@@ -5408,7 +5411,7 @@ msgstr "hoja de instrucciones inutilizable: '%s'"
 
 #: sequencer.c:2250
 msgid "no commits parsed."
-msgstr "ningún commit analizado."
+msgstr "ningún cometido analizado."
 
 #: sequencer.c:2261
 msgid "cannot cherry-pick during a revert."
@@ -5434,7 +5437,7 @@ msgstr "hoja de opciones mal formada: '%s'"
 
 #: sequencer.c:2518 sequencer.c:4067
 msgid "empty commit set passed"
-msgstr "conjunto de commits vacío entregado"
+msgstr "conjunto de cometidos vacío entregado"
 
 #: sequencer.c:2526
 msgid "a cherry-pick or revert is already in progress"
@@ -5513,7 +5516,7 @@ msgid ""
 "\n"
 "  git rebase --continue\n"
 msgstr ""
-"Puede enmendar el commit ahora, con\n"
+"Puede enmendar el cometido ahora, con\n"
 "\n"
 "\tgit commit --amend %s\n"
 "\n"
@@ -5572,7 +5575,7 @@ msgid ""
 msgstr ""
 "ejecución exitosa: %s\n"
 "pero todavía quedan cambios para el índice o árbol de trabajo.\n"
-"Realiza un commit o stash con tus cambios, y luego ejecuta\n"
+"Realiza un cometido o stash con tus cambios, y luego ejecuta\n"
 "\n"
 "  git rebase --continue\n"
 "\n"
@@ -5584,7 +5587,7 @@ msgstr "nombre de label ilegal: '%.*s'"
 
 #: sequencer.c:3002
 msgid "writing fake root commit"
-msgstr "escribiendo commit raíz falso"
+msgstr "escribiendo cometido raíz falso"
 
 #: sequencer.c:3007
 msgid "writing squash-onto"
@@ -5625,7 +5628,7 @@ msgstr "fusión octopus no puede ser ejecutada en la punta de un [nuevo root]"
 #: sequencer.c:3176
 #, c-format
 msgid "could not get commit message of '%s'"
-msgstr "no se puede leer el mensaje del commit '%s'"
+msgstr "no se puede leer el mensaje del cometido '%s'"
 
 #: sequencer.c:3325
 #, c-format
@@ -5732,7 +5735,7 @@ msgstr "no se puede realizar rebase: Tienes cambios fuera del área de stage."
 
 #: sequencer.c:3840
 msgid "cannot amend non-existing commit"
-msgstr "no se puede arreglar un commit no existente"
+msgstr "no se puede arreglar un cometido no existente"
 
 #: sequencer.c:3842
 #, c-format
@@ -5751,8 +5754,8 @@ msgid ""
 "first and then run 'git rebase --continue' again."
 msgstr ""
 "\n"
-"Tienes cambios fuera de un commit en tu árbol de trabajo. Por favor, realiza "
-"un commit con estos\n"
+"Tienes cambios fuera de un cometido en tu árbol de trabajo. Por favor, "
+"comételos\n"
 "primero y luego ejecuta 'git rebase --continue' de nuevo."
 
 #: sequencer.c:3883 sequencer.c:3921
@@ -5766,7 +5769,7 @@ msgstr "no se puede eliminar CHERRY_PICK_HEAD"
 
 #: sequencer.c:3943
 msgid "could not commit staged changes."
-msgstr "no se pudo realizar el commit con los cambios en el área de stage."
+msgstr "no se pudo realizar el cometido con los cambios en el área de stage."
 
 #: sequencer.c:4044
 #, c-format
@@ -5780,7 +5783,7 @@ msgstr "%s: revisión errónea"
 
 #: sequencer.c:4083
 msgid "can't revert as initial commit"
-msgstr "no se puede revertir como commit inicial"
+msgstr "no se puede revertir como cometido inicial"
 
 #: sequencer.c:4529
 msgid "make_script: unhandled options"
@@ -5808,7 +5811,7 @@ msgid ""
 "Warning: some commits may have been dropped accidentally.\n"
 "Dropped commits (newer to older):\n"
 msgstr ""
-"Peligro: algunos commits pueden haber sido botados de forma accidental.\n"
+"Peligro: algunos cometidos pueden haber sido botados de forma accidental.\n"
 "Commits botados (empezando con el mas nuevo):\n"
 
 #: sequencer.c:4761
@@ -5822,7 +5825,7 @@ msgid ""
 "\n"
 msgstr ""
 "Para evitar este mensaje, use \"drop\" para eliminar de forma explícita un "
-"commit.\n"
+"cometido.\n"
 "\n"
 "Use 'git config rebase.missingCommitsCheck' para cambiar el nivel de "
 "advertencias.\n"
@@ -6217,7 +6220,7 @@ msgstr "no se pudo leer el objeto para %s"
 
 #: sha1-file.c:1858
 msgid "corrupt commit"
-msgstr "commit corrupto"
+msgstr "cometido corrupto"
 
 #: sha1-file.c:1866
 msgid "corrupt tag"
@@ -6347,7 +6350,7 @@ msgstr "El patrón de ruta '%s' está en el submódulo '%.*s'"
 #: submodule.c:906
 #, c-format
 msgid "submodule entry '%s' (%s) is a %s, not a commit"
-msgstr "entrada de submódulo '%s' (%s) es un %s, no un commit"
+msgstr "entrada de submódulo '%s' (%s) es un %s, no un cometido"
 
 #: submodule.c:1143 builtin/branch.c:656 builtin/submodule--helper.c:1989
 msgid "Failed to resolve HEAD as a valid ref."
@@ -6787,7 +6790,7 @@ msgid ""
 msgstr ""
 "Los cambios locales de los siguientes archivos serán sobrescritos por "
 "checkout:\n"
-"%%sPor favor realiza un commit con los cambios o un stash antes de cambiar "
+"%%sPor favor realiza un cometido o un stash con tus cambios antes de cambiar "
 "ramas."
 
 #: unpack-trees.c:113
@@ -6808,7 +6811,8 @@ msgid ""
 msgstr ""
 "Los cambios locales de los siguientes archivos serán sobrescritos al "
 "fusionar:\n"
-"%%sPor favor, confirma tus cambios o aguárdalos antes de fusionar."
+"%%sPor favor, realiza un cometido o un stash con tus cambios antes de "
+"fusionar."
 
 #: unpack-trees.c:118
 #, c-format
@@ -6827,7 +6831,7 @@ msgid ""
 "%%sPlease commit your changes or stash them before you %s."
 msgstr ""
 "Los cambios locales de los siguientes archivos serán sobrescritos al %s:\n"
-"%%sPor favor, confirma tus cambios o guárdalos antes de %s."
+"%%sPor favor, realiza un cometido o un stash con tus cambios antes de %s."
 
 #: unpack-trees.c:123
 #, c-format
@@ -7144,7 +7148,7 @@ msgstr "Cambios a ser confirmados:"
 
 #: wt-status.c:221 wt-status.c:1055
 msgid "Changes not staged for commit:"
-msgstr "Cambios no rastreados para el commit:"
+msgstr "Cambios no rastreados para el cometido:"
 
 #: wt-status.c:225
 msgid "  (use \"git add <file>...\" to update what will be committed)"
@@ -7154,8 +7158,7 @@ msgstr ""
 #: wt-status.c:227
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
 msgstr ""
-"  (usa \"git add/rm <archivo>...\" para actualizar a lo que se le va a hacer "
-"commit)"
+"  (usa \"git add/rm <archivo>...\" para actualizar a lo que se va a cometer)"
 
 #: wt-status.c:228
 msgid ""
@@ -7238,7 +7241,7 @@ msgstr "des-fusionado:"
 
 #: wt-status.c:373
 msgid "new commits, "
-msgstr "nuevos commits, "
+msgstr "nuevos cometidos, "
 
 #: wt-status.c:375
 msgid "modified content, "
@@ -7261,7 +7264,7 @@ msgstr "Submodulos cambiados pero no actualizados:"
 
 #: wt-status.c:918
 msgid "Submodule changes to be committed:"
-msgstr "Submodulos cambiados listos para realizar commit:"
+msgstr "Submodulos cambiados listos para cometer:"
 
 #: wt-status.c:1000
 msgid ""
@@ -7376,12 +7379,12 @@ msgstr "  (todos los conflictos corregidos: ejecuta \"git rebase --continue\")"
 msgid ""
 "You are currently splitting a commit while rebasing branch '%s' on '%s'."
 msgstr ""
-"Estás dividiendo un commit mientras aplicas un rebase de la rama '%s' en "
+"Estás dividiendo un cometido mientras aplicas un rebase de la rama '%s' en "
 "'%s'."
 
 #: wt-status.c:1346
 msgid "You are currently splitting a commit during a rebase."
-msgstr "Estás dividiendo un commit durante un rebase."
+msgstr "Estás dividiendo un cometido durante un rebase."
 
 #: wt-status.c:1349
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
@@ -7393,12 +7396,12 @@ msgstr ""
 #, c-format
 msgid "You are currently editing a commit while rebasing branch '%s' on '%s'."
 msgstr ""
-"Estás editando un commit mientras se aplica un rebase de la rama '%s' en "
+"Estás editando un cometido mientras se aplica un rebase de la rama '%s' en "
 "'%s'."
 
 #: wt-status.c:1358
 msgid "You are currently editing a commit during a rebase."
-msgstr "Estás editando un commit durante un rebase."
+msgstr "Estás editando un cometido durante un rebase."
 
 #: wt-status.c:1361
 msgid "  (use \"git commit --amend\" to amend the current commit)"
@@ -7414,7 +7417,7 @@ msgstr ""
 #: wt-status.c:1372
 #, c-format
 msgid "You are currently cherry-picking commit %s."
-msgstr "Estás realizando un cherry-picking en el commit %s."
+msgstr "Estás realizando un cherry-picking en el cometido %s."
 
 #: wt-status.c:1377
 msgid "  (fix conflicts and run \"git cherry-pick --continue\")"
@@ -7433,7 +7436,7 @@ msgstr ""
 #: wt-status.c:1390
 #, c-format
 msgid "You are currently reverting commit %s."
-msgstr "Estás revirtiendo el commit %s."
+msgstr "Estás revirtiendo el cometido %s."
 
 #: wt-status.c:1395
 msgid "  (fix conflicts and run \"git revert --continue\")"
@@ -7490,7 +7493,7 @@ msgstr "Confirmación inicial"
 
 #: wt-status.c:1654
 msgid "No commits yet"
-msgstr "No hay commits todavía"
+msgstr "No hay cometidos todavía"
 
 #: wt-status.c:1668
 msgid "Untracked files"
@@ -7528,12 +7531,12 @@ msgstr "Sin cambios"
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
 msgstr ""
-"sin cambios agregados al commit (usa \"git add\" y/o \"git commit -a\")\n"
+"sin cambios agregados al cometido (usa \"git add\" y/o \"git commit -a\")\n"
 
 #: wt-status.c:1696
 #, c-format
 msgid "no changes added to commit\n"
-msgstr "no se agregaron cambios al commit\n"
+msgstr "no se agregaron cambios para cometer\n"
 
 #: wt-status.c:1699
 #, c-format
@@ -7541,8 +7544,8 @@ msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to "
 "track)\n"
 msgstr ""
-"no hay nada agregado al commit pero hay archivos sin seguimiento presentes "
-"(usa \"git add\" para hacerles seguimiento)\n"
+"no hay nada agregado para cometer pero hay archivos sin seguimiento "
+"presentes (usa \"git add\" para hacerles seguimiento)\n"
 
 #: wt-status.c:1702
 #, c-format
@@ -7561,22 +7564,21 @@ msgstr ""
 #: wt-status.c:1708 wt-status.c:1713
 #, c-format
 msgid "nothing to commit\n"
-msgstr "nada para hacer commit\n"
+msgstr "nada para cometer\n"
 
 #: wt-status.c:1711
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
-msgstr ""
-"nada para hacer commit (usa -u para mostrar los archivos no rastreados)\n"
+msgstr "nada para cometer (usa -u para mostrar los archivos no rastreados)\n"
 
 #: wt-status.c:1715
 #, c-format
 msgid "nothing to commit, working tree clean\n"
-msgstr "nada para hacer commit, el árbol de trabajo está limpio\n"
+msgstr "nada para cometer, el árbol de trabajo está limpio\n"
 
 #: wt-status.c:1828
 msgid "No commits yet on "
-msgstr "No hay commits todavía en "
+msgstr "No hay cometidos todavía en "
 
 #: wt-status.c:1832
 msgid "HEAD (no branch)"
@@ -7602,12 +7604,14 @@ msgstr "no se puede %s: Tienes cambios sin marcar."
 
 #: wt-status.c:2392
 msgid "additionally, your index contains uncommitted changes."
-msgstr "adicionalmente, tu índice contiene cambios que no están en un commit."
+msgstr ""
+"adicionalmente, tu índice contiene cambios que no están en un cometido."
 
 #: wt-status.c:2394
 #, c-format
 msgid "cannot %s: Your index contains uncommitted changes."
-msgstr "no se puede %s: Tu índice contiene cambios que no están en un commit."
+msgstr ""
+"no se puede %s: Tu índice contiene cambios que no están en un cometido."
 
 #: builtin/add.c:25
 msgid "git add [<options>] [--] <pathspec>..."
@@ -7893,7 +7897,7 @@ msgstr "sangría no válida: %.*s"
 #: builtin/am.c:1297
 #, c-format
 msgid "unable to parse commit %s"
-msgstr "no es posible analizar el commit %s"
+msgstr "no es posible analizar el cometido %s"
 
 #: builtin/am.c:1493
 msgid "Repository lacks necessary blobs to fall back on 3-way merge."
@@ -7936,7 +7940,7 @@ msgstr "no se puede ser interactivo sin stdin conectado a un terminal."
 
 #: builtin/am.c:1649
 msgid "Commit Body is:"
-msgstr "Cuerpo de commit es:"
+msgstr "Cuerpo de cometido es:"
 
 #. TRANSLATORS: Make sure to include [y], [n], [e], [v] and [a]
 #. in your translation. The program will only accept English
@@ -8042,7 +8046,7 @@ msgstr "ser silencioso"
 
 #: builtin/am.c:2173
 msgid "add a Signed-off-by line to the commit message"
-msgstr "agregar una línea \"Firmado-por\" al mensaje del commit"
+msgstr "agregar una línea \"Signed-off-by\" al mensaje del cometido"
 
 #: builtin/am.c:2176
 msgid "recode into utf8 (default)"
@@ -8127,7 +8131,7 @@ msgstr "muestra el parche siendo aplicado."
 
 #: builtin/am.c:2243
 msgid "lie about committer date"
-msgstr "mentir sobre la fecha del committer"
+msgstr "mentir sobre la fecha del comitente"
 
 #: builtin/am.c:2245
 msgid "use current timestamp for author date"
@@ -8449,7 +8453,7 @@ msgstr "comenzar la sesión de bisect"
 
 #: builtin/bisect--helper.c:647
 msgid "update BISECT_HEAD instead of checking out the current commit"
-msgstr "actualiza BISECT_HEAD en lugar de revisar el commit actual"
+msgstr "actualiza BISECT_HEAD en lugar de revisar el cometido actual"
 
 #: builtin/bisect--helper.c:649
 msgid "no log for BISECT_WRITE"
@@ -8515,11 +8519,11 @@ msgstr "Mostrar las entradas blame como las encontramos, incrementalmente"
 
 #: builtin/blame.c:794
 msgid "Show blank SHA-1 for boundary commits (Default: off)"
-msgstr "Mostrar SHA-1 en blanco para commits extremos (Default: off)"
+msgstr "Mostrar SHA-1 en blanco para cometidos extremos (Default: off)"
 
 #: builtin/blame.c:795
 msgid "Do not treat root commits as boundaries (Default: off)"
-msgstr "No tratar commits raíces como extremos (Default: off)"
+msgstr "No tratar cometidos raíces como extremos (Default: off)"
 
 #: builtin/blame.c:796
 msgid "Show work cost statistics"
@@ -8547,7 +8551,7 @@ msgstr "Mostrar en un formato diseñado para consumo de máquina"
 
 #: builtin/blame.c:802
 msgid "Show porcelain format with per-line commit information"
-msgstr "Mostrar en formato porcelana con información de commit por línea"
+msgstr "Mostrar en formato porcelana con información de cometido por línea"
 
 #: builtin/blame.c:803
 msgid "Use the same output mode as git-annotate (Default: off)"
@@ -8559,7 +8563,7 @@ msgstr "Mostrar timestamp en formato raw (Default: off)"
 
 #: builtin/blame.c:805
 msgid "Show long commit SHA1 (Default: off)"
-msgstr "Mostrar SHA1 del commit en formato largo (Default: off)"
+msgstr "Mostrar SHA1 del cometido en formato largo (Default: off)"
 
 #: builtin/blame.c:806
 msgid "Suppress author name and timestamp (Default: off)"
@@ -8693,7 +8697,7 @@ msgstr ""
 #: builtin/branch.c:169
 #, c-format
 msgid "Couldn't look up commit object for '%s'"
-msgstr "No se pudo encontrar el objeto commit para '%s'"
+msgstr "No se pudo encontrar el objeto de cometido para '%s'"
 
 #: builtin/branch.c:173
 #, c-format
@@ -8714,7 +8718,7 @@ msgstr "no se puede usar-a con -d"
 
 #: builtin/branch.c:223
 msgid "Couldn't look up commit object for HEAD"
-msgstr "No se pudo revisar el objeto commit para HEAD"
+msgstr "No se pudo revisar el objeto de cometido para HEAD"
 
 #: builtin/branch.c:237
 #, c-format
@@ -8866,11 +8870,11 @@ msgstr "actuar en ramas de traqueo remoto"
 
 #: builtin/branch.c:607 builtin/branch.c:609
 msgid "print only branches that contain the commit"
-msgstr "mostrar solo ramas que contienen el commit"
+msgstr "mostrar solo ramas que contienen el cometido"
 
 #: builtin/branch.c:608 builtin/branch.c:610
 msgid "print only branches that don't contain the commit"
-msgstr "mostrar solo ramas que no contienen el commit"
+msgstr "mostrar solo ramas que no contienen el cometido"
 
 #: builtin/branch.c:613
 msgid "Specific git-branch actions:"
@@ -8984,7 +8988,7 @@ msgstr "no se puede editar la descripción de más de una rama"
 #: builtin/branch.c:737
 #, c-format
 msgid "No commit on branch '%s' yet."
-msgstr "Aún no hay commits en la rama '%s'."
+msgstr "Aún no hay cometidos en la rama '%s'."
 
 #: builtin/branch.c:740
 #, c-format
@@ -9418,12 +9422,12 @@ msgid_plural ""
 "\n"
 "%s\n"
 msgstr[0] ""
-"Peligro: está saliendo %d commit atrás, no está conectado\n"
+"Peligro: está saliendo %d cometido atrás, no está conectado\n"
 "a ninguna rama:\n"
 "\n"
 "%s\n"
 msgstr[1] ""
-"Peligro: está saliendo %d commits atrás, no está conectado\n"
+"Peligro: está saliendo %d cometidos atrás, no está conectado\n"
 "a ninguna rama:\n"
 "\n"
 "%s\n"
@@ -9509,7 +9513,7 @@ msgstr "'%s' no puede ser usado con '%s'"
 #: builtin/checkout.c:1248
 #, c-format
 msgid "Cannot switch branch to a non-commit '%s'"
-msgstr "No se puede cambiar rama a un '%s' sin commits"
+msgstr "No se puede cambiar rama a un '%s' sin cometidos"
 
 #: builtin/checkout.c:1281 builtin/checkout.c:1283 builtin/clone.c:120
 #: builtin/remote.c:169 builtin/remote.c:171 builtin/worktree.c:489
@@ -9531,7 +9535,7 @@ msgstr "crear un reflog para una nueva rama"
 
 #: builtin/checkout.c:1286 builtin/worktree.c:493
 msgid "detach HEAD at named commit"
-msgstr "desacoplar HEAD en el commit nombrado"
+msgstr "desacoplar HEAD en el cometido nombrado"
 
 #: builtin/checkout.c:1287
 msgid "set upstream info for new branch"
@@ -9610,7 +9614,7 @@ msgstr "especificación de ruta inválida"
 #: builtin/checkout.c:1411
 #, c-format
 msgid "'%s' is not a commit and a branch '%s' cannot be created from it"
-msgstr "'%s' no es un commit y una rama '%s' no puede ser creada desde este"
+msgstr "'%s' no es un cometido y una rama '%s' no puede ser creada desde este"
 
 #: builtin/checkout.c:1415
 #, c-format
@@ -10215,9 +10219,9 @@ msgid ""
 "it empty. You can repeat your command with --allow-empty, or you can\n"
 "remove the commit entirely with \"git reset HEAD^\".\n"
 msgstr ""
-"Has solicitado un amend en tu commit mas reciente, pero hacerlo lo \n"
-"vaciaría. Puedes repetir el comando con --alow-empty, o puedes eliminar\n"
-"el commit completamente con \"git reset HEAD^\".\n"
+"Has solicitado una enmendadura en tu cometido más reciente, pero hacerlo\n"
+"lo vaciaría. Puedes repetir el comando con --allow-empty, o puedes eliminar\n"
+"el cometido completamente con \"git reset HEAD^\".\n"
 
 #: builtin/commit.c:56
 msgid ""
@@ -10229,7 +10233,7 @@ msgid ""
 msgstr ""
 "El cherry-pick anterior ahora está vacío, posiblemente por un conflicto de "
 "resolución.\n"
-"Si desea realizar un commit de todas maneras, use:\n"
+"Si desea cometer de todas maneras, use:\n"
 "\n"
 "    git commit --allow-empty\n"
 "\n"
@@ -10247,12 +10251,12 @@ msgid ""
 "Then \"git cherry-pick --continue\" will resume cherry-picking\n"
 "the remaining commits.\n"
 msgstr ""
-"Si quiere saltar este commit, use:\n"
+"Si quiere saltar este cometido, use:\n"
 "\n"
 "    git reset\n"
 "\n"
 "Luego \"git cherry-pick --continue\" continuara el cherry-picking\n"
-"para los commits restantes.\n"
+"para los cometidos restantes.\n"
 
 #: builtin/commit.c:312
 msgid "failed to unpack HEAD tree object"
@@ -10280,11 +10284,11 @@ msgstr "no es posible escribir archivo new_index"
 
 #: builtin/commit.c:452
 msgid "cannot do a partial commit during a merge."
-msgstr "no se puede realizar un commit parcial durante una fusión."
+msgstr "no se puede realizar un cometido parcial durante una fusión."
 
 #: builtin/commit.c:454
 msgid "cannot do a partial commit during a cherry-pick."
-msgstr "no se puede realizar un commit parcial durante un cherry-pick."
+msgstr "no se puede realizar un cometido parcial durante un cherry-pick."
 
 #: builtin/commit.c:462
 msgid "cannot read the index"
@@ -10297,12 +10301,12 @@ msgstr "no es posible escribir el índice temporal"
 #: builtin/commit.c:579
 #, c-format
 msgid "commit '%s' lacks author header"
-msgstr "commit '%s' requiere cabecera de autor"
+msgstr "cometido '%s' requiere cabecera de autor"
 
 #: builtin/commit.c:581
 #, c-format
 msgid "commit '%s' has malformed author line"
-msgstr "el commit '%s' tiene una línea de autor mal formada"
+msgstr "el cometido '%s' tiene una línea de autor mal formada"
 
 #: builtin/commit.c:600
 msgid "malformed --author parameter"
@@ -10314,12 +10318,12 @@ msgid ""
 "in the current commit message"
 msgstr ""
 "no es posible seleccionar un carácter de comentario que no es usado\n"
-"en el mensaje de commit actual"
+"en el mensaje de cometido actual"
 
 #: builtin/commit.c:689 builtin/commit.c:722 builtin/commit.c:1052
 #, c-format
 msgid "could not lookup commit %s"
-msgstr "no se pudo revisar el commit %s"
+msgstr "no se pudo revisar el cometido %s"
 
 #: builtin/commit.c:701 builtin/shortlog.c:319
 #, c-format
@@ -10345,7 +10349,7 @@ msgstr "no se pudo leer MERGE_MSG"
 
 #: builtin/commit.c:795
 msgid "could not write commit template"
-msgstr "no se pudo escribir el template del commit"
+msgstr "no se pudo escribir el template del cometido"
 
 #: builtin/commit.c:813
 #, c-format
@@ -10357,7 +10361,7 @@ msgid ""
 "and try again.\n"
 msgstr ""
 "\n"
-"Parece que estás haciendo un commit con una fusión dentro.\n"
+"Parece que estás haciendo un cometido con una fusión dentro.\n"
 "Si esto no es correcto, por favor remueve el archivo\n"
 "\t%s\n"
 "y vuelve a intentar.\n"
@@ -10372,7 +10376,7 @@ msgid ""
 "and try again.\n"
 msgstr ""
 "\n"
-"Parece que puede estar haciendo un commit a un cherry-pick.\n"
+"Parece que puede estar haciendo un cometido a un cherry-pick.\n"
 "Si esto no es correcto, por favor elimine el archivo\n"
 "\t%s\n"
 "y vuelva a intentar.\n"
@@ -10383,9 +10387,9 @@ msgid ""
 "Please enter the commit message for your changes. Lines starting\n"
 "with '%c' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
-"Por favor ingrese el mensaje del commit para sus cambios. Las líneas que "
+"Por favor ingrese el mensaje del cometido para sus cambios. Las líneas que "
 "comiencen\n"
-"con '%c' serán ignoradas, y un mensaje vacío aborta el commit.\n"
+"con '%c' serán ignoradas, y un mensaje vacío aborta el cometido.\n"
 
 #: builtin/commit.c:839
 #, c-format
@@ -10394,10 +10398,10 @@ msgid ""
 "with '%c' will be kept; you may remove them yourself if you want to.\n"
 "An empty message aborts the commit.\n"
 msgstr ""
-"Por favor ingrese el mensaje del commit para sus cambios. Las líneas que "
+"Por favor ingrese el mensaje del cometido para sus cambios. Las líneas que "
 "comiencen\n"
 "con '%c' serán guardadas; puede eliminarlas usted mismo si desea.\n"
-"Un mensaje vacío aborta el commit.\n"
+"Un mensaje vacío aborta el cometido.\n"
 
 #: builtin/commit.c:856
 #, c-format
@@ -10582,15 +10586,15 @@ msgstr ""
 
 #: builtin/commit.c:1468
 msgid "suppress summary after successful commit"
-msgstr "suprime summary tras un commit exitoso"
+msgstr "suprime summary tras un cometido exitoso"
 
 #: builtin/commit.c:1469
 msgid "show diff in commit message template"
-msgstr "mostrar diff en el template del mensaje de commit"
+msgstr "mostrar diff en el template del mensaje de cometido"
 
 #: builtin/commit.c:1471
 msgid "Commit message options"
-msgstr "Opciones para el mensaje del commit"
+msgstr "Opciones para el mensaje del cometido"
 
 #: builtin/commit.c:1472 builtin/merge.c:264 builtin/tag.c:397
 msgid "read message from file"
@@ -10602,7 +10606,7 @@ msgstr "autor"
 
 #: builtin/commit.c:1473
 msgid "override author for commit"
-msgstr "sobrescribe el autor del commit"
+msgstr "sobrescribe el autor del cometido"
 
 #: builtin/commit.c:1474 builtin/gc.c:518
 msgid "date"
@@ -10610,7 +10614,7 @@ msgstr "fecha"
 
 #: builtin/commit.c:1474
 msgid "override date for commit"
-msgstr "sobrescribe la fecha del commit"
+msgstr "sobrescribe la fecha del cometido"
 
 #: builtin/commit.c:1475 builtin/merge.c:260 builtin/notes.c:409
 #: builtin/notes.c:575 builtin/tag.c:395
@@ -10619,7 +10623,7 @@ msgstr "mensaje"
 
 #: builtin/commit.c:1475
 msgid "commit message"
-msgstr "mensaje del commit"
+msgstr "mensaje del cometido"
 
 #: builtin/commit.c:1476 builtin/commit.c:1477 builtin/commit.c:1478
 #: builtin/commit.c:1479 parse-options.h:278 ref-filter.h:92
@@ -10628,26 +10632,26 @@ msgstr "confirmar"
 
 #: builtin/commit.c:1476
 msgid "reuse and edit message from specified commit"
-msgstr "reusar y editar el mensaje de un commit especifico"
+msgstr "reusar y editar el mensaje del cometido especificado"
 
 #: builtin/commit.c:1477
 msgid "reuse message from specified commit"
-msgstr "reusar el mensaje de un commit especifico"
+msgstr "reusar el mensaje del cometido especificado"
 
 #: builtin/commit.c:1478
 msgid "use autosquash formatted message to fixup specified commit"
 msgstr ""
-"usar mensaje de formato autosquash para arreglar el commit especificado"
+"usar mensaje de formato autosquash para arreglar el cometido especificado"
 
 #: builtin/commit.c:1479
 msgid "use autosquash formatted message to squash specified commit"
 msgstr ""
-"usar el mensaje de formato autosquash para realizar squash  al commit "
+"usar el mensaje de formato autosquash para realizar squash al cometido "
 "especificado"
 
 #: builtin/commit.c:1480
 msgid "the commit is authored by me now (used with -C/-c/--amend)"
-msgstr "el autor del commit soy yo ahora (usado con -C/-c/--amend)"
+msgstr "el autor del cometido soy yo ahora (usado con -C/-c/--amend)"
 
 #: builtin/commit.c:1481 builtin/log.c:1533 builtin/merge.c:277
 #: builtin/pull.c:156 builtin/revert.c:107
@@ -10660,7 +10664,7 @@ msgstr "usar archivo de template especificado"
 
 #: builtin/commit.c:1483
 msgid "force edit of commit"
-msgstr "forzar la edición del commit"
+msgstr "forzar la edición del cometido"
 
 #: builtin/commit.c:1484
 msgid "default"
@@ -10672,24 +10676,24 @@ msgstr "cómo quitar espacios y #comentarios de mensajes"
 
 #: builtin/commit.c:1485
 msgid "include status in commit message template"
-msgstr "incluir status en el template del mensaje de commit"
+msgstr "incluir status en el template del mensaje de cometido"
 
 #: builtin/commit.c:1487 builtin/merge.c:275 builtin/pull.c:186
 #: builtin/revert.c:115
 msgid "GPG sign commit"
-msgstr "Firmar commit con GPG"
+msgstr "Firmar cometido con GPG"
 
 #: builtin/commit.c:1490
 msgid "Commit contents options"
-msgstr "Opciones para el contenido del commit"
+msgstr "Opciones para el contenido del cometido"
 
 #: builtin/commit.c:1491
 msgid "commit all changed files"
-msgstr "confirmar todos los archivos cambiados"
+msgstr "cometer todos los archivos cambiados"
 
 #: builtin/commit.c:1492
 msgid "add specified files to index for commit"
-msgstr "agregar archivos específicos al índice para confirmar"
+msgstr "agregar archivos especificados al índice para cometer"
 
 #: builtin/commit.c:1493
 msgid "interactively add files"
@@ -10701,7 +10705,7 @@ msgstr "agregar cambios interactivamente"
 
 #: builtin/commit.c:1495
 msgid "commit only specified files"
-msgstr "sólo confirmar archivos específicos"
+msgstr "solo cometer archivos especificados"
 
 #: builtin/commit.c:1496
 msgid "bypass pre-commit and commit-msg hooks"
@@ -10709,11 +10713,11 @@ msgstr "evitar los capturadores (hooks) de pre-commit y commit-msg"
 
 #: builtin/commit.c:1497
 msgid "show what would be committed"
-msgstr "mostrar lo que sería incluido en el commit"
+msgstr "mostrar lo que sería incluido en el cometido"
 
 #: builtin/commit.c:1510
 msgid "amend previous commit"
-msgstr "enmendar commit previo"
+msgstr "enmendar cometido previo"
 
 #: builtin/commit.c:1511
 msgid "bypass post-rewrite hook"
@@ -10739,17 +10743,17 @@ msgstr "no se pudo leer MERGE_MODE"
 #: builtin/commit.c:1617
 #, c-format
 msgid "could not read commit message: %s"
-msgstr "no se pudo leer el mensaje de commit: %s"
+msgstr "no se pudo leer el mensaje de cometido: %s"
 
 #: builtin/commit.c:1628
 #, c-format
 msgid "Aborting commit due to empty commit message.\n"
-msgstr "Abortando commit debido que el mensaje está en blanco.\n"
+msgstr "Abortando cometido debido que el mensaje está en blanco.\n"
 
 #: builtin/commit.c:1633
 #, c-format
 msgid "Aborting commit; you did not edit the message.\n"
-msgstr "Abortando commit; no se ha editado el mensaje\n"
+msgstr "Abortando cometido; no se ha editado el mensaje\n"
 
 #: builtin/commit.c:1668
 msgid ""
@@ -10798,15 +10802,15 @@ msgstr "comenzar caminata en todas las refs"
 
 #: builtin/commit-graph.c:137
 msgid "scan pack-indexes listed by stdin for commits"
-msgstr "escanear paquete de índices por stdin por commits"
+msgstr "escanear paquete de índices por stdin por cometidos"
 
 #: builtin/commit-graph.c:139
 msgid "start walk at commits listed by stdin"
-msgstr "comenzar a caminar a los commits listados por stdin"
+msgstr "comenzar a caminar a los cometidos listados por stdin"
 
 #: builtin/commit-graph.c:141
 msgid "include all commits already in the commit-graph file"
-msgstr "inclye todos los commits que ya están en el archivo commit-graph"
+msgstr "incluye todos los cometidos que ya están en el archivo commit-graph"
 
 #: builtin/commit-graph.c:150
 msgid "use at most one of --reachable, --stdin-commits, or --stdin-packs"
@@ -11127,7 +11131,7 @@ msgstr "mostrar tamaños en formato legible para humano"
 
 #: builtin/describe.c:27
 msgid "git describe [<options>] [<commit-ish>...]"
-msgstr "git describe [<opciones>] [<commit-ish>...]"
+msgstr "git describe [<opciones>] [<commit-ismo>...]"
 
 #: builtin/describe.c:28
 msgid "git describe [<options>] --dirty"
@@ -11196,7 +11200,7 @@ msgstr ""
 #: builtin/describe.c:439
 #, c-format
 msgid "traversed %lu commits\n"
-msgstr "%lu commits cruzados\n"
+msgstr "%lu cometidos cruzados\n"
 
 #: builtin/describe.c:442
 #, c-format
@@ -11220,11 +11224,11 @@ msgstr "Nombre de objeto %s no válido"
 #: builtin/describe.c:521
 #, c-format
 msgid "%s is neither a commit nor blob"
-msgstr "%s no es un commit ni un blob"
+msgstr "%s no es un cometido ni un blob"
 
 #: builtin/describe.c:535
 msgid "find the tag that comes after the commit"
-msgstr "encontrar el tag que viene después del commit"
+msgstr "encontrar el tag que viene después del cometido"
 
 #: builtin/describe.c:536
 msgid "debug search strategy on stderr"
@@ -11264,7 +11268,7 @@ msgstr "no considerar tags que concuerden con <patrón>"
 
 #: builtin/describe.c:551 builtin/name-rev.c:424
 msgid "show abbreviated commit object as fallback"
-msgstr "mostrar el objeto commit abreviado como fallback"
+msgstr "mostrar el objeto de cometido abreviado como fallback"
 
 #: builtin/describe.c:552 builtin/describe.c:555
 msgid "mark"
@@ -11325,7 +11329,7 @@ msgstr "objeto no manejado '%s' entregado."
 
 #: builtin/difftool.c:31
 msgid "git difftool [<options>] [<commit> [<commit>]] [--] [<path>...]"
-msgstr "git difftool [<opciones>] [<commit> [<commit>]] [--] [<ruta>...]"
+msgstr "git difftool [<opciones>] [<cometido> [<cometido>]] [--] [<ruta>...]"
 
 #: builtin/difftool.c:261
 #, c-format
@@ -11452,7 +11456,7 @@ msgstr "Falsificar un tagger cuando les falta uno"
 
 #: builtin/fast-export.c:1098
 msgid "Output full tree for each commit"
-msgstr "Mostrar todo el árbol para cada commit"
+msgstr "Mostrar todo el árbol para cada cometido"
 
 #: builtin/fast-export.c:1100
 msgid "Use the done feature to terminate the stream"
@@ -11830,11 +11834,12 @@ msgstr "git for-each-ref [--points-at <objeto>]"
 
 #: builtin/for-each-ref.c:12
 msgid "git for-each-ref [(--merged | --no-merged) [<commit>]]"
-msgstr "git for-each-ref [(--merged | --no-merged) [<commit>]]"
+msgstr "git for-each-ref [(--merged | --no-merged) [<cometido>]]"
 
 #: builtin/for-each-ref.c:13
 msgid "git for-each-ref [--contains [<commit>]] [--no-contains [<commit>]]"
-msgstr "git for-each-ref [--contains [<commit>]] [--no-contains [<commit>]]"
+msgstr ""
+"git for-each-ref [--contains [<cometido>]] [--no-contains [<cometido>]]"
 
 #: builtin/for-each-ref.c:28
 msgid "quote placeholders suitably for shells"
@@ -11874,11 +11879,11 @@ msgstr "mostrar solo refs que no son fusionadas"
 
 #: builtin/for-each-ref.c:47
 msgid "print only refs which contain the commit"
-msgstr "mostrar solo refs que contienen el commit"
+msgstr "mostrar solo refs que contienen el cometido"
 
 #: builtin/for-each-ref.c:48
 msgid "print only refs which don't contain the commit"
-msgstr "mostrar solo refs que no contienen el commit"
+msgstr "mostrar solo refs que no contienen el cometido"
 
 #: builtin/fsck.c:88 builtin/fsck.c:160 builtin/fsck.c:161
 msgid "unknown"
@@ -13234,10 +13239,10 @@ msgid ""
 "please use git branch --set-upstream-to to track a remote branch.\n"
 "Or you could specify base commit by --base=<base-commit-id> manually."
 msgstr ""
-"Falló al conseguir upstream, si quiere grabar un commit base de manera "
+"Falló al conseguir upstream, si quiere grabar un cometido base de manera "
 "automática,\n"
 "por favor use git branch --set-upstream-to para rastrear una rama remota.\n"
-"O puede especificar un commit base mediante --base=<id-commit-base> "
+"O puede especificar un cometido base mediante --base=<id-de-cometido-base> "
 "manualmente."
 
 #: builtin/log.c:1363
@@ -13246,11 +13251,11 @@ msgstr "Falló al encontrar una base de fusión exacta"
 
 #: builtin/log.c:1374
 msgid "base commit should be the ancestor of revision list"
-msgstr "el commit base debe ser el ancestro de la lista de revisión"
+msgstr "el cometido base debe ser el ancestro de la lista de revisión"
 
 #: builtin/log.c:1378
 msgid "base commit shouldn't be in revision list"
-msgstr "el commit base no debe estar en la lista de revisión"
+msgstr "el cometido base no debe estar en la lista de revisión"
 
 #: builtin/log.c:1431
 msgid "cannot get patch id"
@@ -13323,7 +13328,7 @@ msgstr "salida como hash de todos-ceros en la cabecera From"
 
 #: builtin/log.c:1563
 msgid "don't include a patch matching a commit upstream"
-msgstr "no incluya un parche que coincida con un commit en upstream"
+msgstr "no incluya un parche que coincida con un cometido en upstream"
 
 #: builtin/log.c:1565
 msgid "show patch format instead of default (patch + stat)"
@@ -13360,7 +13365,7 @@ msgstr "ident"
 #: builtin/log.c:1575
 msgid "set From address to <ident> (or committer ident if absent)"
 msgstr ""
-"configurar dirección From a <ident> ( o identidad de committer si está "
+"configurar dirección From a <ident> (o identidad de comitente si está "
 "ausente)"
 
 #: builtin/log.c:1577
@@ -13397,7 +13402,7 @@ msgstr "agregar una firma"
 
 #: builtin/log.c:1591
 msgid "base-commit"
-msgstr "commit-base"
+msgstr "cometido base"
 
 #: builtin/log.c:1592
 msgid "add prerequisite tree info to the patch series"
@@ -13719,7 +13724,7 @@ msgstr "mbox vacío: '%s'"
 
 #: builtin/merge.c:53
 msgid "git merge [<options>] [<commit>...]"
-msgstr "git merge [<opciones>] [<commit>...]"
+msgstr "git merge [<opciones>] [<cometido>...]"
 
 #: builtin/merge.c:54
 msgid "git merge --abort"
@@ -13768,20 +13773,20 @@ msgstr "(sinónimo para --stat)"
 #: builtin/merge.c:241 builtin/pull.c:153
 msgid "add (at most <n>) entries from shortlog to merge commit message"
 msgstr ""
-"agregar (como máximo <n>) entradas del shortlog al mensaje del commit de "
+"agregar (como máximo <n>) entradas del shortlog al mensaje del cometido de "
 "fusión"
 
 #: builtin/merge.c:244 builtin/pull.c:159
 msgid "create a single commit instead of doing a merge"
-msgstr "crear un commit único en lugar de hacer una fusión"
+msgstr "crear un cometido único en lugar de hacer una fusión"
 
 #: builtin/merge.c:246 builtin/pull.c:162
 msgid "perform a commit if the merge succeeds (default)"
-msgstr "realizar un commit si la fusión es exitosa (default)"
+msgstr "realizar un cometido si la fusión es exitosa (default)"
 
 #: builtin/merge.c:248 builtin/pull.c:165
 msgid "edit message before committing"
-msgstr "editar mensaje antes de realizar commit"
+msgstr "editar mensaje antes de cometer"
 
 #: builtin/merge.c:249
 msgid "allow fast-forward (default)"
@@ -13793,7 +13798,7 @@ msgstr "abortar si fast-forward no es posible"
 
 #: builtin/merge.c:255 builtin/pull.c:174
 msgid "verify that the named commit has a valid GPG signature"
-msgstr "verificar que el commit nombrado tiene una firma GPG válida"
+msgstr "verificar que el cometido nombrado tiene una firma GPG válida"
 
 #: builtin/merge.c:256 builtin/notes.c:787 builtin/pull.c:178
 #: builtin/rebase.c:1124 builtin/rebase--interactive.c:188 builtin/revert.c:111
@@ -13814,7 +13819,7 @@ msgstr "opción para la estrategia de fusión seleccionada"
 
 #: builtin/merge.c:261
 msgid "merge commit message (for a non-fast-forward merge)"
-msgstr "fusionar mensaje de commit (para una fusión no fast-forward)"
+msgstr "fusionar mensaje de cometido (para una fusión no fast-forward)"
 
 #: builtin/merge.c:268
 msgid "abort the current in-progress merge"
@@ -13866,7 +13871,7 @@ msgstr "No hay mensaje de fusión -- no actualizando HEAD\n"
 #: builtin/merge.c:494
 #, c-format
 msgid "'%s' does not point to a commit"
-msgstr "'%s' no apunta a ningún commit"
+msgstr "'%s' no apunta a ningún cometido"
 
 #: builtin/merge.c:581
 #, c-format
@@ -13895,9 +13900,7 @@ msgstr "No se puedo leer de '%s'"
 #: builtin/merge.c:792
 #, c-format
 msgid "Not committing merge; use 'git commit' to complete the merge.\n"
-msgstr ""
-"No se realiza commit de la fusión; use 'git commit' para completar la "
-"fusión.\n"
+msgstr "No se comete la fusión; use 'git commit' para completar la fusión.\n"
 
 #: builtin/merge.c:798
 #, c-format
@@ -13908,17 +13911,17 @@ msgid ""
 "Lines starting with '%c' will be ignored, and an empty message aborts\n"
 "the commit.\n"
 msgstr ""
-"Por favor ingrese un mensaje de commit que explique por qué es necesaria "
+"Por favor ingrese un mensaje de cometido que explique por qué es necesaria "
 "esta fusión,\n"
 "especialmente si esto fusiona un upstream actualizado en una rama de "
 "tópico.\n"
 "\n"
 "Líneas comenzando con '%c' serán ignoradas, y un mensaje vacío aborta\n"
-"el commit.\n"
+"el cometido.\n"
 
 #: builtin/merge.c:834
 msgid "Empty commit message."
-msgstr "Mensaje de commit vacío."
+msgstr "Mensaje de cometido vacío."
 
 #: builtin/merge.c:853
 #, c-format
@@ -13929,8 +13932,8 @@ msgstr "Maravilloso.\n"
 #, c-format
 msgid "Automatic merge failed; fix conflicts and then commit the result.\n"
 msgstr ""
-"Fusión automática falló; arregle los conflictos y luego realice un commit "
-"con el resultado.\n"
+"Fusión automática falló; arregle los conflictos y luego cometa el "
+"resultado.\n"
 
 #: builtin/merge.c:945
 msgid "No current branch."
@@ -13985,7 +13988,7 @@ msgid ""
 "Please, commit your changes before you merge."
 msgstr ""
 "No ha concluido la fusión (existe MERGE_HEAD).\n"
-"Por favor, realice un commit con los cambios antes de fusionar."
+"Por favor, cometa los cambios antes de fusionar."
 
 #: builtin/merge.c:1294
 msgid ""
@@ -13993,7 +13996,7 @@ msgid ""
 "Please, commit your changes before you merge."
 msgstr ""
 "No ha concluido el cherry-pick (existe CHERRY_PICK_HEAD).\n"
-"Por favor, realice un commit con los cambios antes de fusionar."
+"Por favor, cometa los cambios antes de fusionar."
 
 #: builtin/merge.c:1297
 msgid "You have not concluded your cherry-pick (CHERRY_PICK_HEAD exists)."
@@ -14006,7 +14009,7 @@ msgstr "No se puede combinar --squash con --no-ff."
 #: builtin/merge.c:1314
 msgid "No commit specified and merge.defaultToUpstream not set."
 msgstr ""
-"No hay commit especificado y merge.defaultToUpstream no está configurado."
+"No hay cometido especificado y merge.defaultToUpstream no está configurado."
 
 #: builtin/merge.c:1331
 msgid "Squash commit into empty head not supported yet"
@@ -14023,7 +14026,7 @@ msgstr "%s - nada que podamos fusionar"
 
 #: builtin/merge.c:1340
 msgid "Can merge only exactly one commit into empty head"
-msgstr "Solo se puede fusionar exactamente un commit en un head vacío"
+msgstr "Solo se puede fusionar exactamente un cometido en un head vacío"
 
 #: builtin/merge.c:1422
 msgid "refusing to merge unrelated histories"
@@ -14085,27 +14088,27 @@ msgstr "Usando el %s para preparar resolución a mano.\n"
 #, c-format
 msgid "Automatic merge went well; stopped before committing as requested\n"
 msgstr ""
-"Fusión automática fue bien; detenida antes del commit como se solicitó\n"
+"Fusión automática fue bien; detenida antes de cometer como se solicitó\n"
 
 #: builtin/merge-base.c:32
 msgid "git merge-base [-a | --all] <commit> <commit>..."
-msgstr "git merge-base [-a | --all] <commit> <commit>..."
+msgstr "git merge-base [-a | --all] <cometido> <cometido>..."
 
 #: builtin/merge-base.c:33
 msgid "git merge-base [-a | --all] --octopus <commit>..."
-msgstr "git merge-base [-a | --all] --octopus <commit>..."
+msgstr "git merge-base [-a | --all] --octopus <cometido>..."
 
 #: builtin/merge-base.c:34
 msgid "git merge-base --independent <commit>..."
-msgstr "git merge-base --independent <commit>..."
+msgstr "git merge-base --independent <cometido>..."
 
 #: builtin/merge-base.c:35
 msgid "git merge-base --is-ancestor <commit> <commit>"
-msgstr "git merge-base --is-ancestor <commit> <commit>"
+msgstr "git merge-base --is-ancestor <cometido> <cometido>"
 
 #: builtin/merge-base.c:36
 msgid "git merge-base --fork-point <ref> [<commit>]"
-msgstr "git merge-base --fork-point <ref> [<commit>]"
+msgstr "git merge-base --fork-point <ref> [<cometido>]"
 
 #: builtin/merge-base.c:153
 msgid "output all common ancestors"
@@ -14125,7 +14128,7 @@ msgstr "es el primer ancestro del otro?"
 
 #: builtin/merge-base.c:161
 msgid "find where <commit> forked from reflog of <ref>"
-msgstr "encontrar donde <commit> forjó del reflog de <ref>"
+msgstr "encontrar donde <cometido> bifurcó del reflog de <ref>"
 
 #: builtin/merge-file.c:9
 msgid ""
@@ -14327,7 +14330,7 @@ msgstr "renombrando '%s' falló"
 
 #: builtin/name-rev.c:355
 msgid "git name-rev [<options>] <commit>..."
-msgstr "git name-rev [<opciones>] <commit>..."
+msgstr "git name-rev [<opciones>] <cometido>..."
 
 #: builtin/name-rev.c:356
 msgid "git name-rev [<options>] --all"
@@ -14343,7 +14346,7 @@ msgstr "imprimir sólo nombres (sin SHA-1)"
 
 #: builtin/name-rev.c:414
 msgid "only use tags to name the commits"
-msgstr "sólo usar tags para nombrar commits"
+msgstr "solo usar tags para nombrar cometidos"
 
 #: builtin/name-rev.c:416
 msgid "only use refs matching <pattern>"
@@ -14355,7 +14358,7 @@ msgstr "ignorar refs que concuerden con <patrón>"
 
 #: builtin/name-rev.c:420
 msgid "list all commits reachable from all refs"
-msgstr "listar todos los commits alcanzables desde todas las referencias"
+msgstr "listar todos los cometidos alcanzables desde todas las referencias"
 
 #: builtin/name-rev.c:421
 msgid "read from stdin"
@@ -14661,11 +14664,11 @@ msgstr "falló al leer ref NOTES_MERGE_PARTIAL"
 
 #: builtin/notes.c:724
 msgid "could not find commit from NOTES_MERGE_PARTIAL."
-msgstr "no se pudo encontrar commit de NOTES_MERGE_PARTIAL."
+msgstr "no se pudo encontrar cometido de NOTES_MERGE_PARTIAL."
 
 #: builtin/notes.c:726
 msgid "could not parse commit from NOTES_MERGE_PARTIAL."
-msgstr "no se pudo analizar commit de NOTES_MERGE_PARTIAL."
+msgstr "no se pudo analizar cometido de NOTES_MERGE_PARTIAL."
 
 #: builtin/notes.c:739
 msgid "failed to resolve NOTES_MERGE_REF"
@@ -14698,12 +14701,11 @@ msgstr ""
 
 #: builtin/notes.c:790
 msgid "Committing unmerged notes"
-msgstr "Realizando commit a las notas no fusionadas"
+msgstr "Cometiendo las notas no fusionadas"
 
 #: builtin/notes.c:792
 msgid "finalize notes merge by committing unmerged notes"
-msgstr ""
-"finalizar fusión de notas realizando un commit de las notas no fusionadas"
+msgstr "finalizar fusión de notas cometiendo las notas no fusionadas"
 
 #: builtin/notes.c:794
 msgid "Aborting notes merge resolution"
@@ -14744,7 +14746,7 @@ msgid ""
 "abort'.\n"
 msgstr ""
 "Fusión automática de notas falló. Arregle conflictos en %s y realice un "
-"commit con el resultado 'git notes merge --commit', o aborte la fusión con "
+"cometido con el resultado 'git notes merge --commit', o aborte la fusión con "
 "'git notes merge --abort'.\n"
 
 #: builtin/notes.c:900
@@ -15111,7 +15113,7 @@ msgstr "nivel de compresión del paquete"
 
 #: builtin/pack-objects.c:3308
 msgid "do not hide commits by grafts"
-msgstr "no ocultar commits por injertos"
+msgstr "no ocultar cometidos por injertos"
 
 #: builtin/pack-objects.c:3310
 msgid "use a bitmap index if available to speed up counting objects"
@@ -15343,7 +15345,7 @@ msgstr ""
 #: builtin/pull.c:566
 #, c-format
 msgid "unable to access commit %s"
-msgstr "no es posible acceder al commit %s"
+msgstr "no es posible acceder al cometido %s"
 
 #: builtin/pull.c:844
 msgid "ignoring --verify-signatures for rebase"
@@ -15363,7 +15365,7 @@ msgstr "pull con rebase"
 
 #: builtin/pull.c:905
 msgid "please commit or stash them."
-msgstr "por favor realiza un commit o un stash con ellos."
+msgstr "por favor realiza un cometido o un stash con ellos."
 
 #: builtin/pull.c:930
 #, c-format
@@ -15374,7 +15376,7 @@ msgid ""
 msgstr ""
 "fetch actualizó el head de la rama actual.\n"
 "realizando fast-forward al árbol de trabajo\n"
-"desde commit %s."
+"desde cometido %s."
 
 #: builtin/pull.c:936
 #, c-format
@@ -15729,7 +15731,7 @@ msgstr "argumento único de formato debe ser un rango simétrico"
 
 #: builtin/range-diff.c:90
 msgid "need two commit ranges"
-msgstr "se necesitan dos rangos de commits"
+msgstr "se necesitan dos rangos de cometidos"
 
 #: builtin/read-tree.c:41
 msgid ""
@@ -15952,7 +15954,7 @@ msgstr "no mostrar un diffstat de lo que cambió en upstream"
 
 #: builtin/rebase.c:1053
 msgid "add a Signed-off-by: line to each commit"
-msgstr "agregar una línea \"Firmado-por\" al mensaje de cada commit"
+msgstr "agregar una línea \"Signed-off-by\" al mensaje de cada cometido"
 
 #: builtin/rebase.c:1055 builtin/rebase.c:1059 builtin/rebase.c:1061
 msgid "passed to 'git am'"
@@ -15964,7 +15966,7 @@ msgstr "pasado a 'git-apply'"
 
 #: builtin/rebase.c:1067 builtin/rebase.c:1070
 msgid "cherry-pick all commits, even if unchanged"
-msgstr "cherry-pick todos los commits, incluso si no han cambiado"
+msgstr "cherry-pick todos los cometidos, incluso si no han cambiado"
 
 #: builtin/rebase.c:1072
 msgid "continue"
@@ -15996,7 +15998,7 @@ msgstr "usar estrategias de fusión para el rebase"
 
 #: builtin/rebase.c:1091
 msgid "let the user edit the list of commits to rebase"
-msgstr "permitir al usuario editar la lista de commits para rebasar"
+msgstr "permitir al usuario editar la lista de cometidos para rebasar"
 
 #: builtin/rebase.c:1095
 msgid "try to recreate merges instead of ignoring them"
@@ -16008,11 +16010,11 @@ msgstr "permitir rerere actualizar index con conflictos resueltos"
 
 #: builtin/rebase.c:1102
 msgid "preserve empty commits during rebase"
-msgstr "preservar commits vacíos durante el rebase"
+msgstr "preservar cometidos vacíos durante el rebase"
 
 #: builtin/rebase.c:1104
 msgid "move commits that begin with squash!/fixup! under -i"
-msgstr "mover commits que comienzan con squash!/fixup! bajo -i"
+msgstr "mover cometidos que comienzan con squash!/fixup! bajo -i"
 
 #: builtin/rebase.c:1110
 msgid "automatically stash/stash pop before and after"
@@ -16020,11 +16022,11 @@ msgstr "ejecutar automáticamente stash/stash pop antes y después"
 
 #: builtin/rebase.c:1112
 msgid "add exec lines after each commit of the editable list"
-msgstr "agregar líneas exec tras cada acommit de la lista editable"
+msgstr "agregar líneas exec tras cada cometido de la lista editable"
 
 #: builtin/rebase.c:1116
 msgid "allow rebasing commits with empty messages"
-msgstr "permitir rebase commits con mensajes vacíos"
+msgstr "permitir rebase de cometidos con mensajes vacíos"
 
 #: builtin/rebase.c:1119
 msgid "try to rebase merges instead of skipping them"
@@ -16048,7 +16050,7 @@ msgstr "pasar el argumento para la estrategia de fusión"
 
 #: builtin/rebase.c:1130
 msgid "rebase all reachable commits up to the root(s)"
-msgstr "hacer rebase a todos los commits alcanzables hasta la raíz(raíces)"
+msgstr "hacer rebase a todos los cometidos alcanzables hasta la raíz(raíces)"
 
 #: builtin/rebase.c:1133 builtin/rebase--interactive.c:198
 msgid "automatically re-schedule any `exec` that fails"
@@ -16163,7 +16165,7 @@ msgstr "upstream inválido '%s'"
 
 #: builtin/rebase.c:1508
 msgid "Could not create new root commit"
-msgstr "No se pudo crear commit raíz nuevo"
+msgstr "No se pudo crear cometido raíz nuevo"
 
 #: builtin/rebase.c:1526
 #, c-format
@@ -16173,12 +16175,12 @@ msgstr "'%s': necesita exactamente una base de fusión"
 #: builtin/rebase.c:1533
 #, c-format
 msgid "Does not point to a valid commit '%s'"
-msgstr "No apunta a un commit válido '%s'"
+msgstr "No apunta a un cometido válido '%s'"
 
 #: builtin/rebase.c:1558
 #, c-format
 msgid "fatal: no such branch/commit '%s'"
-msgstr "fatal: no existe la rama/commit: '%s'"
+msgstr "fatal: no existe la rama/cometido: '%s'"
 
 #: builtin/rebase.c:1566 builtin/submodule--helper.c:38
 #: builtin/submodule--helper.c:1934
@@ -16310,15 +16312,15 @@ msgstr "git rebase--interactive [<opciones>]"
 
 #: builtin/rebase--interactive.c:150
 msgid "keep empty commits"
-msgstr "mantener commits vacíos"
+msgstr "mantener cometidos vacíos"
 
 #: builtin/rebase--interactive.c:152 builtin/revert.c:125
 msgid "allow commits with empty messages"
-msgstr "permitir commits con mensajes vacíos"
+msgstr "permitir cometidos con mensajes vacíos"
 
 #: builtin/rebase--interactive.c:153
 msgid "rebase merge commits"
-msgstr "rebasando commits de fusión"
+msgstr "rebasando cometidos de fusión"
 
 #: builtin/rebase--interactive.c:155
 msgid "keep original branch points of cousins"
@@ -16326,11 +16328,11 @@ msgstr "mantener puntos originales de la rama de sus primos"
 
 #: builtin/rebase--interactive.c:157
 msgid "move commits that begin with squash!/fixup!"
-msgstr "mover commits que comienzan con squash!/fixup!"
+msgstr "mover cometidos que comienzan con squash!/fixup!"
 
 #: builtin/rebase--interactive.c:158
 msgid "sign commits"
-msgstr "firmar commits"
+msgstr "firmar cometidos"
 
 #: builtin/rebase--interactive.c:160
 msgid "continue rebase"
@@ -16338,7 +16340,7 @@ msgstr "continuar rebase"
 
 #: builtin/rebase--interactive.c:162
 msgid "skip commit"
-msgstr "saltar commit"
+msgstr "saltar cometido"
 
 #: builtin/rebase--interactive.c:163
 msgid "edit the todo list"
@@ -16350,11 +16352,11 @@ msgstr "mostrar el parche actual"
 
 #: builtin/rebase--interactive.c:168
 msgid "shorten commit ids in the todo list"
-msgstr "ids de commits cortos en la lista de pendientes"
+msgstr "ids de cometidos cortos en la lista de pendientes"
 
 #: builtin/rebase--interactive.c:170
 msgid "expand commit ids in the todo list"
-msgstr "expandir ids de commits en la lista de pendientes"
+msgstr "expandir ids de cometidos en la lista de pendientes"
 
 #: builtin/rebase--interactive.c:172
 msgid "check the todo list"
@@ -16390,7 +16392,7 @@ msgstr "squash hacia"
 
 #: builtin/rebase--interactive.c:183
 msgid "the upstream commit"
-msgstr "el commit de upstream"
+msgstr "el cometido de upstream"
 
 #: builtin/rebase--interactive.c:184
 msgid "head-name"
@@ -16418,7 +16420,7 @@ msgstr "cambiar a"
 
 #: builtin/rebase--interactive.c:193
 msgid "the branch or commit to checkout"
-msgstr "la rama o commit para hacer checkout"
+msgstr "la rama o el cometido en que hacer checkout"
 
 #: builtin/rebase--interactive.c:194
 msgid "onto-name"
@@ -16442,7 +16444,7 @@ msgstr "--[no-]rebase-cousins no tiene efecto sin --rebase-merges"
 
 #: builtin/rebase--interactive.c:230
 msgid "a base commit must be provided with --upstream or --onto"
-msgstr "un commit base tiene que ser provisto con --upstream o --onto"
+msgstr "un cometido base tiene que ser provisto con --upstream o --onto"
 
 #: builtin/receive-pack.c:33
 msgid "git receive-pack <git-dir>"
@@ -17234,7 +17236,7 @@ msgstr "git replace [-f] --edit <objeto>"
 
 #: builtin/replace.c:24
 msgid "git replace [-f] --graft <commit> [<parent>...]"
-msgstr "git replace [-f] --graft <commit> [<padre>...]"
+msgstr "git replace [-f] --graft <cometido> [<padre>...]"
 
 #: builtin/replace.c:25
 msgid "git replace [-f] --convert-graft-file"
@@ -17355,12 +17357,12 @@ msgstr "nuevo objeto es igual al antiguo: '%s'"
 #: builtin/replace.c:407
 #, c-format
 msgid "bad mergetag in commit '%s'"
-msgstr "mal mergetag en commit '%s'"
+msgstr "mal mergetag en cometido '%s'"
 
 #: builtin/replace.c:409
 #, c-format
 msgid "malformed mergetag in commit '%s'"
-msgstr "mergetag mal formado en commit '%s'"
+msgstr "mergetag mal formado en cometido '%s'"
 
 #: builtin/replace.c:421
 #, c-format
@@ -17368,22 +17370,22 @@ msgid ""
 "original commit '%s' contains mergetag '%s' that is discarded; use --edit "
 "instead of --graft"
 msgstr ""
-"commit original '%s' contiene un mergetag '%s' que es descartado; use --edit "
-"en lugar de --graft"
+"cometido original '%s' contiene un mergetag '%s' que es descartado; use --"
+"edit en lugar de --graft"
 
 #: builtin/replace.c:460
 #, c-format
 msgid "the original commit '%s' has a gpg signature"
-msgstr "el commit original '%s' tiene una firma gpg"
+msgstr "el cometido original '%s' tiene una firma gpg"
 
 #: builtin/replace.c:461
 msgid "the signature will be removed in the replacement commit!"
-msgstr "la firma será removida en el commit de reemplazo!"
+msgstr "¡la firma será removida en el cometido de reemplazo!"
 
 #: builtin/replace.c:471
 #, c-format
 msgid "could not write replacement commit for: '%s'"
-msgstr "no se pudo escribir el commit de reemplazo: '%s'"
+msgstr "no se pudo escribir el cometido de reemplazo: '%s'"
 
 #: builtin/replace.c:479
 #, c-format
@@ -17393,7 +17395,7 @@ msgstr "graft para '%s' innecesario"
 #: builtin/replace.c:482
 #, c-format
 msgid "new commit is the same as the old one: '%s'"
-msgstr "nuevo commit es le mismo que el antiguo: '%s'"
+msgstr "nuevo cometido es lo mismo que el antiguo: '%s'"
 
 #: builtin/replace.c:515
 #, c-format
@@ -17418,7 +17420,7 @@ msgstr "editar objeto existente"
 
 #: builtin/replace.c:539
 msgid "change a commit's parents"
-msgstr "cambiar un padre de commit"
+msgstr "cambiar un padre de cometido"
 
 #: builtin/replace.c:540
 msgid "convert existing graft file"
@@ -17493,7 +17495,7 @@ msgstr "no es posible generar diff para '%s'"
 msgid ""
 "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
 msgstr ""
-"git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]"
+"git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<cometido>]"
 
 #: builtin/reset.c:33
 msgid "git reset [-q] [<tree-ish>] [--] <paths>..."
@@ -17680,7 +17682,7 @@ msgstr ""
 
 #: builtin/revert.c:24
 msgid "git revert [<options>] <commit-ish>..."
-msgstr "git revert [<opciones>] <commit-ish>..."
+msgstr "git revert [<opciones>] <commit-ismo>..."
 
 #: builtin/revert.c:25
 msgid "git revert <subcommand>"
@@ -17688,7 +17690,7 @@ msgstr "git revert <subcomando>"
 
 #: builtin/revert.c:30
 msgid "git cherry-pick [<options>] <commit-ish>..."
-msgstr "git cherry-pick [<opciones>] <commit-ish>..."
+msgstr "git cherry-pick [<opciones>] <commit-ismo>..."
 
 #: builtin/revert.c:31
 msgid "git cherry-pick <subcommand>"
@@ -17718,11 +17720,11 @@ msgstr "cancelar secuencia revert o cherry-pick"
 
 #: builtin/revert.c:104
 msgid "don't automatically commit"
-msgstr "no realizar commit de forma automática"
+msgstr "no cometer de forma automática"
 
 #: builtin/revert.c:105
 msgid "edit the commit message"
-msgstr "editar el mensaje de commit"
+msgstr "editar el mensaje de cometido"
 
 #: builtin/revert.c:108
 msgid "parent-number"
@@ -17742,15 +17744,15 @@ msgstr "opción para estrategia de fusión"
 
 #: builtin/revert.c:122
 msgid "append commit name"
-msgstr "adjuntar el nombre del commit"
+msgstr "adjuntar el nombre del cometido"
 
 #: builtin/revert.c:124
 msgid "preserve initially empty commits"
-msgstr "preservar commits iniciales vacíos"
+msgstr "preservar cometidos inicialmente vacíos"
 
 #: builtin/revert.c:126
 msgid "keep redundant, empty commits"
-msgstr "mantener commits redundantes, vacíos"
+msgstr "mantener cometidos redundantes, vacíos"
 
 #: builtin/revert.c:220
 msgid "revert failed"
@@ -17892,15 +17894,15 @@ msgstr "git log --pretty=short | git shorlog [<opciones>]"
 
 #: builtin/shortlog.c:264
 msgid "Group by committer rather than author"
-msgstr "Agrupar por committer en lugar de autor"
+msgstr "Agrupar por comitente en lugar de autor"
 
 #: builtin/shortlog.c:266
 msgid "sort output according to the number of commits per author"
-msgstr "ordenar salida de acuerdo al número de commits por autor"
+msgstr "ordenar salida de acuerdo al número de cometidos por autor"
 
 #: builtin/shortlog.c:268
 msgid "Suppress commit descriptions, only provides commit count"
-msgstr "Suprimir descripción de commits, solo proveer cuenta de commits"
+msgstr "Suprimir descripción de cometidos, solo proveer cuenta de cometidos"
 
 #: builtin/shortlog.c:270
 msgid "Show the email address of each author"
@@ -17960,7 +17962,7 @@ msgstr "color '*!+-' correspondiendo a la rama"
 
 #: builtin/show-branch.c:652
 msgid "show <n> more commits after the common ancestor"
-msgstr "mostrar <n> commits más tras encontrar el ancestro común"
+msgstr "mostrar <n> cometidos más tras encontrar el ancestro común"
 
 #: builtin/show-branch.c:654
 msgid "synonym to more=-1"
@@ -17976,7 +17978,7 @@ msgstr "incluir la rama actual"
 
 #: builtin/show-branch.c:659
 msgid "name commits with their object names"
-msgstr "nombrar commits con sus nombres de objeto"
+msgstr "nombrar cometidos con sus nombres de objeto"
 
 #: builtin/show-branch.c:661
 msgid "show possible merge bases"
@@ -17988,11 +17990,11 @@ msgstr "mostrar refs inalcanzables por ningún otro ref"
 
 #: builtin/show-branch.c:665
 msgid "show commits in topological order"
-msgstr "mostrar commits en orden topológico"
+msgstr "mostrar cometidos en orden topológico"
 
 #: builtin/show-branch.c:668
 msgid "show only commits not on the first branch"
-msgstr "mostrar solo commits que no están en la primera rama"
+msgstr "mostrar solo cometidos que no están en la primera rama"
 
 #: builtin/show-branch.c:670
 msgid "show merges reachable from only one tip"
@@ -18051,7 +18053,7 @@ msgstr "'%s' no es una ref válida."
 #: builtin/show-branch.c:837
 #, c-format
 msgid "cannot find commit %s (%s)"
-msgstr "no se puede encontrar el commit %s (%s)"
+msgstr "no se puede encontrar el cometido %s (%s)"
 
 #: builtin/show-ref.c:11
 msgid ""
@@ -18243,7 +18245,7 @@ msgid ""
 "Use commit stored in the index instead of the one stored in the submodule "
 "HEAD"
 msgstr ""
-"Usar el commit guardado en el índice en lugar del guardado en el submódulo "
+"Usar el cometido guardado en el índice en lugar del guardado en el submódulo "
 "HEAD"
 
 #: builtin/submodule--helper.c:876
@@ -18570,9 +18572,9 @@ msgid ""
 "points-at <object>]\n"
 "\t\t[--format=<format>] [--[no-]merged [<commit>]] [<pattern>...]"
 msgstr ""
-"git tag -l [-n[<num>]] [--contains <commit>] [--no-contains <commit>] [--"
+"git tag -l [-n[<num>]] [--contains <cometido>] [--no-contains <cometido>] [--"
 "points-at <objeto>]\n"
-"\t\t[--format=<formato>] [--[no-]merged [<commit>]] [<patrón>...]"
+"\t\t[--format=<formato>] [--[no-]merged [<cometido>]] [<patrón>...]"
 
 #: builtin/tag.c:29
 msgid "git tag -v [--format=<format>] <tagname>..."
@@ -18695,11 +18697,11 @@ msgstr "mostrar lista de tags en columnas"
 
 #: builtin/tag.c:409 builtin/tag.c:411
 msgid "print only tags that contain the commit"
-msgstr "mostrar solo tags que contienen el commit"
+msgstr "mostrar solo tags que contienen el cometido"
 
 #: builtin/tag.c:410 builtin/tag.c:412
 msgid "print only tags that don't contain the commit"
-msgstr "mostrar solo tags que no contienen el commit"
+msgstr "mostrar solo tags que no contienen el cometido"
 
 #: builtin/tag.c:413
 msgid "print only tags that are merged"
@@ -19078,11 +19080,11 @@ msgstr "interrumpir transferencia tras <n> segundos de inactividad"
 
 #: builtin/verify-commit.c:20
 msgid "git verify-commit [-v | --verbose] <commit>..."
-msgstr "git verify-commit [-v | --verbose] <commit>..."
+msgstr "git verify-commit [-v | --verbose] <cometido>..."
 
 #: builtin/verify-commit.c:76
 msgid "print commit contents"
-msgstr "imprimir contenido del commit"
+msgstr "imprimir contenido del cometido"
 
 #: builtin/verify-commit.c:77 builtin/verify-tag.c:38
 msgid "print raw gpg status output"
@@ -19110,7 +19112,7 @@ msgstr "imprimir contenido del tag"
 
 #: builtin/worktree.c:18
 msgid "git worktree add [<options>] <path> [<commit-ish>]"
-msgstr "git worktree add [<opciones>] <ruta> [<commit-ish>]"
+msgstr "git worktree add [<opciones>] <ruta> [<commit-ismo>]"
 
 #: builtin/worktree.c:19
 msgid "git worktree list [<options>]"
@@ -19435,11 +19437,11 @@ msgstr "mostrar mensajes de debug en stderr"
 #: t/helper/test-reach.c:152
 #, c-format
 msgid "commit %s is not marked reachable"
-msgstr "commit %s no está marcado como alcanzable"
+msgstr "cometido %s no está marcado como alcanzable"
 
 #: t/helper/test-reach.c:162
 msgid "too many commits marked reachable"
-msgstr "demasiados commits marcados como alcanzables"
+msgstr "demasiados cometidos marcados como alcanzables"
 
 #: git.c:27
 msgid ""
@@ -19653,7 +19655,7 @@ msgstr "Aplicar una serie de parches de un mailbox"
 
 #: command-list.h:52
 msgid "Annotate file lines with commit information"
-msgstr "Anotar líneas de archivo con información de commit"
+msgstr "Anotar líneas de archivo con información de cometido"
 
 #: command-list.h:53
 msgid "Apply a patch to files and/or to the index"
@@ -19669,7 +19671,8 @@ msgstr "Crear un archivo o archivos de un árbol nombrado"
 
 #: command-list.h:56
 msgid "Use binary search to find the commit that introduced a bug"
-msgstr "Use la búsqueda binaria para encontrar el commit que introdujo el bug"
+msgstr ""
+"Use la búsqueda binaria para encontrar el cometido que introdujo el bug"
 
 #: command-list.h:57
 msgid "Show what revision and author last modified each line of a file"
@@ -19715,11 +19718,11 @@ msgstr "Asegura que un nombre de referencia esté bien formado"
 
 #: command-list.h:67
 msgid "Find commits yet to be applied to upstream"
-msgstr "Encuentra commits que faltan aplicar en upstream"
+msgstr "Encuentra cometidos que faltan aplicar en upstream"
 
 #: command-list.h:68
 msgid "Apply the changes introduced by some existing commits"
-msgstr "Aplica los cambios introducidos por algunos commits existentes"
+msgstr "Aplica los cambios introducidos por algunos cometidos existentes"
 
 #: command-list.h:69
 msgid "Graphical alternative to git-commit"
@@ -19747,7 +19750,7 @@ msgstr "Escribe y verifica los archivos de Git commit-graph"
 
 #: command-list.h:75
 msgid "Create a new commit object"
-msgstr "Crea un nuevo objeto commit"
+msgstr "Crea un nuevo objeto de cometido"
 
 #: command-list.h:76
 msgid "Get and set repository or global options"
@@ -19771,7 +19774,7 @@ msgstr "Auxiliar para guardar credenciales en disco"
 
 #: command-list.h:81
 msgid "Export a single commit to a CVS checkout"
-msgstr "Exporta un commit único a CVS checkout"
+msgstr "Exporta un cometido único a CVS checkout"
 
 #: command-list.h:82
 msgid "Salvage your data out of another SCM people love to hate"
@@ -19793,7 +19796,7 @@ msgstr ""
 
 #: command-list.h:86
 msgid "Show changes between commits, commit and working tree, etc"
-msgstr "Muestra los cambios entre commits, commit y árbol de trabajo, etc"
+msgstr "Muestra los cambios entre cometidos, cometido y árbol de trabajo, etc"
 
 #: command-list.h:87
 msgid "Compares files in the working tree and the index"
@@ -19835,7 +19838,7 @@ msgstr "Reescribir ramas"
 
 #: command-list.h:96
 msgid "Produce a merge commit message"
-msgstr "Produce un mensaje de commit para fusión"
+msgstr "Produce un mensaje de cometido para fusión"
 
 #: command-list.h:97
 msgid "Output information on each ref"
@@ -19856,7 +19859,7 @@ msgstr "Limpia archivos innecesarios y optimiza el repositorio local"
 
 #: command-list.h:101
 msgid "Extract commit ID from an archive created using git-archive"
-msgstr "Extrae el ID de commit de un archivo creado usando git-archive"
+msgstr "Extrae el ID de cometido de un archivo creado usando git-archive"
 
 #: command-list.h:102
 msgid "Print lines matching a pattern"
@@ -19904,7 +19907,7 @@ msgstr "Buscar instantáneamente tu repositorio de trabajo en gitweb"
 
 #: command-list.h:113
 msgid "add or parse structured information in commit messages"
-msgstr "agregar o analizar información estructurada en mensajes de commit"
+msgstr "agregar o analizar información estructurada en mensajes de cometido"
 
 #: command-list.h:114
 msgid "The Git repository browser"
@@ -19912,7 +19915,7 @@ msgstr "El navegador de repositorio Git"
 
 #: command-list.h:115
 msgid "Show commit logs"
-msgstr "Muestra los logs de los commits"
+msgstr "Muestra los logs de los cometidos"
 
 #: command-list.h:116
 msgid "Show information about files in the index and the working tree"
@@ -20036,7 +20039,8 @@ msgstr "Aplica un parche quilt en la rama actual"
 
 #: command-list.h:145
 msgid "Compare two commit ranges (e.g. two versions of a branch)"
-msgstr "Compara dos rangos de commits (por ejemplo dos versions de un branch)"
+msgstr ""
+"Compara dos rangos de cometidos (por ejemplo dos versiones de una rama)"
 
 #: command-list.h:146
 msgid "Reads tree information into the index"
@@ -20044,7 +20048,7 @@ msgstr "Lee información del ábol en el índice"
 
 #: command-list.h:147
 msgid "Reapply commits on top of another base tip"
-msgstr "Vuelve a aplicar commits en la punta de otra rama"
+msgstr "Vuelve a aplicar cometidos en la punta de otra rama"
 
 #: command-list.h:148
 msgid "Receive what is pushed into the repository"
@@ -20080,11 +20084,11 @@ msgstr "Reinicia el HEAD actual a un estado especifico"
 
 #: command-list.h:156
 msgid "Revert some existing commits"
-msgstr "Revierte algunos commits existentes"
+msgstr "Revierte algunos cometidos existentes"
 
 #: command-list.h:157
 msgid "Lists commit objects in reverse chronological order"
-msgstr "Lista objetos commit en orden cronológico inverso"
+msgstr "Lista objetos de cometido en orden cronológico inverso"
 
 #: command-list.h:158
 msgid "Pick out and massage parameters"
@@ -20116,7 +20120,7 @@ msgstr "Muestra varios tipos de objetos"
 
 #: command-list.h:165
 msgid "Show branches and their commits"
-msgstr "Mostrar ramas y sus commits"
+msgstr "Mostrar ramas y sus cometidos"
 
 #: command-list.h:166
 msgid "Show packed archive index"
@@ -20205,7 +20209,7 @@ msgstr "Mostrar una variable lógica de Git"
 
 #: command-list.h:186
 msgid "Check the GPG signature of commits"
-msgstr "Verificar firma GPG de commits"
+msgstr "Verificar firma GPG de cometidos"
 
 #: command-list.h:187
 msgid "Validate packed Git archive files"
@@ -20221,7 +20225,7 @@ msgstr "Interfaz web Git (interfaz web para repositorios Git)"
 
 #: command-list.h:190
 msgid "Show logs with difference each commit introduces"
-msgstr "Muestra logs con las diferencias que cada commit introduce"
+msgstr "Muestra logs con las diferencias que cada cometido introduce"
 
 #: command-list.h:191
 msgid "Manage multiple working trees"
@@ -20411,7 +20415,7 @@ msgstr "No debería hacer un pulpo."
 #: git-merge-octopus.sh:73
 #, sh-format
 msgid "Unable to find common commit with $pretty_name"
-msgstr "No es posible encontrar commit común con $pretty_name"
+msgstr "No es posible encontrar cometido en común con $pretty_name"
 
 #: git-merge-octopus.sh:77
 #, sh-format
@@ -20498,12 +20502,12 @@ msgstr "$onto_name: no hay base de fusión"
 #: git-legacy-rebase.sh:614
 #, sh-format
 msgid "Does not point to a valid commit: $onto_name"
-msgstr "No apunta a un commit válido: $onto_name"
+msgstr "No apunta a un cometido válido: $onto_name"
 
 #: git-legacy-rebase.sh:640
 #, sh-format
 msgid "fatal: no such branch/commit '$branch_name'"
-msgstr "fatal: no existe la rama/commit: '$branch_name'"
+msgstr "fatal: no existe la rama/cometido: '$branch_name'"
 
 #: git-legacy-rebase.sh:678
 #, sh-format
@@ -20547,7 +20551,7 @@ msgstr "git stash clear con parámetros no está implementado"
 
 #: git-stash.sh:125
 msgid "You do not have the initial commit yet"
-msgstr "Aún no tienes un commit inicial"
+msgstr "Aún no tienes un cometido inicial"
 
 #: git-stash.sh:140
 msgid "Cannot save the current index state"
@@ -20630,7 +20634,7 @@ msgstr "$reference no es una referencia válida"
 #: git-stash.sh:570
 #, sh-format
 msgid "'$args' is not a stash-like commit"
-msgstr "'$args' no es un commit estilo stash"
+msgstr "'$args' no es un cometido estilo stash"
 
 #: git-stash.sh:581
 #, sh-format
@@ -20806,7 +20810,7 @@ msgid ""
 "Direct fetching of that commit failed."
 msgstr ""
 "Fetch realizado en ruta de submódulo '$displaypath', pero no contenía $sha1. "
-"Fetch directo del commit falló."
+"Fetch directo del cometido falló."
 
 #: git-submodule.sh:609
 #, sh-format
@@ -20869,18 +20873,18 @@ msgstr "modo $mod_dst inesperado"
 #: git-submodule.sh:826
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commit $sha1_src"
-msgstr "  Advertencia: $display_name no contiene el commit $sha1_src"
+msgstr "  Advertencia: $display_name no contiene el cometido $sha1_src"
 
 #: git-submodule.sh:829
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commit $sha1_dst"
-msgstr "  Advertencia: $display_name no contiene el commit $sha1_dst"
+msgstr "  Advertencia: $display_name no contiene el cometido $sha1_dst"
 
 #: git-submodule.sh:832
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commits $sha1_src and $sha1_dst"
 msgstr ""
-"  Advertencia: $display_name no contiene los commits $sha1_src y $sha1_dst"
+"  Advertencia: $display_name no contiene los cometidos $sha1_src y $sha1_dst"
 
 #: git-parse-remote.sh:89
 #, sh-format
@@ -20914,20 +20918,21 @@ msgid ""
 msgstr ""
 "\n"
 "Comandos:\n"
-"p, pick <commit> = usar commit\n"
-"r, reword <commit> = usar commit, pero editar el mensaje de commit\n"
-"e, edit <commit> = usar commit, pero parar para un amend\n"
-"s, squash <commit> = usar commit, pero fusionarlo en el commit previo\n"
-"f, fixup <commit> = como \"squash\", pero descarta el mensaje del log de "
-"este commit\n"
-"x, exec <commit> = ejecuta comando ( el resto de la línea) usando un shell\n"
-"d, drop <commit> = eliminar commit\n"
+"p, pick <cometido> = usar cometido\n"
+"r, reword <cometido> = usar cometido, pero editar el mensaje de cometido\n"
+"e, edit <cometido> = usar cometido, pero parar para una enmendadura\n"
+"s, squash <cometido> = usar cometido, pero fusionarlo en el cometido previo\n"
+"f, fixup <cometido> = como \"squash\", pero descarta el mensaje del log de "
+"este cometido\n"
+"x, exec <cometido> = ejecuta comando (el resto de la línea) usando un shell\n"
+"d, drop <cometido> = eliminar cometido\n"
 "l, label <label> = poner label al HEAD actual con un nombre\n"
 "t, reset <label> = reiniciar HEAD a el label\n"
-"m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]\n"
-".       crea un commit de fusión usando el mensaje original de\n"
+"m, merge [-C <cometido> | -c <cometido>] <label> [# <oneline>]\n"
+".       crea un cometido de fusión usando el mensaje original de\n"
 ".       fusión (o la línea de oneline, si no se especifica un mensaje\n"
-".       de commit). Use -c <commit> para reescribir el mensaje del commit.\n"
+".       de cometido). Use -c <cometido> para reescribir el mensaje del "
+"cometido.\n"
 "\n"
 "Estas líneas pueden ser reordenadas; son ejecutadas desde arriba hacia "
 "abajo.\n"
@@ -20943,7 +20948,7 @@ msgid ""
 "\n"
 "\tgit rebase --continue"
 msgstr ""
-"Puede enmendar el commit ahora, con\n"
+"Puede enmendar el cometido ahora, con\n"
 "\n"
 "\tgit commit --amend $gpg_sign_opt_quoted\n"
 "\n"
@@ -20954,16 +20959,16 @@ msgstr ""
 #: git-rebase--preserve-merges.sh:240
 #, sh-format
 msgid "$sha1: not a commit that can be picked"
-msgstr "$sha1: no es un commit que pueda ser cogido"
+msgstr "$sha1: no es un cometido que pueda ser cogido"
 
 #: git-rebase--preserve-merges.sh:279
 #, sh-format
 msgid "Invalid commit name: $sha1"
-msgstr "Nombre de commit inválido: $sha1"
+msgstr "Nombre de cometido inválido: $sha1"
 
 #: git-rebase--preserve-merges.sh:309
 msgid "Cannot write current commit's replacement sha1"
-msgstr "No se puede escribir el remplazo sha1 del commit actual"
+msgstr "No se puede escribir el reemplazo sha1 del cometido actual"
 
 #: git-rebase--preserve-merges.sh:360
 #, sh-format
@@ -20998,19 +21003,19 @@ msgstr "No se pudo coger $sha1"
 #: git-rebase--preserve-merges.sh:412
 #, sh-format
 msgid "This is the commit message #${n}:"
-msgstr "Este es el mensaje del commit #${n}:"
+msgstr "Este es el mensaje del cometido #${n}:"
 
 #: git-rebase--preserve-merges.sh:417
 #, sh-format
 msgid "The commit message #${n} will be skipped:"
-msgstr "El mensaje del commit  #${n} será ignorado:"
+msgstr "El mensaje del cometido #${n} será ignorado:"
 
 #: git-rebase--preserve-merges.sh:428
 #, sh-format
 msgid "This is a combination of $count commit."
 msgid_plural "This is a combination of $count commits."
-msgstr[0] "Esta es una combinación de $count commit."
-msgstr[1] "Esta es la combinación de $count commits."
+msgstr[0] "Esta es una combinación de $count cometido."
+msgstr[1] "Esta es una combinación de $count cometidos."
 
 #: git-rebase--preserve-merges.sh:437
 #, sh-format
@@ -21019,7 +21024,7 @@ msgstr "No se puede escribir $fixup_msg"
 
 #: git-rebase--preserve-merges.sh:440
 msgid "This is a combination of 2 commits."
-msgstr "Esto es una combinación de 2 commits."
+msgstr "Esto es una combinación de 2 cometidos."
 
 #: git-rebase--preserve-merges.sh:481 git-rebase--preserve-merges.sh:524
 #: git-rebase--preserve-merges.sh:527
@@ -21036,13 +21041,13 @@ msgid ""
 "before\n"
 "you are able to reword the commit."
 msgstr ""
-"No se pudo corregir commit después de seleccionar exitosamente $sha1 ... "
+"No se pudo enmendar cometido después de seleccionar exitosamente $sha1... "
 "$rest\n"
-"Esto es probablemente debido a un mensaje de commit vacío, o el hook pre-"
+"Esto es probablemente debido a un mensaje de cometido vacío, o el hook pre-"
 "commit\n"
 "ha fallado. Si el hook pre-commit falló, es posible que deba resolver el "
 "problema antes\n"
-"de que sea capaz de reformular el commit."
+"de que sea capaz de reformular el cometido."
 
 #: git-rebase--preserve-merges.sh:571
 #, sh-format
@@ -21052,7 +21057,7 @@ msgstr "Detenido en $sha1_abbrev... $rest"
 #: git-rebase--preserve-merges.sh:586
 #, sh-format
 msgid "Cannot '$squash_style' without a previous commit"
-msgstr "No se puede '$squash_style' sin un commit previo"
+msgstr "No se puede '$squash_style' sin un cometido previo"
 
 #: git-rebase--preserve-merges.sh:628
 #, sh-format
@@ -21090,7 +21095,7 @@ msgid ""
 msgstr ""
 "La ejecución tuvo éxito: $rest\n"
 "Pero dejó cambios en el índice y/o en el árbol de trabajo\n"
-"Realice un commit o stash con los cambios y, a continuación, ejecute\n"
+"Realice un cometido o stash con los cambios y, a continuación, ejecute\n"
 "\n"
 "\tgit rebase --continue"
 
@@ -21131,11 +21136,11 @@ msgid ""
 msgstr ""
 "Tiene cambios en el área de stage de su árbol de trabajo.\n"
 "Si estos cambios están destinados a \n"
-"ser aplastados en el commit previo, ejecute:\n"
+"ser aplastados en el cometido previo, ejecute:\n"
 "\n"
 "  git commit --amend $gpg_sign_opt_quoted\n"
 "\n"
-"Si estos están destinados a ir en un nuevo commit, ejecute:\n"
+"Si estos están destinados a ir en un nuevo cometido, ejecute:\n"
 "\n"
 "  git commit $gpg_sign_opt_quoted\n"
 "\n"
@@ -21146,19 +21151,19 @@ msgstr ""
 #: git-rebase--preserve-merges.sh:779
 msgid "Error trying to find the author identity to amend commit"
 msgstr ""
-"Error tratando de encontrar la identidad del autor para remediar el commit"
+"Error tratando de encontrar la identidad del autor para remediar el cometido"
 
 #: git-rebase--preserve-merges.sh:784
 msgid ""
 "You have uncommitted changes in your working tree. Please commit them\n"
 "first and then run 'git rebase --continue' again."
 msgstr ""
-"Tienes cambios sin confirmar en tu árbol de trabajo. Por favor, confírmalos\n"
+"Tienes cambios sin cometer en tu árbol de trabajo. Por favor, comételos\n"
 "primero y entonces ejecuta 'git rebase --continue' de nuevo."
 
 #: git-rebase--preserve-merges.sh:789 git-rebase--preserve-merges.sh:793
 msgid "Could not commit staged changes."
-msgstr "No se pudo realizar el commit con los cambios en el área de stage."
+msgstr "No se pudo cometer los cambios en el área de stage."
 
 #: git-rebase--preserve-merges.sh:824 git-rebase--preserve-merges.sh:910
 msgid "Could not execute editor"
@@ -21191,7 +21196,7 @@ msgstr[1] "Rebase $shortrevisions en $shortonto ($todocount comandos)"
 
 #: git-rebase--preserve-merges.sh:942 git-rebase--preserve-merges.sh:947
 msgid "Could not init rewritten commits"
-msgstr "No se puede inicializar los commits reescritos"
+msgstr "No se puede inicializar los cometidos reescritos"
 
 #: git-sh-setup.sh:89 git-sh-setup.sh:94
 #, sh-format
@@ -21235,22 +21240,23 @@ msgstr "No se puede $action: Tienes cambios que no están en el área de stage."
 msgid "Cannot rebase: Your index contains uncommitted changes."
 msgstr ""
 "No se puede hacer rebase: Tu índice contiene cambios que no están en un "
-"commit."
+"cometido."
 
 #: git-sh-setup.sh:245
 msgid "Cannot pull with rebase: Your index contains uncommitted changes."
 msgstr ""
 "No se puede hacer pull con rebase: Tu índice contiene cambios que no están "
-"en un commit."
+"en un cometido."
 
 #: git-sh-setup.sh:248
 #, sh-format
 msgid "Cannot $action: Your index contains uncommitted changes."
-msgstr "No se puede $action: El índice contiene cambios sin confirmar."
+msgstr "No se puede $action: El índice contiene cambios sin cometer."
 
 #: git-sh-setup.sh:252
 msgid "Additionally, your index contains uncommitted changes."
-msgstr "Adicionalmente, tu índice contiene cambios que no están en un commit."
+msgstr ""
+"Adicionalmente, tu índice contiene cambios que no están en un cometido."
 
 #: git-sh-setup.sh:372
 msgid "You need to run this command from the toplevel of the working tree."
@@ -21870,7 +21876,7 @@ msgid ""
 "    * Saying \"./%s\" if you mean a file; or\n"
 "    * Giving --format-patch option if you mean a range.\n"
 msgstr ""
-"Archivo '%s' existe pero podría ser el rango de commits \n"
+"Archivo '%s' existe pero podría ser el rango de cometidos\n"
 "para producir los parches.  Por favor elimina la ambigüedad...\n"
 "\n"
 "    * Diciendo \"./%s\" si se quiere decir un archivo; o\n"
@@ -22015,7 +22021,7 @@ msgid ""
 "\n"
 msgstr ""
 "    La lista Cc ha sido expandida por direcciones adicionales\n"
-"    encontradas en el mensaje de commit parchado.. Por defecto\n"
+"    encontradas en el mensaje de cometido parchado. Por defecto\n"
 "    send-email se muestra antes de mandar cualquier cada vez que esto "
 "sucede.\n"
 "    Este comportamiento is controlado por el valor de configuración "
