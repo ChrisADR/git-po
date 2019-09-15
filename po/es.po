@@ -11534,9 +11534,9 @@ msgid ""
 "Please enter the commit message for your changes. Lines starting\n"
 "with '%c' will be ignored, and an empty message aborts the commit.\n"
 msgstr ""
-"Por favor ingresa el mensaje del commit para tus cambios. Las líneas que "
-"comiencen\n"
-"con '%c' serán ignoradas, y un mensaje vacío aborta el commit.\n"
+"Por favor ingresa el mensaje del commit para tus cambios. Las\n"
+" líneas que comiencen con '%c' serán ignoradas, y un mensaje\n"
+" vacío aborta el commit.\n"
 
 #: builtin/commit.c:855
 #, c-format
@@ -11545,9 +11545,9 @@ msgid ""
 "with '%c' will be kept; you may remove them yourself if you want to.\n"
 "An empty message aborts the commit.\n"
 msgstr ""
-"Por favor ingresa el mensaje del commit para tus cambios. Las líneas que "
-"comiencen\n"
-"con '%c' serán guardadas; puede eliminarlas usted mismo si desea.\n"
+"Por favor ingresa el mensaje del commit para tus cambios. Las\n"
+" líneas que comiencen con '%c' serán guardadas; puede eliminarlas\n"
+" usted mismo si lo desea.\n"
 "Un mensaje vacío aborta el commit.\n"
 
 #: builtin/commit.c:872
