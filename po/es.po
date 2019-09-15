@@ -430,7 +430,7 @@ msgstr "Parche aplicado a '%s' limpiamente\n"
 
 #: apply.c:3639
 msgid "removal patch leaves file contents"
-msgstr "parche de remoción deja contenidos en el archivo"
+msgstr "parche de eliminación deja contenidos en el archivo"
 
 #: apply.c:3712
 #, c-format
@@ -4861,7 +4861,7 @@ msgid ""
 "If you remove a line here THAT COMMIT WILL BE LOST.\n"
 msgstr ""
 "\n"
-"Si remueves una línea aquí EL COMMIT SE PERDERÁ.\n"
+"Si eliminas una línea aquí EL COMMIT SE PERDERÁ.\n"
 
 #: rebase-interactive.c:74 git-rebase--preserve-merges.sh:871
 msgid ""
@@ -8568,7 +8568,7 @@ msgstr "agregar los cambios de todas las carpetas con y sin seguimiento"
 
 #: builtin/add.c:303
 msgid "ignore paths removed in the working tree (same as --no-all)"
-msgstr "ignorar rutas removidas en el árbol de trabajo (lo mismo que --no-all)"
+msgstr "ignorar rutas eliminadas en el árbol de trabajo (lo mismo que --no-all)"
 
 #: builtin/add.c:305
 msgid "don't add, only refresh the index"
@@ -9011,7 +9011,7 @@ msgid ""
 "it will be removed. Please do not use it anymore."
 msgstr ""
 "La opción -b/--binary ha estado deshabilitada por mucho tiempo, y\n"
-"será removida. Por favor no la use más."
+"será eliminada. Por favor no la use más."
 
 #: builtin/am.c:2281
 msgid "failed to read the index"
@@ -9715,7 +9715,7 @@ msgid ""
 msgstr ""
 "Por favor, edita la descripción para la rama\n"
 "%s\n"
-"Las líneas que comiencen con '%c' serán removidas.\n"
+"Las líneas que comiencen con '%c' serán eliminadas.\n"
 
 #: builtin/branch.c:618
 msgid "Generic options"
@@ -11509,7 +11509,7 @@ msgid ""
 msgstr ""
 "\n"
 "Parece que estás haciendo un commit con una fusión dentro.\n"
-"Si esto no es correcto, por favor remueve el archivo\n"
+"Si esto no es correcto, por favor elimina el archivo\n"
 "\t%s\n"
 "y vuelve a intentar.\n"
 
@@ -13374,7 +13374,7 @@ msgid ""
 "%s"
 msgstr ""
 "El último gc reportó lo siguiente. Por favor corrige la causa\n"
-"y remueva %s.\n"
+"y elimine %s.\n"
 "Limpieza automática no se realizará hasta que el archivo sea eliminado.\n"
 "\n"
 "%s"
@@ -16896,7 +16896,7 @@ msgstr "configurar upstream para git pulll/status"
 
 #: builtin/push.c:576
 msgid "prune locally removed refs"
-msgstr "recortando refs removidas localmente"
+msgstr "recortando refs eliminadas localmente"
 
 #: builtin/push.c:578
 msgid "bypass pre-push hook"
@@ -17476,7 +17476,7 @@ msgid ""
 "the rebase.useBuiltin support has been removed!\n"
 "See its entry in 'git help config' for details."
 msgstr ""
-"el soporte para rebase.useBuiltin ha sido removido!\n"
+"el soporte para rebase.useBuiltin ha sido eliminado!\n"
 "Vea su entrada en 'git help config' para detalles."
 
 #: builtin/rebase.c:1506
@@ -18032,11 +18032,11 @@ msgid_plural ""
 "Note: Some branches outside the refs/remotes/ hierarchy were not removed;\n"
 "to delete them, use:"
 msgstr[0] ""
-"Nota: Una rama fuera de la jerarquía refs/remotes/ no fue removida;\n"
+"Nota: Una rama fuera de la jerarquía refs/remotes/ no fue eliminada;\n"
 "para borrarla, use:"
 msgstr[1] ""
 "Nota: Algunas ramas fuera de la jerarquía refs/remotes/ no fueron "
-"removidas;\n"
+"eliminadas;\n"
 "para borrarlas, use:"
 
 #: builtin/remote.c:816
@@ -18639,7 +18639,7 @@ msgstr "el commit original '%s' tiene una firma gpg"
 
 #: builtin/replace.c:468
 msgid "the signature will be removed in the replacement commit!"
-msgstr "la firma será removida en el commit de reemplazo!"
+msgstr "la firma será eliminada en el commit de reemplazo!"
 
 #: builtin/replace.c:478
 #, c-format
@@ -18826,7 +18826,7 @@ msgstr "reiniciar HEAD pero mantener cambios locales"
 #: builtin/reset.c:308
 msgid "record only the fact that removed paths will be added later"
 msgstr ""
-"grabar solo el hecho de que las rutas removidas serán agregadas después"
+"grabar solo el hecho de que las rutas eliminadas serán agregadas después"
 
 #: builtin/reset.c:326
 #, c-format
@@ -19101,7 +19101,7 @@ msgstr ""
 #: builtin/rm.c:307
 #, c-format
 msgid "not removing '%s' recursively without -r"
-msgstr "no removiendo '%s' de manera recursiva sin -r"
+msgstr "no eliminando '%s' de manera recursiva sin -r"
 
 #: builtin/rm.c:346
 #, c-format
@@ -22894,7 +22894,7 @@ msgstr ""
 "---\n"
 "Para eliminar '%s' líneas, haga de ellas líneas  ' '  (contexto).\n"
 "Para eliminar '%s' líneas, bórrelas.\n"
-"Lineas comenzando con  %s serán removidas.\n"
+"Lineas comenzando con  %s serán eliminadas.\n"
 
 #. TRANSLATORS: 'it' refers to the patch mentioned in the previous messages.
 #: git-add--interactive.perl:1124
@@ -22904,7 +22904,7 @@ msgid ""
 "aborted and the hunk is left unchanged.\n"
 msgstr ""
 "Si esto no aplica de manera limpia, se te da la oportunidad de \n"
-"editar nuevamente. Si todas las líneas del hunk son removidas, entonces \n"
+"editar nuevamente. Si todas las líneas del hunk son eliminadas, entonces \n"
 "la edición es abortada y el hunk queda sin cambios.\n"
 
 #: git-add--interactive.perl:1138
@@ -23445,7 +23445,7 @@ msgid ""
 "\n"
 "Clear the body content if you don't wish to send a summary.\n"
 msgstr ""
-"Lineas que comienzan en \"GIT:\" serán removidas.\n"
+"Lineas que comienzan en \"GIT:\" serán eliminadas.\n"
 "Considere incluir un diffstat global o una tabla de contenidos\n"
 "para el parche que estás escribiendo.\n"
 "\n"
