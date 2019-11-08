@@ -112,7 +112,7 @@ msgstr ""
 "\n"
 "  git switch -\n"
 "\n"
-"Apaga este aviso mediante la variable de config advice.detachedHead en "
+"Desactiva este aviso poniendo la variable de config advice.detachedHead a "
 "false\n"
 "\n"
 
