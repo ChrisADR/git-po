@@ -715,7 +715,7 @@ msgstr "rutas están separadas con un carácter NULL"
 
 #: apply.c:4983
 msgid "ensure at least <n> lines of context match"
-msgstr "asegure que por lo menos <n> líneas del contexto concuerden"
+msgstr "asegurar que al menos concuerden <n> líneas del contexto"
 
 #: apply.c:4984 builtin/am.c:2196 builtin/interpret-trailers.c:98
 #: builtin/interpret-trailers.c:100 builtin/interpret-trailers.c:102
