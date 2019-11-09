@@ -235,7 +235,7 @@ msgstr[1] ""
 #, c-format
 msgid "git diff header lacks filename information (line %d)"
 msgstr ""
-"el header de git diff carece de información del nombre del archivo (línea %d)"
+"la cabecera de git diff carece de información del nombre del archivo (línea %d)"
 
 #: apply.c:1752
 msgid "new file depends on old contents"
