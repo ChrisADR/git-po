@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-12-30 08:48+0800\n"
-"PO-Revision-Date: 2020-01-06 09:12-0500\n"
+"PO-Revision-Date: 2020-04-22 19:14+0200\n"
 "Last-Translator: christopher.diaz.riv@gmail.com\n"
 "Language-Team: CodeLabora <codelabora@gmail.com>\n"
 "Language: es\n"
@@ -201,7 +201,7 @@ msgstr "*** Comandos ***"
 
 #: add-interactive.c:1063 builtin/clean.c:823 git-add--interactive.perl:1848
 msgid "What now"
-msgstr "Ahora que"
+msgstr "Ahora qué"
 
 #: add-interactive.c:1115 git-add--interactive.perl:213
 msgid "staged"
@@ -2428,7 +2428,7 @@ msgid ""
 msgstr ""
 "No se pudo leer del repositorio remoto.\n"
 "\n"
-"Por favor asegúrate que tienes los permisos de acceso correctos\n"
+"Por favor asegúrate de que tienes los permisos de acceso correctos\n"
 "y que el repositorio existe."
 
 #: connect.c:81
@@ -3762,7 +3762,7 @@ msgstr "falló al escribir la firma separada para '%s'"
 
 #: gpg-interface.c:390
 msgid "gpg failed to sign the data"
-msgstr "gpg falló al firmar la data"
+msgstr "gpg falló al firmar los datos"
 
 #: graph.c:98
 #, c-format
@@ -4534,7 +4534,7 @@ msgstr "Incapaz de escribir el índice."
 #: midx.c:68
 #, c-format
 msgid "multi-pack-index file %s is too small"
-msgstr "archivo multi-pack-index %s es muy pequeño"
+msgstr "el archivo multi-pack-index %s es muy pequeño"
 
 #: midx.c:84
 #, c-format
@@ -4771,7 +4771,7 @@ msgstr "hash no concuerda %s"
 
 #: packfile.c:641
 msgid "offset before end of packfile (broken .idx?)"
-msgstr "offset antes del final del paquete (broken .idx?)"
+msgstr "offset antes del final del paquete (¿.idx roto?)"
 
 #: packfile.c:1888
 #, c-format
@@ -4879,7 +4879,7 @@ msgstr "opción `%s' espera un valor numérico"
 #: parse-options-cb.c:41
 #, c-format
 msgid "malformed expiration date '%s'"
-msgstr "fecha de expiración mal formada: '%s'"
+msgstr "fecha de caducidad mal formada: '%s'"
 
 #: parse-options-cb.c:54
 #, c-format
@@ -4903,11 +4903,11 @@ msgstr ""
 
 #: pathspec.c:148
 msgid "Only one 'attr:' specification is allowed."
-msgstr "Solo una especificación 'attr' es permitida."
+msgstr "Solo se permite una única especificación 'attr'."
 
 #: pathspec.c:151
 msgid "attr spec must not be empty"
-msgstr "especificación attr no puede estar vacía"
+msgstr "la especificación attr no puede estar vacía"
 
 #: pathspec.c:194
 #, c-format
@@ -4998,7 +4998,8 @@ msgstr "escritura de paquetes con formato falló"
 
 #: pkt-line.c:196
 msgid "packet write failed - data exceeds max packet size"
-msgstr "fallo al escribir paquete - la data excede al tamaño máximo de paquete"
+msgstr ""
+"fallo al escribir paquete - los datos exceden el tamaño máximo de paquete"
 
 #: pkt-line.c:203 pkt-line.c:210
 msgid "packet write failed"
@@ -5038,7 +5039,7 @@ msgstr "no es posible crear lstat hilado: %s"
 
 #: pretty.c:981
 msgid "unable to parse --pretty format"
-msgstr "incapaz de analizar el formato --pretty"
+msgstr "incapaz de analizar el formato de --pretty"
 
 #: promisor-remote.c:23
 msgid "Remote with no URL"
@@ -5089,7 +5090,8 @@ msgstr "no se puede crear un blob vacío en la base de datos de objetos"
 #, c-format
 msgid "%s: can only add regular files, symbolic links or git-directories"
 msgstr ""
-"%s: solo puede agregar archivos regulares, symbolic links o git-directories"
+"%s: solo puede agregar archivos regulares, enlaces simbólicos o "
+"git-directories"
 
 #: read-cache.c:723
 #, c-format
@@ -5336,7 +5338,7 @@ msgid ""
 "Do not remove any line. Use 'drop' explicitly to remove a commit.\n"
 msgstr ""
 "\n"
-"No eliminar ninguna línea. Usa 'drop' explícitamente para borrar un commit \n"
+"No elimines ninguna línea. Usa 'drop' explícitamente para borrar un commit.\n"
 
 #: rebase-interactive.c:68 git-rebase--preserve-merges.sh:232
 msgid ""
@@ -5365,10 +5367,7 @@ msgid ""
 "\n"
 "However, if you remove everything, the rebase will be aborted.\n"
 "\n"
-msgstr ""
-"\n"
-"Como sea, si quieres borrar todo, el rebase será abortado.\n"
-"\n"
+msgstr "\nComo sea, si borras todo, el rebase se abortará.\n\n"
 
 #: rebase-interactive.c:85 git-rebase--preserve-merges.sh:955
 msgid "Note that empty commits are commented out"
@@ -5724,7 +5723,7 @@ msgstr "no hay rama, rebasando %s"
 #: ref-filter.c:1491
 #, c-format
 msgid "no branch, rebasing detached HEAD %s"
-msgstr "(o hay rama, rebasando con HEAD desacoplado %s"
+msgstr "(no hay rama, rebasando con HEAD desacoplado %s"
 
 #: ref-filter.c:1494
 #, c-format
@@ -11006,7 +11005,7 @@ msgstr "se espera una rama, se obtuvo una rama remota '%s'"
 #: builtin/checkout.c:1308 builtin/checkout.c:1316
 #, c-format
 msgid "a branch is expected, got '%s'"
-msgstr "se esperaba branch, se obuto '%s'"
+msgstr "se esperaba una rama, se obtuvo '%s'"
 
 #: builtin/checkout.c:1311
 #, c-format
@@ -12658,7 +12657,7 @@ msgstr "valor es una ruta (archivo o nombre de directorio)"
 
 #: builtin/config.c:152
 msgid "value is an expiry date"
-msgstr "valor es una fecha de expiración"
+msgstr "valor es una fecha de caducidad"
 
 #: builtin/config.c:153
 msgid "Other"
@@ -16409,7 +16408,7 @@ msgstr "falló al leer objeto '%s'."
 #: builtin/notes.c:268
 #, c-format
 msgid "cannot read note data from non-blob object '%s'."
-msgstr "no se puede leer la data de la nota de un objeto no-blob '%s'."
+msgstr "no se pueden leer los datos de la nota de un objeto no-blob '%s'."
 
 #: builtin/notes.c:309
 #, c-format
@@ -20501,7 +20500,7 @@ msgstr "Submódulo '%s' (%s) no registrado para ruta '%s'\n"
 #: builtin/submodule--helper.c:1190
 msgid "Remove submodule working trees even if they contain local changes"
 msgstr ""
-"Remover árboles de trabajo de submódulos incluso si contienen cambios locales"
+"Eliminar árboles de trabajo de submódulos incluso si contienen cambios locales"
 
 #: builtin/submodule--helper.c:1191
 msgid "Unregister all submodules"
@@ -21075,7 +21074,7 @@ msgstr "ejecutar refresh incluso si el índice contiene entradas sin cambios"
 
 #: builtin/update-index.c:989
 msgid "refresh stat information"
-msgstr "refresh información de estado"
+msgstr "refrescar información de estado"
 
 #: builtin/update-index.c:993
 msgid "like --refresh, but ignore assume-unchanged setting"
@@ -21997,7 +21996,7 @@ msgstr "filtrado de objeto"
 
 #: parse-options.h:183
 msgid "expiry-date"
-msgstr "fecha de expiración"
+msgstr "fecha de caducidad"
 
 #: parse-options.h:197
 msgid "no-op (backward compatibility)"
@@ -22429,7 +22428,7 @@ msgstr "Limpia todos los objetos no alcanzables de la base de datos de objetos"
 
 #: command-list.h:141
 msgid "Remove extra objects that are already in pack files"
-msgstr "Remover objetos extra que ya están en archivos empaquetados"
+msgstr "Eliminar objetos extra que ya están en archivos empaquetados"
 
 #: command-list.h:142
 msgid "Fetch from and integrate with another repository or a local branch"
